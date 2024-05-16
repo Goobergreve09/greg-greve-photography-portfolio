@@ -4,6 +4,8 @@ import headerLogo from "../assets/images/headerLogo.jpg";
 import lightShine from "../assets/images/lightShine.jpg";
 import goldenHour from "../assets/images/goldenHour.jpg";
 
+import About from "../components/About"
+
 export default function Home() {
   return (
     <Container fluid className="titleContainer">

@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Container, Navbar } from 'react-bootstrap';
+import { Container, Navbar, Nav
+ } from 'react-bootstrap';
 import ggpLogo from '../assets/images/ggpLogo.png';
 
 
@@ -9,6 +10,10 @@ export default function Navigation() {
 
   const handleNavbarToggle = () => {
     setExpanded(!expanded);
+  };
+
+  const handleNavLinkClick = () => {
+    setExpanded(false); 
   };
 
   return (
@@ -25,10 +30,18 @@ export default function Navigation() {
               alt="Main Logo"
               width="175"
               height="75"
-              className="align-top d-flex"
+             
             />
           </Navbar.Brand>
+          
           <Navbar.Toggle onClick={handleNavbarToggle} />
+          <Navbar.Collapse>
+            <Nav className="navbar">
+              <Nav.Link as={Link} to="/Gallery" onClick={handleNavLinkClick}>
+                Gallery
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
