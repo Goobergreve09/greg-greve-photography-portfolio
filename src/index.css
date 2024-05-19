@@ -40,6 +40,11 @@ body {
 
 /* Home */
 
+.titleContainer {
+  width:100vw;
+  height:100%;
+}
+
 .about {
   font-size: xx-large;
   font-family: "Bebas Neue", sans-serif;
@@ -59,8 +64,8 @@ body {
 }
 
 .lightShine,
-.goldenHour {
-  width: 90%;
+.collage {
+  width: 99%;
 }
 
 .italicLocation {
@@ -69,8 +74,16 @@ body {
   font-size: small;
 }
 
-/* About */
+.showcase {
+  font-family: "Cinzel", serif;
+  font-size: x-large;
+}
 
-.aboutImage {
-  width: 500px;
+/* Gallery */
+
+.galleryTitle {
+  font-family: "Cinzel", serif;
+text-align: center;
+text-decoration: underline;
+  font-size: x-large;
 }

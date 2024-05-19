@@ -12,6 +12,7 @@ import App from "./App";
 import Error from "./pages/Error";
 
 import Home from "./pages/Home";
+import Gallery from "./pages/Gallery"
 
 
 const router = createBrowserRouter([
@@ -23,9 +24,12 @@ const router = createBrowserRouter([
       {
         index:true,
         path: "/",
-        element: <Home/>, 
+        element: <Home />, 
+      },
+      {
+      path:"/Gallery",
+      element: <Gallery />,
       }
-
     ],
   },
 ]);
