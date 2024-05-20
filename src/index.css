@@ -87,3 +87,19 @@ text-align: center;
 text-decoration: underline;
   font-size: x-large;
 }
+
+.galleryImage {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+  max-width:325px !important;
+  transition: .2s ease-in
+}
+
+.galleryImage:hover, .galleryImageLarge:hover {
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
+}
+
+.galleryImageLarge {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+  max-width: 80% !important;
+  transition: .3s ease-in
+}
