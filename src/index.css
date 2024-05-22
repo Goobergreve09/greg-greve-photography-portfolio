@@ -103,3 +103,13 @@ text-decoration: underline;
   max-width: 80% !important;
   transition: .3s ease-in
 }
+
+.fogVillage {
+  font-family: "Cinzel", serif;
+  font-size: x-large;
+  max-width: 75%;
+  border: 5px double black;
+  padding:5px;
+  border-radius: 25px;
+  
+}
