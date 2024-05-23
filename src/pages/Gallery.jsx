@@ -16,28 +16,28 @@ import forestHall from "../assets/images/forestHall.jpg";
 import grinch from "../assets/images/grinch.jpg";
 import humanTree from "../assets/images/humanTree.jpg";
 import land from "../assets/images/land.jpg";
-import leconte1 from "../assets/images/leconte3.jpg"
-import leconte2 from "../assets/images/leconte2.jpg"
-import leconte22 from "../assets/images/leconte22.jpg"
-import magicHike from "../assets/images/magicHike.jpg"
-import pathFog from "../assets/images/pathFog.jpg"
+import leconte1 from "../assets/images/leconte3.jpg";
+import leconte2 from "../assets/images/leconte2.jpg";
+import leconte22 from "../assets/images/leconte22.jpg";
+import magicHike from "../assets/images/magicHike.jpg";
+import pathFog from "../assets/images/pathFog.jpg";
 import rambo from "../assets/images/rambo.jpg";
 import ranchero from "../assets/images/ranchero.jpg";
-import redPuddle from "../assets/images/redPuddle.jpg"
-import smokeyMountain from "../assets/images/smokeyMountain.jpg"
+import redPuddle from "../assets/images/redPuddle.jpg";
+import smokeyMountain from "../assets/images/smokeyMountain.jpg";
 import sunStream from "../assets/images/sunStream.jpg";
 import waterRocks from "../assets/images/waterRocks.jpg";
 
 export default function Gallery() {
   return (
-    <Container fluid>
+    <Container fluid className="text-center">
       <Row>
         <Col>
           <p className="galleryTitle">1. Forests and Greenery</p>
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-        <Col lg={3}>
+      <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={lightShine}
             large={lightShine}
@@ -45,7 +45,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={goldenHour}
             large={goldenHour}
@@ -53,7 +53,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={hikingMan}
             large={hikingMan}
@@ -61,7 +61,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3} sm={12}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={treeFall}
             large={treeFall}
@@ -71,7 +71,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-        <Col lg={3} sm={12}>
+      <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={mountainMan}
             large={mountainMan}
@@ -79,7 +79,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3} sm={12}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={forestBridge}
             large={forestBridge}
@@ -87,7 +87,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3} sm={12}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={forestHall}
             large={forestHall}
@@ -95,7 +95,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3} sm={12}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={majesticForest}
             large={majesticForest}
@@ -104,8 +104,8 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center text-center p-4">
-        <Col lg={12} sm={12} className="text-center">
+      <Row className="align-items-center p-3">
+        <Col lg={12} sm={12} xs={12}>
           <ModalImage
             small={rambo}
             large={rambo}
@@ -115,7 +115,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-        <Col lg={3}>
+      <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={grinch}
             large={grinch}
@@ -123,7 +123,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={land}
             large={land}
@@ -131,7 +131,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={foggyOwl}
             large={foggyOwl}
@@ -139,7 +139,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3} sm={12}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={sunStream}
             large={sunStream}
@@ -149,7 +149,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-        <Col lg={3}>
+      <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={ranchero}
             large={ranchero}
@@ -157,7 +157,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={cliffLight}
             large={cliffLight}
@@ -165,7 +165,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={humanTree}
             large={humanTree}
@@ -173,7 +173,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3} sm={12}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={waterRocks}
             large={waterRocks}
@@ -183,7 +183,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-        <Col lg={3}>
+      <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={smokeyMountain}
             large={smokeyMountain}
@@ -191,7 +191,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={redPuddle}
             large={redPuddle}
@@ -199,7 +199,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={pathFog}
             large={pathFog}
@@ -207,7 +207,7 @@ export default function Gallery() {
             className="galleryImage"
           />
         </Col>
-        <Col lg={3} sm={12}>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={magicHike}
             large={magicHike}
@@ -218,36 +218,34 @@ export default function Gallery() {
       </Row>
       <Row className="justify-content-center text-center pt-3">
         <Col className="d-flex justify-content-center">
-        <p className="fogVillage">
-          "...and there we were miles up deep into the Appalachians on the Mt.Leconte Alum Cave Trail. Out of
-          the fog almost miraculously we found a small village. Small wooden shacks lined up next top eachother. 
-          It was surreal to find at such a high elevation."
-        </p>
+          <p className="fogVillage">
+            "...and there we were miles up deep into the Appalachians on the
+            Mt.Leconte Alum Cave Trail. Out of the fog almost miraculously we
+            found a small village. Small wooden shacks lined up next top
+            eachother. It was surreal to find at such a high elevation."
+          </p>
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-        <Col lg={4}>
+      <Col lg={4} sm={12} xs={12} className ="pt-2">
           <ModalImage
             small={leconte1}
             large={leconte1}
             alt="A foggy patch hanging left off the appalachian trail."
-           
           />
         </Col>
-        <Col lg={4}>
+        <Col lg={4} sm={12} xs={12} className ="pt-2">
           <ModalImage
             small={leconte22}
             large={leconte22}
             alt="A magical and colorful area in the Appalachians."
-        
           />
         </Col>
-        <Col lg={4}>
+        <Col lg={4} sm={12} xs={12} className ="pt-2">
           <ModalImage
             small={leconte2}
             large={leconte2}
             alt="A man hiking through the Appalachians holding the rope to cross a waterway."
-           
           />
         </Col>
       </Row>

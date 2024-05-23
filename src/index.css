@@ -113,3 +113,10 @@ text-decoration: underline;
   border-radius: 25px;
   
 }
+
+@media (max-width: 450px) {
+  .galleryImageLarge {
+    max-width:100% !important;
+    min-width:325px !important;
+  }
+}
