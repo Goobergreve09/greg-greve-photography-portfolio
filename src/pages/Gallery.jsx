@@ -27,6 +27,10 @@ import forestHall from "../assets/images/forestHall.jpg";
 import forestHallSmall from "../assets/images/forestHallSmall.jpg";
 import forestVibes from "../assets/images/forestVibes.jpg";
 import forestVibesSmall from "../assets/images/forestVibes.jpg";
+import gatlinburg1 from "../assets/images/gatlinburg1.jpg"
+import gatlinburg2 from "../assets/images/gatlinburg2.jpg"
+import gatlinburg1Small from "../assets/images/gatlinburg1Small.jpg"
+import gatlinburg2Small from "../assets/images/gatlinburg2Small.jpg"
 import grinch from "../assets/images/grinch.jpg";
 import grinchSmall from "../assets/images/grinchSmall.jpg";
 import humanTree from "../assets/images/humanTree.jpg";
@@ -76,7 +80,7 @@ export default function Gallery() {
           <p className="galleryTitle">1. Forests and Greenery</p>
         </Col>
       </Row>
-      <Row className="align-items-center p-3">
+      <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={lightShineSmall}
@@ -110,7 +114,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center p-3">
+      <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={mountainManSmall}
@@ -144,7 +148,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center p-3">
+      <Row className="align-items-center pt-3">
         <Col lg={12} sm={12} xs={12}>
           <ModalImage
             small={ramboSmall}
@@ -154,7 +158,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center p-3">
+      <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={grinchSmall}
@@ -188,7 +192,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center p-3">
+      <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={rancheroSmall}
@@ -222,7 +226,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center p-3">
+      <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={smokeyMountainSmall}
@@ -261,12 +265,12 @@ export default function Gallery() {
           <p className="fogVillage">
             "...and there we were miles up deep into the Appalachians on the
             Mt.Leconte Alum Cave Trail. Out of the fog almost miraculously we
-            found a small village. Small wooden shacks lined up next top
+            found a small village. Small wooden shacks lined up next too
             eachother. It was surreal to find at such a high elevation."
           </p>
         </Col>
       </Row>
-      <Row className="align-items-center p-3">
+      <Row className="align-items-center pt-3 leconteRow">
         <Col lg={4} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={leconte1Small}
@@ -289,7 +293,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center p-3">
+      <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={tonyPath2Small}
@@ -323,7 +327,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center p-3">
+      <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={tonyPathSmall}
@@ -354,6 +358,25 @@ export default function Gallery() {
             large={tonyPuddle}
             alt="Light rays shine over a puddle in the Appalachian Forest."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={6} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={gatlinburg2Small}
+            large={gatlinburg2}
+            alt="A foggy patch hanging left off the appalachian trail."
+            className="galleryImageLarge"
+           
+          />
+        </Col>
+        <Col lg={6} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={gatlinburg1Small}
+            large={gatlinburg1}
+            alt="A magical and colorful area in the Appalachians."
+            className="galleryImageLarge"
           />
         </Col>
       </Row>

@@ -114,6 +114,7 @@ text-decoration: underline;
   
 }
 
+
 @media (max-width: 450px) {
   .galleryImageLarge {
     max-width:100% !important;
