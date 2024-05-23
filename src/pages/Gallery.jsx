@@ -5,14 +5,21 @@ import ModalImage from "react-modal-image";
 import cliffLight from "../assets/images/cliffLight.jpg";
 import lightShine from "../assets/images/lightShine.jpg";
 import goldenHour from "../assets/images/goldenHour.jpg";
+import goldenHourSmall from "../assets/images/goldenHourSmall.jpg";
 import hikingMan from "../assets/images/hikingMan.jpg";
+import hikingManSmall from "../assets/images/hikingManSmall.jpg";
 import treeFall from "../assets/images/treeFall.jpg";
+import treeFallSmall from "../assets/images/treeFallSmall.jpg";
 import mountainMan from "../assets/images/mountainMan.jpg";
+import mountainManSmall from "../assets/images/mountainManSmall.jpg";
 import majesticForest from "../assets/images/majesticForest.jpg";
+import majesticForestSmall from "../assets/images/majesticForestSmall.jpg";
 import foggyOwl from "../assets/images/foggyOwl.jpg";
 import forestBridge from "../assets/images/forestBridge.jpg";
+import forestBridgeSmall from "../assets/images/forestBridgeSmall.jpg";
 import forestPath from "../assets/images/forestpath.jpg";
 import forestHall from "../assets/images/forestHall.jpg";
+import forestHallSmall from "../assets/images/forestHallSmall.jpg";
 import grinch from "../assets/images/grinch.jpg";
 import humanTree from "../assets/images/humanTree.jpg";
 import land from "../assets/images/land.jpg";
@@ -47,7 +54,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={goldenHour}
+            small={goldenHourSmall}
             large={goldenHour}
             alt="Golden Hour in the Appalachians"
             className="galleryImage"
@@ -55,7 +62,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={hikingMan}
+            small={hikingManSmall}
             large={hikingMan}
             alt="A man hiking through the Appalachians"
             className="galleryImage"
@@ -63,7 +70,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={treeFall}
+            small={treeFallSmall}
             large={treeFall}
             alt="A man hiking through the Appalachians"
             className="galleryImage"
@@ -73,7 +80,7 @@ export default function Gallery() {
       <Row className="align-items-center p-3">
       <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={mountainMan}
+            small={mountainManSmall}
             large={mountainMan}
             alt="A selfie taken on Max Patch, a mountain bald on the North Carolina/Tennessee border."
             className="galleryImage"
@@ -81,7 +88,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={forestBridge}
+            small={forestBridgeSmall}
             large={forestBridge}
             alt="a Bridge lay across a hiking path in the appalachians to cross creek on foot."
             className="galleryImage"
@@ -89,7 +96,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={forestHall}
+            small={forestHallSmall}
             large={forestHall}
             alt="The tree lines the hiking path perfect to create a hall in the forest."
             className="galleryImage"
@@ -97,7 +104,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={majesticForest}
+            small={majesticForestSmall}
             large={majesticForest}
             alt="A majestic image with fog in the thick brush of the Appalachians."
             className="galleryImage"
