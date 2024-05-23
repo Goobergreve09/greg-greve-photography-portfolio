@@ -5,6 +5,7 @@ import ModalImage from "react-modal-image";
 import cliffLight from "../assets/images/cliffLight.jpg";
 import cliffLightSmall from "../assets/images/cliffLightSmall.jpg";
 import lightShine from "../assets/images/lightShine.jpg";
+import lightShineSmall from "../assets/images/lightShineSmall.jpg";
 import goldenHour from "../assets/images/goldenHour.jpg";
 import goldenHourSmall from "../assets/images/goldenHourSmall.jpg";
 import hikingMan from "../assets/images/hikingMan.jpg";
@@ -29,16 +30,23 @@ import humanTreeSmall from "../assets/images/humanTreeSmall.jpg";
 import land from "../assets/images/land.jpg";
 import landSmall from "../assets/images/landSmall.jpg";
 import leconte1 from "../assets/images/leconte3.jpg";
+import leconte1Small from "../assets/images/leconte3Small.jpg";
 import leconte2 from "../assets/images/leconte2.jpg";
+import leconte2Small from "../assets/images/leconte2Small.jpg";
 import leconte22 from "../assets/images/leconte22.jpg";
+import leconte22Small from "../assets/images/leconte22Small.jpg";
 import magicHike from "../assets/images/magicHike.jpg";
+import magicHikeSmall from "../assets/images/magicHikeSmall.jpg";
 import pathFog from "../assets/images/pathFog.jpg";
+import pathFogSmall from "../assets/images/pathFog.jpg";
 import rambo from "../assets/images/rambo.jpg";
 import ramboSmall from "../assets/images/ramboSmall.jpg";
 import ranchero from "../assets/images/ranchero.jpg";
 import rancheroSmall from "../assets/images/ranchero.jpg";
 import redPuddle from "../assets/images/redPuddle.jpg";
+import redPuddleSmall from "../assets/images/redPuddleSmall.jpg";
 import smokeyMountain from "../assets/images/smokeyMountain.jpg";
+import smokeyMountainSmall from "../assets/images/smokeyMountain.jpg";
 import sunStream from "../assets/images/sunStream.jpg";
 import sunStreamSmall from "../assets/images/sunStreamSmall.jpg";
 import waterRocks from "../assets/images/waterRocks.jpg";
@@ -56,7 +64,7 @@ export default function Gallery() {
       <Row className="align-items-center p-3">
       <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={lightShine}
+            small={lightShineSmall}
             large={lightShine}
             alt="The sun beaming through the thick forest"
             className="galleryImage"
@@ -202,7 +210,7 @@ export default function Gallery() {
       <Row className="align-items-center p-3">
       <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={smokeyMountain}
+            small={smokeyMountainSmall}
             large={smokeyMountain}
             alt="A foggy patch hanging left off the appalachian trail."
             className="galleryImage"
@@ -210,7 +218,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={redPuddle}
+            small={redPuddleSmall}
             large={redPuddle}
             alt="A magical and colorful area in the Appalachians."
             className="galleryImage"
@@ -218,7 +226,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={pathFog}
+            small={pathFogSmall}
             large={pathFog}
             alt="A man hiking through the Appalachians holding the rope to cross a waterway."
             className="galleryImage"
@@ -226,7 +234,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={magicHike}
+            small={magicHikeSmall}
             large={magicHike}
             alt="Light rays shine over a puddle in the Appalachian Forest."
             className="galleryImage"
@@ -246,21 +254,21 @@ export default function Gallery() {
       <Row className="align-items-center p-3">
       <Col lg={4} sm={12} xs={12} className ="pt-2">
           <ModalImage
-            small={leconte1}
+            small={leconte1Small}
             large={leconte1}
             alt="A foggy patch hanging left off the appalachian trail."
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className ="pt-2">
           <ModalImage
-            small={leconte22}
+            small={leconte22Small}
             large={leconte22}
             alt="A magical and colorful area in the Appalachians."
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className ="pt-2">
           <ModalImage
-            small={leconte2}
+            small={leconte2Small}
             large={leconte2}
             alt="A man hiking through the Appalachians holding the rope to cross a waterway."
           />
