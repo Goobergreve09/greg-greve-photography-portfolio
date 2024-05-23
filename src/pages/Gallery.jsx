@@ -3,6 +3,7 @@ import { Row, Col, Container } from "react-bootstrap";
 import ModalImage from "react-modal-image";
 
 import cliffLight from "../assets/images/cliffLight.jpg";
+import cliffLightSmall from "../assets/images/cliffLightSmall.jpg";
 import lightShine from "../assets/images/lightShine.jpg";
 import goldenHour from "../assets/images/goldenHour.jpg";
 import goldenHourSmall from "../assets/images/goldenHourSmall.jpg";
@@ -15,25 +16,34 @@ import mountainManSmall from "../assets/images/mountainManSmall.jpg";
 import majesticForest from "../assets/images/majesticForest.jpg";
 import majesticForestSmall from "../assets/images/majesticForestSmall.jpg";
 import foggyOwl from "../assets/images/foggyOwl.jpg";
+import foggyOwlSmall from "../assets/images/foggyOwlSmall.jpg";
 import forestBridge from "../assets/images/forestBridge.jpg";
 import forestBridgeSmall from "../assets/images/forestBridgeSmall.jpg";
 import forestPath from "../assets/images/forestpath.jpg";
 import forestHall from "../assets/images/forestHall.jpg";
 import forestHallSmall from "../assets/images/forestHallSmall.jpg";
 import grinch from "../assets/images/grinch.jpg";
+import grinchSmall from "../assets/images/grinchSmall.jpg";
 import humanTree from "../assets/images/humanTree.jpg";
+import humanTreeSmall from "../assets/images/humanTreeSmall.jpg";
 import land from "../assets/images/land.jpg";
+import landSmall from "../assets/images/landSmall.jpg";
 import leconte1 from "../assets/images/leconte3.jpg";
 import leconte2 from "../assets/images/leconte2.jpg";
 import leconte22 from "../assets/images/leconte22.jpg";
 import magicHike from "../assets/images/magicHike.jpg";
 import pathFog from "../assets/images/pathFog.jpg";
 import rambo from "../assets/images/rambo.jpg";
+import ramboSmall from "../assets/images/ramboSmall.jpg";
 import ranchero from "../assets/images/ranchero.jpg";
+import rancheroSmall from "../assets/images/ranchero.jpg";
 import redPuddle from "../assets/images/redPuddle.jpg";
 import smokeyMountain from "../assets/images/smokeyMountain.jpg";
 import sunStream from "../assets/images/sunStream.jpg";
+import sunStreamSmall from "../assets/images/sunStreamSmall.jpg";
 import waterRocks from "../assets/images/waterRocks.jpg";
+import waterRocksSmall from "../assets/images/waterRocksSmall.jpg";
+
 
 export default function Gallery() {
   return (
@@ -114,7 +124,7 @@ export default function Gallery() {
       <Row className="align-items-center p-3">
         <Col lg={12} sm={12} xs={12}>
           <ModalImage
-            small={rambo}
+            small={ramboSmall}
             large={rambo}
             alt="A man hiding behind the tall leaves in the Appalachians."
             className="galleryImageLarge"
@@ -124,7 +134,7 @@ export default function Gallery() {
       <Row className="align-items-center p-3">
       <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={grinch}
+            small={grinchSmall}
             large={grinch}
             alt="A foggy patch hanging left off the appalachian trail."
             className="galleryImage"
@@ -132,7 +142,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={land}
+            small={landSmall}
             large={land}
             alt="A magical and colorful area in the Appalachians."
             className="galleryImage"
@@ -140,7 +150,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={foggyOwl}
+            small={foggyOwlSmall}
             large={foggyOwl}
             alt="A man hiking through the Appalachians holding the rope to cross a waterway."
             className="galleryImage"
@@ -148,7 +158,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={sunStream}
+            small={sunStreamSmall}
             large={sunStream}
             alt="Light rays shine over a puddle in the Appalachian Forest."
             className="galleryImage"
@@ -158,7 +168,7 @@ export default function Gallery() {
       <Row className="align-items-center p-3">
       <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={ranchero}
+            small={rancheroSmall}
             large={ranchero}
             alt="A foggy patch hanging left off the appalachian trail."
             className="galleryImage"
@@ -166,7 +176,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={cliffLight}
+            small={cliffLightSmall}
             large={cliffLight}
             alt="A magical and colorful area in the Appalachians."
             className="galleryImage"
@@ -174,7 +184,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={humanTree}
+            small={humanTreeSmall}
             large={humanTree}
             alt="A man hiking through the Appalachians holding the rope to cross a waterway."
             className="galleryImage"
@@ -182,7 +192,7 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={waterRocks}
+            small={waterRocksSmall}
             large={waterRocks}
             alt="Light rays shine over a puddle in the Appalachian Forest."
             className="galleryImage"
