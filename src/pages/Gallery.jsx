@@ -16,8 +16,8 @@ import mountainMan from "../assets/images/mountainMan.jpg";
 import mountainManSmall from "../assets/images/mountainManSmall.jpg";
 import majesticForest from "../assets/images/majesticForest.jpg";
 import majesticForestSmall from "../assets/images/majesticForestSmall.jpg";
-import foggyOpening from "../assets/images/foggyOpening.jpg"
-import foggyOpeningSmall from "../assets/images/foggyOpeningSmall.jpg"
+import foggyOpening from "../assets/images/foggyOpening.jpg";
+import foggyOpeningSmall from "../assets/images/foggyOpeningSmall.jpg";
 import foggyOwl from "../assets/images/foggyOwl.jpg";
 import foggyOwlSmall from "../assets/images/foggyOwlSmall.jpg";
 import forestBridge from "../assets/images/forestBridge.jpg";
@@ -25,14 +25,14 @@ import forestBridgeSmall from "../assets/images/forestBridgeSmall.jpg";
 import forestPath from "../assets/images/forestpath.jpg";
 import forestHall from "../assets/images/forestHall.jpg";
 import forestHallSmall from "../assets/images/forestHallSmall.jpg";
-import forestVibes from "../assets/images/forestVibes.jpg"
-import forestVibesSmall from "../assets/images/forestVibes.jpg"
+import forestVibes from "../assets/images/forestVibes.jpg";
+import forestVibesSmall from "../assets/images/forestVibes.jpg";
 import grinch from "../assets/images/grinch.jpg";
 import grinchSmall from "../assets/images/grinchSmall.jpg";
 import humanTree from "../assets/images/humanTree.jpg";
 import humanTreeSmall from "../assets/images/humanTreeSmall.jpg";
-import jungleAdventure from "../assets/images/jungleAdventure.jpg"
-import jungleAdventureSmall from "../assets/images/jungleAdventure.jpg"
+import jungleAdventure from "../assets/images/jungleAdventure.jpg";
+import jungleAdventureSmall from "../assets/images/jungleAdventure.jpg";
 import land from "../assets/images/land.jpg";
 import landSmall from "../assets/images/landSmall.jpg";
 import leconte1 from "../assets/images/leconte3.jpg";
@@ -45,6 +45,8 @@ import magicHike from "../assets/images/magicHike.jpg";
 import magicHikeSmall from "../assets/images/magicHikeSmall.jpg";
 import pathFog from "../assets/images/pathFog.jpg";
 import pathFogSmall from "../assets/images/pathFog.jpg";
+import peaceCreek from "../assets/images/peaceCreek.jpg"
+import peaceCreekSmall from "../assets/images/peaceCreekSmall.jpg"
 import rambo from "../assets/images/rambo.jpg";
 import ramboSmall from "../assets/images/ramboSmall.jpg";
 import ranchero from "../assets/images/ranchero.jpg";
@@ -55,11 +57,16 @@ import smokeyMountain from "../assets/images/smokeyMountain.jpg";
 import smokeyMountainSmall from "../assets/images/smokeyMountain.jpg";
 import sunStream from "../assets/images/sunStream.jpg";
 import sunStreamSmall from "../assets/images/sunStreamSmall.jpg";
-import tonyPath2 from "../assets/images/tonyPath2.jpg"
-import tonyPath2Small from "../assets/images/tonyPath2Small.jpg"
+import tonyPath from "../assets/images/tonyPath.jpg"
+import tonyPathSmall from "../assets/images/tonyPathSmall.jpg"
+import tonyPath2 from "../assets/images/tonyPath2.jpg";
+import tonyPath2Small from "../assets/images/tonyPath2Small.jpg";
+import tonyPuddle from "../assets/images/tonyPuddle.jpg"
+import tonyPuddleSmall from "../assets/images/tonyPuddleSmall.jpg"
+import tonyStairs from "../assets/images/tonyStairs.jpg"
+import tonyStairsSmall from "../assets/images/tonyStairsSmall.jpg"
 import waterRocks from "../assets/images/waterRocks.jpg";
 import waterRocksSmall from "../assets/images/waterRocksSmall.jpg";
-
 
 export default function Gallery() {
   return (
@@ -70,7 +77,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-      <Col lg={3} sm={12} xs={12} className="pt-2">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={lightShineSmall}
             large={lightShine}
@@ -104,7 +111,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-      <Col lg={3} sm={12} xs={12} className="pt-2">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={mountainManSmall}
             large={mountainMan}
@@ -148,7 +155,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-      <Col lg={3} sm={12} xs={12} className="pt-2">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={grinchSmall}
             large={grinch}
@@ -182,7 +189,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-      <Col lg={3} sm={12} xs={12} className="pt-2">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={rancheroSmall}
             large={ranchero}
@@ -216,7 +223,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-      <Col lg={3} sm={12} xs={12} className="pt-2">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={smokeyMountainSmall}
             large={smokeyMountain}
@@ -260,21 +267,21 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-      <Col lg={4} sm={12} xs={12} className ="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={leconte1Small}
             large={leconte1}
             alt="A foggy patch hanging left off the appalachian trail."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className ="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={leconte22Small}
             large={leconte22}
             alt="A magical and colorful area in the Appalachians."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className ="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={leconte2Small}
             large={leconte2}
@@ -283,7 +290,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center p-3">
-      <Col lg={3} sm={12} xs={12} className="pt-2">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={tonyPath2Small}
             large={tonyPath2}
@@ -311,6 +318,40 @@ export default function Gallery() {
           <ModalImage
             small={jungleAdventureSmall}
             large={jungleAdventure}
+            alt="Light rays shine over a puddle in the Appalachian Forest."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center p-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={tonyPathSmall}
+            large={tonyPath}
+            alt="A foggy patch hanging left off the appalachian trail."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={peaceCreekSmall}
+            large={peaceCreek}
+            alt="A magical and colorful area in the Appalachians."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={tonyStairsSmall}
+            large={tonyStairs}
+            alt="A man hiking through the Appalachians holding the rope to cross a waterway."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={tonyPuddleSmall}
+            large={tonyPuddle}
             alt="Light rays shine over a puddle in the Appalachian Forest."
             className="galleryImage"
           />
