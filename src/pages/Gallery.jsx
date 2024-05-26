@@ -2,7 +2,7 @@ import { Row, Col, Container, Button } from "react-bootstrap";
 
 import ModalImage from "react-modal-image";
 
-// forest and greenery
+// forest and greenery imports------------------------------------------------------------
 
 import cliffLight from "../assets/images/cliffLight.jpg";
 import cliffLightSmall from "../assets/images/cliffLightSmall.jpg";
@@ -49,8 +49,8 @@ import leconte22 from "../assets/images/leconte22.jpg";
 import leconte22Small from "../assets/images/leconte22Small.jpg";
 import magicHike from "../assets/images/magicHike.jpg";
 import magicHikeSmall from "../assets/images/magicHikeSmall.jpg";
-import omniousForest from "../assets/images/omniousForest.jpg"
-import omniousForestSmall from "../assets/images/omniousForestSmall.jpg"
+import omniousForest from "../assets/images/omniousForest.jpg";
+import omniousForestSmall from "../assets/images/omniousForestSmall.jpg";
 import pathFog from "../assets/images/pathFog.jpg";
 import pathFogSmall from "../assets/images/pathFog.jpg";
 import peaceCreek from "../assets/images/peaceCreek.jpg";
@@ -59,14 +59,14 @@ import rambo from "../assets/images/rambo.jpg";
 import ramboSmall from "../assets/images/ramboSmall.jpg";
 import ranchero from "../assets/images/ranchero.jpg";
 import rancheroSmall from "../assets/images/ranchero.jpg";
-import rayForest from "../assets/images/rayForest.jpg"
-import rayForestSmall from "../assets/images/rayForestSmall.jpg"
+import rayForest from "../assets/images/rayForest.jpg";
+import rayForestSmall from "../assets/images/rayForestSmall.jpg";
 import redPuddle from "../assets/images/redPuddle.jpg";
 import redPuddleSmall from "../assets/images/redPuddleSmall.jpg";
 import smokeyMountain from "../assets/images/smokeyMountain.jpg";
 import smokeyMountainSmall from "../assets/images/smokeyMountain.jpg";
-import sunStairs from "../assets/images/sunStairs.jpg"
-import sunStairsSmall from "../assets/images/sunStairsSmall.jpg"
+import sunStairs from "../assets/images/sunStairs.jpg";
+import sunStairsSmall from "../assets/images/sunStairsSmall.jpg";
 import sunStream from "../assets/images/sunStream.jpg";
 import sunStreamSmall from "../assets/images/sunStreamSmall.jpg";
 import tonyPath from "../assets/images/tonyPath.jpg";
@@ -77,74 +77,87 @@ import tonyPuddle from "../assets/images/tonyPuddle.jpg";
 import tonyPuddleSmall from "../assets/images/tonyPuddleSmall.jpg";
 import tonyStairs from "../assets/images/tonyStairs.jpg";
 import tonyStairsSmall from "../assets/images/tonyStairsSmall.jpg";
-import viberyForest from "../assets/images/viberyForest.jpg"
-import viberyForestSmall from "../assets/images/viberyForestSmall.jpg"
+import viberyForest from "../assets/images/viberyForest.jpg";
+import viberyForestSmall from "../assets/images/viberyForestSmall.jpg";
 import waterRocks from "../assets/images/waterRocks.jpg";
 import waterRocksSmall from "../assets/images/waterRocksSmall.jpg";
-import wow from "../assets/images/wow.jpg"
-import wowSmall from "../assets/images/wowSmall.jpg"
+import wow from "../assets/images/wow.jpg";
+import wowSmall from "../assets/images/wowSmall.jpg";
 
-// beaches and water
+// beaches and water imports ------------------------------------------------------------
 
-import creekFall from "../assets/images/creekFall.jpg"
-import creekFallSmall from "../assets/images/creekFallSmall.jpg"
-import dan from "../assets/images/dan.jpg"
-import danSmall from "../assets/images/danSmall.jpg"
-import handWater from "../assets/images/handWater.jpg"
-import handWaterSmall from "../assets/images/handWaterSmall.jpg"
-import lakeSunset from "../assets/images/lakeSunset.jpg"
-import lakeSunsetSmall from "../assets/images/lakeSunsetSmall.jpg"
-import loveBirds from "../assets/images/loveBirds.jpg"
-import loveBirdsSmall from "../assets/images/loveBirdsSmall.jpg"
-import nolanWalk from "../assets/images/nolanWalk.jpg"
-import nolanWalkSmall from "../assets/images/nolanWalkSmall.jpg"
-import nolanWonder from "../assets/images/nolanWonder.jpg"
-import nolanWonderSmall from "../assets/images/nolanWonderSmall.jpg"
-import morningHaze from "../assets/images/morningHaze.jpg"
-import morningHazeSmall from "../assets/images/morningHazeSmall.jpg"
-import rockPile from "../assets/images/rockPile.jpg"
-import rockPileSmall from "../assets/images/rockPileSmall.jpg"
-import sandy1 from "../assets/images/sandy1.jpg"
-import sandy1Small from "../assets/images/sandy1Small.jpg"
-import sandy2 from "../assets/images/sandy2.jpg"
-import sandy2Small from "../assets/images/sandy2Small.jpg"
-import tahoe from "../assets/images/tahoe.jpg"
-import tahoeSmall from "../assets/images/tahoeSmall.jpg"
-import theShot from "../assets/images/theShot.jpg"
-import theShotSmall from "../assets/images/theShotSmall.jpg"
-import venice from "../assets/images/venice.jpg"
-import veniceSmall from "../assets/images/veniceSmall.jpg"
-import yosemiteCreek from "../assets/images/yosemiteCreek.jpg"
-import yosemiteCreekSmall from "../assets/images/yosemiteCreekSmall.jpg"
-
+import creekFall from "../assets/images/creekFall.jpg";
+import creekFallSmall from "../assets/images/creekFallSmall.jpg";
+import dan from "../assets/images/dan.jpg";
+import danSmall from "../assets/images/danSmall.jpg";
+import handWater from "../assets/images/handWater.jpg";
+import handWaterSmall from "../assets/images/handWaterSmall.jpg";
+import lakeSunset from "../assets/images/lakeSunset.jpg";
+import lakeSunsetSmall from "../assets/images/lakeSunsetSmall.jpg";
+import loveBirds from "../assets/images/loveBirds.jpg";
+import loveBirdsSmall from "../assets/images/loveBirdsSmall.jpg";
+import nolanWalk from "../assets/images/nolanWalk.jpg";
+import nolanWalkSmall from "../assets/images/nolanWalkSmall.jpg";
+import nolanWonder from "../assets/images/nolanWonder.jpg";
+import nolanWonderSmall from "../assets/images/nolanWonderSmall.jpg";
+import morningHaze from "../assets/images/morningHaze.jpg";
+import morningHazeSmall from "../assets/images/morningHazeSmall.jpg";
+import riverRocks from "../assets/images/riverRocks.jpg";
+import riverRocksSmall from "../assets/images/riverRocks.jpg"
+import rockPile from "../assets/images/rockPile.jpg";
+import rockPileSmall from "../assets/images/rockPileSmall.jpg";
+import rockTahoe from "../assets/images/rockTahoe.jpg";
+import rockTahoeSmall from "../assets/images/rockTahoe.jpg"
+import sandy1 from "../assets/images/sandy1.jpg";
+import sandy1Small from "../assets/images/sandy1Small.jpg";
+import sandy2 from "../assets/images/sandy2.jpg";
+import sandy2Small from "../assets/images/sandy2Small.jpg";
+import tahoe from "../assets/images/tahoe.jpg";
+import tahoeSmall from "../assets/images/tahoeSmall.jpg";
+import theShot from "../assets/images/theShot.jpg";
+import theShotSmall from "../assets/images/theShotSmall.jpg";
+import venice from "../assets/images/venice.jpg";
+import veniceSmall from "../assets/images/veniceSmall.jpg";
+import venicePeople from "../assets/images/venicePeople.jpg";
+import venicePeopleSmall from "../assets/images/venicePeople.jpg";
+import waterShadow from "../assets/images/waterShadow.jpg";
+import waterShadowSmall from "../assets/images/waterShadow.jpg";
+import yosemiteCreek from "../assets/images/yosemiteCreek.jpg";
+import yosemiteCreekSmall from "../assets/images/yosemiteCreekSmall.jpg";
 
 export default function Gallery() {
-
-  const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth"
-    });
-  };
-
   return (
     <Container fluid className="text-center">
       <Container fluid className="tableOfcontents">
-      <Row>
-        <Col>
-        <p>Table of Contents</p>
-        </Col>
-      </Row>
-      <Row>
-        <Col className="pb-3">
-        <Button className="tableButton" variant="link" href="#forests" size="lg">1. Forests and Greenery</Button>
-        </Col>
-        <Col className="pb-3">
-        <Button className="tableButton" variant="link" href="#beaches" size="lg">2. Beaches and Water</Button>
-        </Col>
-      </Row>
+        <Row>
+          <Col>
+            <p>Table of Contents</p>
+          </Col>
+        </Row>
+        <Row>
+          <Col className="pb-3">
+            <Button
+              className="tableButton"
+              variant="link"
+              href="#forests"
+              size="lg"
+            >
+              1. Forests and Greenery
+            </Button>
+          </Col>
+          <Col className="pb-3">
+            <Button
+              className="tableButton"
+              variant="link"
+              href="#beaches"
+              size="lg"
+            >
+              2. Beaches and Water
+            </Button>
+          </Col>
+        </Row>
       </Container>
-      <Row id = "forests" className="pt-5">
+      <Row id="forests" className="pt-5">
         <Col>
           <p className="galleryTitle">1. Forests and Greenery</p>
         </Col>
@@ -492,7 +505,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row id ="beaches">
+      <Row id="beaches">
         <Col>
           <p className="galleryTitle pt-3">2. Beaches and Water</p>
         </Col>
@@ -604,7 +617,7 @@ export default function Gallery() {
           <ModalImage
             small={danSmall}
             large={dan}
-            alt="A man reaching taking in the beauty of Lake Michigan."
+            alt="A man appreciates the beauty of Lake Michigan."
             className="galleryImage"
           />
         </Col>
@@ -614,7 +627,7 @@ export default function Gallery() {
           <ModalImage
             small={sandy2Small}
             large={sandy2}
-            alt="An image taken off the side of the road with a warning sign on a fence."
+            alt="An woman playing in the sand."
             className="galleryImageLarge"
           />
         </Col>
@@ -622,8 +635,42 @@ export default function Gallery() {
           <ModalImage
             small={sandy1Small}
             large={sandy1}
-            alt="An image taken off the side of the road and mountains are seen in the distance through the brush."
+            alt="A woman dancing during golden hour on the beach."
             className="galleryImageLarge"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={waterShadowSmall}
+            large={waterShadow}
+            alt="A silhouette of a man on Lake Michigan."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={riverRocksSmall}
+            large={riverRocks}
+            alt="Rocks show on a river in the Appalachian Mountains."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={venicePeopleSmall}
+            large={venicePeople}
+            alt="A silhouette of a woman walking on Venice Beach."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={rockTahoeSmall}
+            large={rockTahoe}
+            alt="Rocks are visible on Lake Tahoe."
+            className="galleryImage"
           />
         </Col>
       </Row>
