@@ -2,6 +2,8 @@ import { Row, Col, Container, Button } from "react-bootstrap";
 
 import ModalImage from "react-modal-image";
 
+// forest and greenery
+
 import cliffLight from "../assets/images/cliffLight.jpg";
 import cliffLightSmall from "../assets/images/cliffLightSmall.jpg";
 import lightShine from "../assets/images/lightShine.jpg";
@@ -81,6 +83,18 @@ import waterRocks from "../assets/images/waterRocks.jpg";
 import waterRocksSmall from "../assets/images/waterRocksSmall.jpg";
 import wow from "../assets/images/wow.jpg"
 import wowSmall from "../assets/images/wowSmall.jpg"
+
+// beaches and water
+
+import lakeSunset from "../assets/images/lakeSunset.jpg"
+import lakeSunsetSmall from "../assets/images/lakeSunsetSmall.jpg"
+import loveBirds from "../assets/images/loveBirds.jpg"
+import loveBirdsSmall from "../assets/images/loveBirdsSmall.jpg"
+import nolanWalk from "../assets/images/nolanWalk.jpg"
+import nolanWalkSmall from "../assets/images/nolanWalkSmall.jpg"
+import theShot from "../assets/images/theShot.jpg"
+import theShotSmall from "../assets/images/theShotSmall.jpg"
+
 
 export default function Gallery() {
   return (
@@ -451,6 +465,40 @@ export default function Gallery() {
       <Row id ="beaches">
         <Col>
           <p className="galleryTitle pt-3">2. Beaches and Water</p>
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={theShotSmall}
+            large={theShot}
+            alt="Sunlight finds it's way through the dense Appalachians."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nolanWalkSmall}
+            large={nolanWalk}
+            alt="A vibey photo taken of a few stairs on the Appalachian trail."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lakeSunsetSmall}
+            large={lakeSunset}
+            alt="A golden creek flows through a forest path."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={loveBirdsSmall}
+            large={loveBirds}
+            alt="An ominous image of a forest path."
+            className="galleryImage"
+          />
         </Col>
       </Row>
     </Container>
