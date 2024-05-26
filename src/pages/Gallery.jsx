@@ -96,6 +96,8 @@ import nolanWalk from "../assets/images/nolanWalk.jpg"
 import nolanWalkSmall from "../assets/images/nolanWalkSmall.jpg"
 import morningHaze from "../assets/images/morningHaze.jpg"
 import morningHazeSmall from "../assets/images/morningHazeSmall.jpg"
+import tahoe from "../assets/images/tahoe.jpg"
+import tahoeSmall from "../assets/images/tahoeSmall.jpg"
 import theShot from "../assets/images/theShot.jpg"
 import theShotSmall from "../assets/images/theShotSmall.jpg"
 import venice from "../assets/images/venice.jpg"
@@ -105,6 +107,14 @@ import yosemiteCreekSmall from "../assets/images/yosemiteCreekSmall.jpg"
 
 
 export default function Gallery() {
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
+
   return (
     <Container fluid className="text-center">
       <Container fluid className="tableOfcontents">
@@ -540,6 +550,16 @@ export default function Gallery() {
             large={handWater}
             alt="A man reaching his hand towards Lake Michigan"
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={12} sm={12} xs={12}>
+          <ModalImage
+            small={tahoeSmall}
+            large={tahoe}
+            alt="A woman astonished by the view of Lake Tahoe."
+            className="galleryImageLarge"
           />
         </Col>
       </Row>

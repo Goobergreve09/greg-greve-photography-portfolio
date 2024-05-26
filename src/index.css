@@ -140,6 +140,24 @@ text-decoration: underline;
   
 }
 
+.backToTopButton {
+  font-family: "Cinzel", serif;
+  background-color: black;
+  border: none;
+  .backToTopButton {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000; /* Ensure the button appears on top of other content */
+  }
+}
+
+.backToTopButton:hover {
+background-color: grey;
+border: none;
+}
+
 
 @media (max-width: 450px) {
   .galleryImageLarge {
