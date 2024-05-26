@@ -86,6 +86,10 @@ import wowSmall from "../assets/images/wowSmall.jpg"
 
 // beaches and water
 
+import creekFall from "../assets/images/creekFall.jpg"
+import creekFallSmall from "../assets/images/creekFallSmall.jpg"
+import dan from "../assets/images/dan.jpg"
+import danSmall from "../assets/images/danSmall.jpg"
 import handWater from "../assets/images/handWater.jpg"
 import handWaterSmall from "../assets/images/handWaterSmall.jpg"
 import lakeSunset from "../assets/images/lakeSunset.jpg"
@@ -94,8 +98,12 @@ import loveBirds from "../assets/images/loveBirds.jpg"
 import loveBirdsSmall from "../assets/images/loveBirdsSmall.jpg"
 import nolanWalk from "../assets/images/nolanWalk.jpg"
 import nolanWalkSmall from "../assets/images/nolanWalkSmall.jpg"
+import nolanWonder from "../assets/images/nolanWonder.jpg"
+import nolanWonderSmall from "../assets/images/nolanWonderSmall.jpg"
 import morningHaze from "../assets/images/morningHaze.jpg"
 import morningHazeSmall from "../assets/images/morningHazeSmall.jpg"
+import rockPile from "../assets/images/rockPile.jpg"
+import rockPileSmall from "../assets/images/rockPileSmall.jpg"
 import tahoe from "../assets/images/tahoe.jpg"
 import tahoeSmall from "../assets/images/tahoeSmall.jpg"
 import theShot from "../assets/images/theShot.jpg"
@@ -560,6 +568,40 @@ export default function Gallery() {
             large={tahoe}
             alt="A woman astonished by the view of Lake Tahoe."
             className="galleryImageLarge"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={rockPileSmall}
+            large={rockPile}
+            alt="A river runs off of Yosemite Falls."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nolanWonderSmall}
+            large={nolanWonder}
+            alt="A sunset on Lake michigan take during the forest fires in Canada."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={creekFallSmall}
+            large={creekFall}
+            alt="A venice Beach Sunset."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={danSmall}
+            large={dan}
+            alt="A man reaching his hand towards Lake Michigan"
+            className="galleryImage"
           />
         </Col>
       </Row>

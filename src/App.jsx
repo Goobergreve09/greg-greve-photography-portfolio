@@ -1,5 +1,6 @@
 import { Outlet } from "react-router-dom"
 import Nav from "./components/Navbar";
+import Favicon from "react-favicon";
 
 import { useEffect, useState } from "react";
 import "./app.css";
@@ -27,6 +28,7 @@ function App() {
   };
   return (
     <>
+          <Favicon url="https://purepng.com/public/uploads/large/purepng.com-mountainmountainlarge-landformmountain-peakvolcanic-mountainfold-mountainblock-mountain-1411527067668chips.png"></Favicon>
       <Nav />
       <Outlet />
       {showButton && (
