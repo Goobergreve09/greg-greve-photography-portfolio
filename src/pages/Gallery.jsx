@@ -86,14 +86,22 @@ import wowSmall from "../assets/images/wowSmall.jpg"
 
 // beaches and water
 
+import handWater from "../assets/images/handWater.jpg"
+import handWaterSmall from "../assets/images/handWaterSmall.jpg"
 import lakeSunset from "../assets/images/lakeSunset.jpg"
 import lakeSunsetSmall from "../assets/images/lakeSunsetSmall.jpg"
 import loveBirds from "../assets/images/loveBirds.jpg"
 import loveBirdsSmall from "../assets/images/loveBirdsSmall.jpg"
 import nolanWalk from "../assets/images/nolanWalk.jpg"
 import nolanWalkSmall from "../assets/images/nolanWalkSmall.jpg"
+import morningHaze from "../assets/images/morningHaze.jpg"
+import morningHazeSmall from "../assets/images/morningHazeSmall.jpg"
 import theShot from "../assets/images/theShot.jpg"
 import theShotSmall from "../assets/images/theShotSmall.jpg"
+import venice from "../assets/images/venice.jpg"
+import veniceSmall from "../assets/images/veniceSmall.jpg"
+import yosemiteCreek from "../assets/images/yosemiteCreek.jpg"
+import yosemiteCreekSmall from "../assets/images/yosemiteCreekSmall.jpg"
 
 
 export default function Gallery() {
@@ -472,7 +480,7 @@ export default function Gallery() {
           <ModalImage
             small={theShotSmall}
             large={theShot}
-            alt="Sunlight finds it's way through the dense Appalachians."
+            alt="An electric sunset on Lake Michigan."
             className="galleryImage"
           />
         </Col>
@@ -480,7 +488,7 @@ export default function Gallery() {
           <ModalImage
             small={nolanWalkSmall}
             large={nolanWalk}
-            alt="A vibey photo taken of a few stairs on the Appalachian trail."
+            alt="A man walking the shoreline on Lake Michigan."
             className="galleryImage"
           />
         </Col>
@@ -488,7 +496,7 @@ export default function Gallery() {
           <ModalImage
             small={lakeSunsetSmall}
             large={lakeSunset}
-            alt="A golden creek flows through a forest path."
+            alt="A sunset on Lake Michigan."
             className="galleryImage"
           />
         </Col>
@@ -496,7 +504,41 @@ export default function Gallery() {
           <ModalImage
             small={loveBirdsSmall}
             large={loveBirds}
-            alt="An ominous image of a forest path."
+            alt="Two humans roaming gracefully in the water."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={yosemiteCreekSmall}
+            large={yosemiteCreek}
+            alt="A river runs off of Yosemite Falls."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={morningHazeSmall}
+            large={morningHaze}
+            alt="A sunset on Lake michigan take during the forest fires in Canada."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={veniceSmall}
+            large={venice}
+            alt="A venice Beach Sunset."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={handWaterSmall}
+            large={handWater}
+            alt="A man reaching his hand towards Lake Michigan"
             className="galleryImage"
           />
         </Col>
