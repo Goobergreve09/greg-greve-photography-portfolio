@@ -1,4 +1,4 @@
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container, Button } from "react-bootstrap";
 
 import ModalImage from "react-modal-image";
 
@@ -27,10 +27,10 @@ import forestHall from "../assets/images/forestHall.jpg";
 import forestHallSmall from "../assets/images/forestHallSmall.jpg";
 import forestVibes from "../assets/images/forestVibes.jpg";
 import forestVibesSmall from "../assets/images/forestVibes.jpg";
-import gatlinburg1 from "../assets/images/gatlinburg1.jpg"
-import gatlinburg2 from "../assets/images/gatlinburg2.jpg"
-import gatlinburg1Small from "../assets/images/gatlinburg1Small.jpg"
-import gatlinburg2Small from "../assets/images/gatlinburg2Small.jpg"
+import gatlinburg1 from "../assets/images/gatlinburg1.jpg";
+import gatlinburg2 from "../assets/images/gatlinburg2.jpg";
+import gatlinburg1Small from "../assets/images/gatlinburg1Small.jpg";
+import gatlinburg2Small from "../assets/images/gatlinburg2Small.jpg";
 import grinch from "../assets/images/grinch.jpg";
 import grinchSmall from "../assets/images/grinchSmall.jpg";
 import humanTree from "../assets/images/humanTree.jpg";
@@ -47,35 +47,60 @@ import leconte22 from "../assets/images/leconte22.jpg";
 import leconte22Small from "../assets/images/leconte22Small.jpg";
 import magicHike from "../assets/images/magicHike.jpg";
 import magicHikeSmall from "../assets/images/magicHikeSmall.jpg";
+import omniousForest from "../assets/images/omniousForest.jpg"
+import omniousForestSmall from "../assets/images/omniousForestSmall.jpg"
 import pathFog from "../assets/images/pathFog.jpg";
 import pathFogSmall from "../assets/images/pathFog.jpg";
-import peaceCreek from "../assets/images/peaceCreek.jpg"
-import peaceCreekSmall from "../assets/images/peaceCreekSmall.jpg"
+import peaceCreek from "../assets/images/peaceCreek.jpg";
+import peaceCreekSmall from "../assets/images/peaceCreekSmall.jpg";
 import rambo from "../assets/images/rambo.jpg";
 import ramboSmall from "../assets/images/ramboSmall.jpg";
 import ranchero from "../assets/images/ranchero.jpg";
 import rancheroSmall from "../assets/images/ranchero.jpg";
+import rayForest from "../assets/images/rayForest.jpg"
+import rayForestSmall from "../assets/images/rayForestSmall.jpg"
 import redPuddle from "../assets/images/redPuddle.jpg";
 import redPuddleSmall from "../assets/images/redPuddleSmall.jpg";
 import smokeyMountain from "../assets/images/smokeyMountain.jpg";
 import smokeyMountainSmall from "../assets/images/smokeyMountain.jpg";
+import sunStairs from "../assets/images/sunStairs.jpg"
+import sunStairsSmall from "../assets/images/sunStairsSmall.jpg"
 import sunStream from "../assets/images/sunStream.jpg";
 import sunStreamSmall from "../assets/images/sunStreamSmall.jpg";
-import tonyPath from "../assets/images/tonyPath.jpg"
-import tonyPathSmall from "../assets/images/tonyPathSmall.jpg"
+import tonyPath from "../assets/images/tonyPath.jpg";
+import tonyPathSmall from "../assets/images/tonyPathSmall.jpg";
 import tonyPath2 from "../assets/images/tonyPath2.jpg";
 import tonyPath2Small from "../assets/images/tonyPath2Small.jpg";
-import tonyPuddle from "../assets/images/tonyPuddle.jpg"
-import tonyPuddleSmall from "../assets/images/tonyPuddleSmall.jpg"
-import tonyStairs from "../assets/images/tonyStairs.jpg"
-import tonyStairsSmall from "../assets/images/tonyStairsSmall.jpg"
+import tonyPuddle from "../assets/images/tonyPuddle.jpg";
+import tonyPuddleSmall from "../assets/images/tonyPuddleSmall.jpg";
+import tonyStairs from "../assets/images/tonyStairs.jpg";
+import tonyStairsSmall from "../assets/images/tonyStairsSmall.jpg";
+import viberyForest from "../assets/images/viberyForest.jpg"
+import viberyForestSmall from "../assets/images/viberyForestSmall.jpg"
 import waterRocks from "../assets/images/waterRocks.jpg";
 import waterRocksSmall from "../assets/images/waterRocksSmall.jpg";
+import wow from "../assets/images/wow.jpg"
+import wowSmall from "../assets/images/wowSmall.jpg"
 
 export default function Gallery() {
   return (
     <Container fluid className="text-center">
+      <Container fluid className="tableOfcontents">
       <Row>
+        <Col>
+        <p>Table of Contents</p>
+        </Col>
+      </Row>
+      <Row>
+        <Col className="pb-3">
+        <Button className="tableButton" variant="link" href="#forests" size="lg">1. Forests and Greenery</Button>
+        </Col>
+        <Col className="pb-3">
+        <Button className="tableButton" variant="link" href="#beaches" size="lg">2. Beaches and Water</Button>
+        </Col>
+      </Row>
+      </Container>
+      <Row id = "forests" className="pt-5">
         <Col>
           <p className="galleryTitle">1. Forests and Greenery</p>
         </Col>
@@ -368,7 +393,6 @@ export default function Gallery() {
             large={gatlinburg2}
             alt="A foggy patch hanging left off the appalachian trail."
             className="galleryImageLarge"
-           
           />
         </Col>
         <Col lg={6} sm={12} xs={12} className="pt-2">
@@ -378,6 +402,55 @@ export default function Gallery() {
             alt="A magical and colorful area in the Appalachians."
             className="galleryImageLarge"
           />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={rayForestSmall}
+            large={rayForest}
+            alt="A foggy patch hanging left off the appalachian trail."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={viberyForestSmall}
+            large={viberyForest}
+            alt="A magical and colorful area in the Appalachians."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={wowSmall}
+            large={wow}
+            alt="A man hiking through the Appalachians holding the rope to cross a waterway."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={omniousForestSmall}
+            large={omniousForest}
+            alt="Light rays shine over a puddle in the Appalachian Forest."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={12} sm={12} xs={12}>
+          <ModalImage
+            small={sunStairsSmall}
+            large={sunStairs}
+            alt="A man hiding behind the tall leaves in the Appalachians."
+            className="galleryImageLarge"
+          />
+        </Col>
+      </Row>
+      <Row id ="beaches">
+        <Col>
+          <p className="galleryTitle pt-3">2. Beaches and Water</p>
         </Col>
       </Row>
     </Container>

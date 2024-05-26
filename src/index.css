@@ -86,6 +86,32 @@ body {
 text-align: center;
 text-decoration: underline;
   font-size: x-large;
+ 
+}
+
+
+.tableOfcontents {
+  font-family: "Cinzel", serif;
+  text-align: center;
+  font-size: xx-large;
+  border-bottom: 10px double black ;
+}
+
+.tableOfcontents a {
+  text-decoration: none;
+  color: white;
+}
+
+.tableOfcontents a:hover {
+  color: white;
+}
+
+.tableButton {
+  background-color: black;
+}
+
+.tableButton:hover {
+  background-color: grey;
 }
 
 .galleryImage {
