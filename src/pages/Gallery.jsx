@@ -104,6 +104,10 @@ import morningHaze from "../assets/images/morningHaze.jpg"
 import morningHazeSmall from "../assets/images/morningHazeSmall.jpg"
 import rockPile from "../assets/images/rockPile.jpg"
 import rockPileSmall from "../assets/images/rockPileSmall.jpg"
+import sandy1 from "../assets/images/sandy1.jpg"
+import sandy1Small from "../assets/images/sandy1Small.jpg"
+import sandy2 from "../assets/images/sandy2.jpg"
+import sandy2Small from "../assets/images/sandy2Small.jpg"
 import tahoe from "../assets/images/tahoe.jpg"
 import tahoeSmall from "../assets/images/tahoeSmall.jpg"
 import theShot from "../assets/images/theShot.jpg"
@@ -602,6 +606,24 @@ export default function Gallery() {
             large={dan}
             alt="A man reaching taking in the beauty of Lake Michigan."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={6} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={sandy2Small}
+            large={sandy2}
+            alt="An image taken off the side of the road with a warning sign on a fence."
+            className="galleryImageLarge"
+          />
+        </Col>
+        <Col lg={6} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={sandy1Small}
+            large={sandy1}
+            alt="An image taken off the side of the road and mountains are seen in the distance through the brush."
+            className="galleryImageLarge"
           />
         </Col>
       </Row>
