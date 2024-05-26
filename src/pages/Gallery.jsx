@@ -222,7 +222,7 @@ export default function Gallery() {
           <ModalImage
             small={rancheroSmall}
             large={ranchero}
-            alt="A foggy patch hanging left off the appalachian trail."
+            alt="A rustic scenery in North Carolina."
             className="galleryImage"
           />
         </Col>
@@ -230,7 +230,7 @@ export default function Gallery() {
           <ModalImage
             small={cliffLightSmall}
             large={cliffLight}
-            alt="A magical and colorful area in the Appalachians."
+            alt="An image below a cliff in the Smokies."
             className="galleryImage"
           />
         </Col>
@@ -238,7 +238,7 @@ export default function Gallery() {
           <ModalImage
             small={humanTreeSmall}
             large={humanTree}
-            alt="A man hiking through the Appalachians holding the rope to cross a waterway."
+            alt="A woman leaning effortlessly against a tree."
             className="galleryImage"
           />
         </Col>
@@ -246,7 +246,7 @@ export default function Gallery() {
           <ModalImage
             small={waterRocksSmall}
             large={waterRocks}
-            alt="Light rays shine over a puddle in the Appalachian Forest."
+            alt="An image taken of a creek path with small waterfalls ahead."
             className="galleryImage"
           />
         </Col>
@@ -256,7 +256,7 @@ export default function Gallery() {
           <ModalImage
             small={smokeyMountainSmall}
             large={smokeyMountain}
-            alt="A foggy patch hanging left off the appalachian trail."
+            alt="A beautiful image of the Smokey Mountains."
             className="galleryImage"
           />
         </Col>
@@ -264,7 +264,7 @@ export default function Gallery() {
           <ModalImage
             small={redPuddleSmall}
             large={redPuddle}
-            alt="A magical and colorful area in the Appalachians."
+            alt="A puddle that appears red on a path."
             className="galleryImage"
           />
         </Col>
@@ -272,7 +272,7 @@ export default function Gallery() {
           <ModalImage
             small={pathFogSmall}
             large={pathFog}
-            alt="A man hiking through the Appalachians holding the rope to cross a waterway."
+            alt="The trees line up perfectly and thick fog fills the air."
             className="galleryImage"
           />
         </Col>
@@ -280,7 +280,7 @@ export default function Gallery() {
           <ModalImage
             small={magicHikeSmall}
             large={magicHike}
-            alt="Light rays shine over a puddle in the Appalachian Forest."
+            alt="A man hiking on the Appalachian Trail."
             className="galleryImage"
           />
         </Col>
@@ -300,21 +300,21 @@ export default function Gallery() {
           <ModalImage
             small={leconte1Small}
             large={leconte1}
-            alt="A foggy patch hanging left off the appalachian trail."
+            alt="An image in Leconte Village up deep in the mountains."
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={leconte22Small}
             large={leconte22}
-            alt="A magical and colorful area in the Appalachians."
+            alt="An image in Leconte Village up deep in the mountains."
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2">
           <ModalImage
             small={leconte2Small}
             large={leconte2}
-            alt="A man hiking through the Appalachians holding the rope to cross a waterway."
+            alt="An image in Leconte Village up deep in the mountains."
           />
         </Col>
       </Row>
@@ -323,7 +323,7 @@ export default function Gallery() {
           <ModalImage
             small={tonyPath2Small}
             large={tonyPath2}
-            alt="A foggy patch hanging left off the appalachian trail."
+            alt="A man hikes down a path in the Smokey Mountains."
             className="galleryImage"
           />
         </Col>
@@ -331,7 +331,7 @@ export default function Gallery() {
           <ModalImage
             small={foggyOpeningSmall}
             large={foggyOpening}
-            alt="A magical and colorful area in the Appalachians."
+            alt="A hole appears to be created by a large tree, fog, and the man made path."
             className="galleryImage"
           />
         </Col>
@@ -339,7 +339,7 @@ export default function Gallery() {
           <ModalImage
             small={forestVibesSmall}
             large={forestVibes}
-            alt="A man hiking through the Appalachians holding the rope to cross a waterway."
+            alt="A colorful forest path in the Appalachians."
             className="galleryImage"
           />
         </Col>
@@ -347,7 +347,7 @@ export default function Gallery() {
           <ModalImage
             small={jungleAdventureSmall}
             large={jungleAdventure}
-            alt="Light rays shine over a puddle in the Appalachian Forest."
+            alt="A man hiking through the jungle-like Appalachians."
             className="galleryImage"
           />
         </Col>
@@ -357,7 +357,7 @@ export default function Gallery() {
           <ModalImage
             small={tonyPathSmall}
             large={tonyPath}
-            alt="A foggy patch hanging left off the appalachian trail."
+            alt="A man hikes down a path in the Smokey Mountains."
             className="galleryImage"
           />
         </Col>
@@ -365,7 +365,7 @@ export default function Gallery() {
           <ModalImage
             small={peaceCreekSmall}
             large={peaceCreek}
-            alt="A magical and colorful area in the Appalachians."
+            alt="A beautiful images of a gentle and peaceful creek."
             className="galleryImage"
           />
         </Col>
@@ -373,7 +373,7 @@ export default function Gallery() {
           <ModalImage
             small={tonyStairsSmall}
             large={tonyStairs}
-            alt="A man hiking through the Appalachians holding the rope to cross a waterway."
+            alt="A man climbing a small set of stairs between two stairs."
             className="galleryImage"
           />
         </Col>
@@ -381,7 +381,7 @@ export default function Gallery() {
           <ModalImage
             small={tonyPuddleSmall}
             large={tonyPuddle}
-            alt="Light rays shine over a puddle in the Appalachian Forest."
+            alt="A man crosses a bridge as his reflection passes through a puddle."
             className="galleryImage"
           />
         </Col>
@@ -391,7 +391,7 @@ export default function Gallery() {
           <ModalImage
             small={gatlinburg2Small}
             large={gatlinburg2}
-            alt="A foggy patch hanging left off the appalachian trail."
+            alt="An image taken off the side of the road with a warning sign on a fence."
             className="galleryImageLarge"
           />
         </Col>
@@ -399,7 +399,7 @@ export default function Gallery() {
           <ModalImage
             small={gatlinburg1Small}
             large={gatlinburg1}
-            alt="A magical and colorful area in the Appalachians."
+            alt="An image taken off the side of the road and mountains are seen in the distance through the brush."
             className="galleryImageLarge"
           />
         </Col>
@@ -409,7 +409,7 @@ export default function Gallery() {
           <ModalImage
             small={rayForestSmall}
             large={rayForest}
-            alt="A foggy patch hanging left off the appalachian trail."
+            alt="Sunlight finds it's way through the dense Appalachians."
             className="galleryImage"
           />
         </Col>
@@ -417,7 +417,7 @@ export default function Gallery() {
           <ModalImage
             small={viberyForestSmall}
             large={viberyForest}
-            alt="A magical and colorful area in the Appalachians."
+            alt="A vibey photo taken of a few stairs on the Appalachian trail."
             className="galleryImage"
           />
         </Col>
@@ -425,7 +425,7 @@ export default function Gallery() {
           <ModalImage
             small={wowSmall}
             large={wow}
-            alt="A man hiking through the Appalachians holding the rope to cross a waterway."
+            alt="A golden creek flows through a forest path."
             className="galleryImage"
           />
         </Col>
@@ -433,7 +433,7 @@ export default function Gallery() {
           <ModalImage
             small={omniousForestSmall}
             large={omniousForest}
-            alt="Light rays shine over a puddle in the Appalachian Forest."
+            alt="An ominous image of a forest path."
             className="galleryImage"
           />
         </Col>
@@ -443,7 +443,7 @@ export default function Gallery() {
           <ModalImage
             small={sunStairsSmall}
             large={sunStairs}
-            alt="A man hiding behind the tall leaves in the Appalachians."
+            alt="The sun light beams heavily onto a secluded set of stairs."
             className="galleryImageLarge"
           />
         </Col>
