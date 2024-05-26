@@ -576,7 +576,7 @@ export default function Gallery() {
           <ModalImage
             small={rockPileSmall}
             large={rockPile}
-            alt="A river runs off of Yosemite Falls."
+            alt="A pile of rocks found stacked on Lake Huron."
             className="galleryImage"
           />
         </Col>
@@ -584,7 +584,7 @@ export default function Gallery() {
           <ModalImage
             small={nolanWonderSmall}
             large={nolanWonder}
-            alt="A sunset on Lake michigan take during the forest fires in Canada."
+            alt="A man wanders during a sunset on Lake Michigan."
             className="galleryImage"
           />
         </Col>
@@ -592,7 +592,7 @@ export default function Gallery() {
           <ModalImage
             small={creekFallSmall}
             large={creekFall}
-            alt="A venice Beach Sunset."
+            alt="A creek waterfall in the Smokey Mountains."
             className="galleryImage"
           />
         </Col>
@@ -600,7 +600,7 @@ export default function Gallery() {
           <ModalImage
             small={danSmall}
             large={dan}
-            alt="A man reaching his hand towards Lake Michigan"
+            alt="A man reaching taking in the beauty of Lake Michigan."
             className="galleryImage"
           />
         </Col>
