@@ -86,6 +86,12 @@ import wowSmall from "../assets/images/wowSmall.jpg";
 
 // beaches and water imports ------------------------------------------------------------
 
+import beachMan from "../assets/images/beachMan.jpg";
+import beachManSmall from "../assets/images/beachManSmall.jpg";
+import crash from "../assets/images/crash.jpg";
+import crashSmall from "../assets/images/crashSmall.jpg";
+import crashWater from "../assets/images/crashWater.jpg";
+import crashWaterSmall from "../assets/images/crashWaterSmall.jpg";
 import creekFall from "../assets/images/creekFall.jpg";
 import creekFallSmall from "../assets/images/creekFallSmall.jpg";
 import dan from "../assets/images/dan.jpg";
@@ -102,12 +108,14 @@ import nolanWonder from "../assets/images/nolanWonder.jpg";
 import nolanWonderSmall from "../assets/images/nolanWonderSmall.jpg";
 import morningHaze from "../assets/images/morningHaze.jpg";
 import morningHazeSmall from "../assets/images/morningHazeSmall.jpg";
+import peace from "../assets/images/peace.jpg";
+import peaceSmall from "../assets/images/peaceSmall.jpg";
 import riverRocks from "../assets/images/riverRocks.jpg";
-import riverRocksSmall from "../assets/images/riverRocks.jpg"
+import riverRocksSmall from "../assets/images/riverRocks.jpg";
 import rockPile from "../assets/images/rockPile.jpg";
 import rockPileSmall from "../assets/images/rockPileSmall.jpg";
 import rockTahoe from "../assets/images/rockTahoe.jpg";
-import rockTahoeSmall from "../assets/images/rockTahoe.jpg"
+import rockTahoeSmall from "../assets/images/rockTahoe.jpg";
 import sandy1 from "../assets/images/sandy1.jpg";
 import sandy1Small from "../assets/images/sandy1Small.jpg";
 import sandy2 from "../assets/images/sandy2.jpg";
@@ -669,6 +677,40 @@ export default function Gallery() {
           <ModalImage
             small={rockTahoeSmall}
             large={rockTahoe}
+            alt="Rocks are visible on Lake Tahoe."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={peaceSmall}
+            large={peace}
+            alt="A silhouette of a man on Lake Michigan."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={crashSmall}
+            large={crash}
+            alt="Rocks show on a river in the Appalachian Mountains."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={beachManSmall}
+            large={beachMan}
+            alt="A silhouette of a woman walking on Venice Beach."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={crashWaterSmall}
+            large={crashWater}
             alt="Rocks are visible on Lake Tahoe."
             className="galleryImage"
           />
