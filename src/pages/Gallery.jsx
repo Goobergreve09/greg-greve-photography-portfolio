@@ -24,7 +24,6 @@ import foggyOwl from "../assets/images/foggyOwl.jpg";
 import foggyOwlSmall from "../assets/images/foggyOwlSmall.jpg";
 import forestBridge from "../assets/images/forestBridge.jpg";
 import forestBridgeSmall from "../assets/images/forestBridgeSmall.jpg";
-import forestPath from "../assets/images/forestpath.jpg";
 import forestHall from "../assets/images/forestHall.jpg";
 import forestHallSmall from "../assets/images/forestHallSmall.jpg";
 import forestVibes from "../assets/images/forestVibes.jpg";
@@ -86,8 +85,6 @@ import wowSmall from "../assets/images/wowSmall.jpg";
 
 // beaches and water imports ------------------------------------------------------------
 
-import beachMan from "../assets/images/beachMan.jpg";
-import beachManSmall from "../assets/images/beachManSmall.jpg";
 import crash from "../assets/images/crash.jpg";
 import crashSmall from "../assets/images/crashSmall.jpg";
 import crashWater from "../assets/images/crashWater.jpg";
@@ -98,6 +95,8 @@ import dan from "../assets/images/dan.jpg";
 import danSmall from "../assets/images/danSmall.jpg";
 import handWater from "../assets/images/handWater.jpg";
 import handWaterSmall from "../assets/images/handWaterSmall.jpg";
+import lakePeace from "../assets/images/lakePeace.jpg"
+import lakePeaceSmall from "../assets/images/lakePeaceSmall.jpg"
 import lakeSunset from "../assets/images/lakeSunset.jpg";
 import lakeSunsetSmall from "../assets/images/lakeSunsetSmall.jpg";
 import loveBirds from "../assets/images/loveBirds.jpg";
@@ -126,12 +125,17 @@ import theShot from "../assets/images/theShot.jpg";
 import theShotSmall from "../assets/images/theShotSmall.jpg";
 import venice from "../assets/images/venice.jpg";
 import veniceSmall from "../assets/images/veniceSmall.jpg";
-import venicePeople from "../assets/images/venicePeople.jpg";
-import venicePeopleSmall from "../assets/images/venicePeople.jpg";
-import waterShadow from "../assets/images/waterShadow.jpg";
-import waterShadowSmall from "../assets/images/waterShadow.jpg";
+import waterLove from "../assets/images/waterLove.jpg"
+import waterLoveSmall from "../assets/images/waterLoveSmall.jpg"
 import yosemiteCreek from "../assets/images/yosemiteCreek.jpg";
 import yosemiteCreekSmall from "../assets/images/yosemiteCreekSmall.jpg";
+import zen from "../assets/images/zen.jpg"
+import zenSmall from "../assets/images/zenSmall.jpg"
+
+// Mountains and Red Rocks imports ----------------------------------------------------------------
+
+import bwMountains from "../assets/images/bwMountains.jpg"
+import bwMountainsSmall from "../assets/images/bwMountains.jpg"
 
 export default function Gallery() {
   return (
@@ -161,6 +165,16 @@ export default function Gallery() {
               size="lg"
             >
               2. Beaches and Water
+            </Button>
+          </Col>
+          <Col className="pb-3">
+            <Button
+              className="tableButton"
+              variant="link"
+              href="#mountains"
+              size="lg"
+            >
+              3. Mountains and Red Rocks
             </Button>
           </Col>
         </Row>
@@ -651,9 +665,9 @@ export default function Gallery() {
       <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={waterShadowSmall}
-            large={waterShadow}
-            alt="A silhouette of a man on Lake Michigan."
+            small={zenSmall}
+            large={zen}
+            alt="A silhouette of a woman resting at sunset."
             className="galleryImage"
           />
         </Col>
@@ -667,9 +681,9 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={venicePeopleSmall}
-            large={venicePeople}
-            alt="A silhouette of a woman walking on Venice Beach."
+            small={lakePeaceSmall}
+            large={lakePeace}
+            alt="A transient image of Lake Michigan at sunset."
             className="galleryImage"
           />
         </Col>
@@ -687,7 +701,7 @@ export default function Gallery() {
           <ModalImage
             small={peaceSmall}
             large={peace}
-            alt="A silhouette of a man on Lake Michigan."
+            alt="A tree overlooks a small lake."
             className="galleryImage"
           />
         </Col>
@@ -695,15 +709,15 @@ export default function Gallery() {
           <ModalImage
             small={crashSmall}
             large={crash}
-            alt="Rocks show on a river in the Appalachian Mountains."
+            alt="A wave crashes against a barrier."
             className="galleryImage"
           />
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={beachManSmall}
-            large={beachMan}
-            alt="A silhouette of a woman walking on Venice Beach."
+            small={waterLoveSmall}
+            large={waterLove}
+            alt="Two humans play in Lake Michigan as birds fly."
             className="galleryImage"
           />
         </Col>
@@ -711,8 +725,23 @@ export default function Gallery() {
           <ModalImage
             small={crashWaterSmall}
             large={crashWater}
-            alt="Rocks are visible on Lake Tahoe."
+            alt="A wave crashes as a dramatic sunset covers the sky."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row id="mountains">
+        <Col>
+          <p className="galleryTitle pt-3">3. Mountains and Red Rocks</p>
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={12} sm={12} xs={12}>
+          <ModalImage
+            small={bwMountainsSmall}
+            large={bwMountains}
+            alt="A black and white photo of Mountains out West from a vehicle."
+            className="galleryImageLarge"
           />
         </Col>
       </Row>
