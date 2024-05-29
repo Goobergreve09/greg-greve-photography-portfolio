@@ -5,7 +5,7 @@ import Favicon from "react-favicon";
 import { useEffect, useState } from "react";
 import "./app.css";
 import arrowUpGif from "./assets/images/upArrow.png"; 
-import ggpLogoWhite from "../assets/images/ggpLogoWhite.png"
+import ggpLogoWhite from "./assets/images/ggpLogoWhite.png"
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -29,7 +29,7 @@ function App() {
   };
   return (
     <>
-          <Favicon src={ggpLogoWhite}></Favicon>
+          <Favicon url={ggpLogoWhite} />
       <Nav />
       <Outlet />
       {showButton && (

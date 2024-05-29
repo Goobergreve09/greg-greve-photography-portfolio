@@ -85,6 +85,8 @@ import wowSmall from "../assets/images/wowSmall.jpg";
 
 // beaches and water imports ------------------------------------------------------------
 
+import beachSunset from "../assets/images/beachSunset.jpg"
+import beachSunsetSmall from "../assets/images/beachSunsetSmall.jpg"
 import crash from "../assets/images/crash.jpg";
 import crashSmall from "../assets/images/crashSmall.jpg";
 import crashWater from "../assets/images/crashWater.jpg";
@@ -107,6 +109,7 @@ import nolanWonder from "../assets/images/nolanWonder.jpg";
 import nolanWonderSmall from "../assets/images/nolanWonderSmall.jpg";
 import morningHaze from "../assets/images/morningHaze.jpg";
 import morningHazeSmall from "../assets/images/morningHazeSmall.jpg";
+import paddleboard from "../assets/images/paddleboard.jpg"
 import peace from "../assets/images/peace.jpg";
 import peaceSmall from "../assets/images/peaceSmall.jpg";
 import riverRocks from "../assets/images/riverRocks.jpg";
@@ -727,6 +730,24 @@ export default function Gallery() {
             large={crashWater}
             alt="A wave crashes as a dramatic sunset covers the sky."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={6} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={beachSunsetSmall}
+            large={beachSunset}
+            alt="A silhouette of a man with his back against the sunset."
+            className="galleryImageLarge"
+          />
+        </Col>
+        <Col lg={6} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={paddleboard}
+            large={paddleboard}
+            alt="A man seen paddle-boarding on Lake Michigan."
+            className="galleryImageLarge"
           />
         </Col>
       </Row>
