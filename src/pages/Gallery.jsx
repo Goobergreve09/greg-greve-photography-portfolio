@@ -139,6 +139,14 @@ import zenSmall from "../assets/images/zenSmall.jpg"
 
 import bwMountains from "../assets/images/bwMountains.jpg"
 import bwMountainsSmall from "../assets/images/bwMountains.jpg"
+import diamondLake from "../assets/images/diamondLake.jpg"
+import diamondLakeSmall from "../assets/images/diamondLakeSmall.jpg"
+import gloryMountain from "../assets/images/gloryMountain.jpg"
+import gloryMountainSmall from "../assets/images/gloryMountainSmall.jpg"
+import mountainPeak from "../assets/images/mountainPeak.jpg"
+import mountainPeakSmall from "../assets/images/mountainPeakSmall.jpg"
+import mtShasta from "../assets/images/mtShasta.jpg"
+import mtShastaSmall from "../assets/images/mtShastaSmall.jpg"
 
 export default function Gallery() {
   return (
@@ -763,6 +771,40 @@ export default function Gallery() {
             large={bwMountains}
             alt="A black and white photo of Mountains out West from a vehicle."
             className="galleryImageLarge"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={mtShasta}
+            large={mtShasta}
+            alt="Mt. Shasta image taken from the road."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={diamondLakeSmall}
+            large={diamondLake}
+            alt="A person sitting on a bench reading on Diamond Lake in Oregon."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={mountainPeakSmall}
+            large={mountainPeak}
+            alt="A mountain peak on Crater Lake in Oregon."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={gloryMountainSmall}
+            large={gloryMountain}
+            alt="The sun radiates off of a mountain peak."
+            className="galleryImage"
           />
         </Col>
       </Row>
