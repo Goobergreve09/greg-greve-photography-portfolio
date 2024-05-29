@@ -5,6 +5,7 @@ import Favicon from "react-favicon";
 import { useEffect, useState } from "react";
 import "./app.css";
 import arrowUpGif from "./assets/images/upArrow.png"; 
+import ggpLogoWhite from "../assets/images/ggpLogoWhite.png"
 
 function App() {
   const [showButton, setShowButton] = useState(false);
@@ -28,7 +29,7 @@ function App() {
   };
   return (
     <>
-          <Favicon url="https://purepng.com/public/uploads/large/purepng.com-mountainmountainlarge-landformmountain-peakvolcanic-mountainfold-mountainblock-mountain-1411527067668chips.png"></Favicon>
+          <Favicon src={ggpLogoWhite}></Favicon>
       <Nav />
       <Outlet />
       {showButton && (
