@@ -147,6 +147,14 @@ import mountainPeak from "../assets/images/mountainPeak.jpg"
 import mountainPeakSmall from "../assets/images/mountainPeakSmall.jpg"
 import mtShasta from "../assets/images/mtShasta.jpg"
 import mtShastaSmall from "../assets/images/mtShastaSmall.jpg"
+import utahRay01 from "../assets/images/utahRay01.jpg"
+import utahRay01Small from "../assets/images/utahRay01Small.jpg"
+import utahRay02 from "../assets/images/utahRay02.jpg"
+import utahRay02Small from "../assets/images/utahRay02Small.jpg"
+import utahRay03 from "../assets/images/utahRay03.jpg"
+import utahRay03Small from "../assets/images/utahRay03Small.jpg"
+import utahRay04 from "../assets/images/utahRay04.jpg"
+import utahRay04Small from "../assets/images/utahRay04Small.jpg"
 
 export default function Gallery() {
   return (
@@ -777,7 +785,7 @@ export default function Gallery() {
       <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={mtShasta}
+            small={mtShastaSmall}
             large={mtShasta}
             alt="Mt. Shasta image taken from the road."
             className="galleryImage"
@@ -804,6 +812,48 @@ export default function Gallery() {
             small={gloryMountainSmall}
             large={gloryMountain}
             alt="The sun radiates off of a mountain peak."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="justify-content-center text-center pt-3">
+        <Col className="d-flex justify-content-center">
+          <p className="fogVillage">
+            "If you look out of the car window in Northern Arizona you never know what you will see.
+            The sun was beaming through the clouds, like nothing I have witnessed before."
+          </p>
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={utahRay01Small}
+            large={utahRay01}
+            alt="Utah/Arizona desert Sun 01"
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={utahRay02Small}
+            large={utahRay02}
+            alt="Utah/Arizona desert Sun 02"
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={utahRay03Small}
+            large={utahRay03}
+            alt="Utah/Arizona desert Sun 03"
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={utahRay04Small}
+            large={utahRay04}
+            alt="Utah/Arizona desert Sun 04"
             className="galleryImage"
           />
         </Col>
