@@ -109,7 +109,7 @@ import nolanWonder from "../assets/images/nolanWonder.jpg";
 import nolanWonderSmall from "../assets/images/nolanWonderSmall.jpg";
 import morningHaze from "../assets/images/morningHaze.jpg";
 import morningHazeSmall from "../assets/images/morningHazeSmall.jpg";
-import paddleboard from "../assets/images/paddleboard.jpg"
+import paddleboard from "../assets/images/paddleBoard.jpg"
 import peace from "../assets/images/peace.jpg";
 import peaceSmall from "../assets/images/peaceSmall.jpg";
 import riverRocks from "../assets/images/riverRocks.jpg";
