@@ -85,8 +85,8 @@ import wowSmall from "../assets/images/wowSmall.jpg";
 
 // beaches and water imports ------------------------------------------------------------
 
-import beachSunset from "../assets/images/beachSunset.jpg"
-import beachSunsetSmall from "../assets/images/beachSunsetSmall.jpg"
+import beachSunset from "../assets/images/beachSunset.jpg";
+import beachSunsetSmall from "../assets/images/beachSunsetSmall.jpg";
 import crash from "../assets/images/crash.jpg";
 import crashSmall from "../assets/images/crashSmall.jpg";
 import crashWater from "../assets/images/crashWater.jpg";
@@ -97,8 +97,8 @@ import dan from "../assets/images/dan.jpg";
 import danSmall from "../assets/images/danSmall.jpg";
 import handWater from "../assets/images/handWater.jpg";
 import handWaterSmall from "../assets/images/handWaterSmall.jpg";
-import lakePeace from "../assets/images/lakePeace.jpg"
-import lakePeaceSmall from "../assets/images/lakePeaceSmall.jpg"
+import lakePeace from "../assets/images/lakePeace.jpg";
+import lakePeaceSmall from "../assets/images/lakePeaceSmall.jpg";
 import lakeSunset from "../assets/images/lakeSunset.jpg";
 import lakeSunsetSmall from "../assets/images/lakeSunsetSmall.jpg";
 import loveBirds from "../assets/images/loveBirds.jpg";
@@ -109,7 +109,7 @@ import nolanWonder from "../assets/images/nolanWonder.jpg";
 import nolanWonderSmall from "../assets/images/nolanWonderSmall.jpg";
 import morningHaze from "../assets/images/morningHaze.jpg";
 import morningHazeSmall from "../assets/images/morningHazeSmall.jpg";
-import paddleboard from "../assets/images/paddleBoard.jpg"
+import paddleboard from "../assets/images/paddleBoard.jpg";
 import peace from "../assets/images/peace.jpg";
 import peaceSmall from "../assets/images/peaceSmall.jpg";
 import riverRocks from "../assets/images/riverRocks.jpg";
@@ -128,33 +128,39 @@ import theShot from "../assets/images/theShot.jpg";
 import theShotSmall from "../assets/images/theShotSmall.jpg";
 import venice from "../assets/images/venice.jpg";
 import veniceSmall from "../assets/images/veniceSmall.jpg";
-import waterLove from "../assets/images/waterLove.jpg"
-import waterLoveSmall from "../assets/images/waterLoveSmall.jpg"
+import waterLove from "../assets/images/waterLove.jpg";
+import waterLoveSmall from "../assets/images/waterLoveSmall.jpg";
 import yosemiteCreek from "../assets/images/yosemiteCreek.jpg";
 import yosemiteCreekSmall from "../assets/images/yosemiteCreekSmall.jpg";
-import zen from "../assets/images/zen.jpg"
-import zenSmall from "../assets/images/zenSmall.jpg"
+import zen from "../assets/images/zen.jpg";
+import zenSmall from "../assets/images/zenSmall.jpg";
 
 // Mountains and Red Rocks imports ----------------------------------------------------------------
 
-import bwMountains from "../assets/images/bwMountains.jpg"
-import bwMountainsSmall from "../assets/images/bwMountains.jpg"
-import diamondLake from "../assets/images/diamondLake.jpg"
-import diamondLakeSmall from "../assets/images/diamondLakeSmall.jpg"
-import gloryMountain from "../assets/images/gloryMountain.jpg"
-import gloryMountainSmall from "../assets/images/gloryMountainSmall.jpg"
-import mountainPeak from "../assets/images/mountainPeak.jpg"
-import mountainPeakSmall from "../assets/images/mountainPeakSmall.jpg"
-import mtShasta from "../assets/images/mtShasta.jpg"
-import mtShastaSmall from "../assets/images/mtShastaSmall.jpg"
-import utahRay01 from "../assets/images/utahRay01.jpg"
-import utahRay01Small from "../assets/images/utahRay01Small.jpg"
-import utahRay02 from "../assets/images/utahRay02.jpg"
-import utahRay02Small from "../assets/images/utahRay02Small.jpg"
-import utahRay03 from "../assets/images/utahRay03.jpg"
-import utahRay03Small from "../assets/images/utahRay03Small.jpg"
-import utahRay04 from "../assets/images/utahRay04.jpg"
-import utahRay04Small from "../assets/images/utahRay04Small.jpg"
+import bwMountains from "../assets/images/bwMountains.jpg";
+import bwMountainsSmall from "../assets/images/bwMountains.jpg";
+import diamondLake from "../assets/images/diamondLake.jpg";
+import diamondLakeSmall from "../assets/images/diamondLakeSmall.jpg";
+import gloryMountain from "../assets/images/gloryMountain.jpg";
+import gloryMountainSmall from "../assets/images/gloryMountainSmall.jpg";
+import mountainPeak from "../assets/images/mountainPeak.jpg";
+import mountainPeakSmall from "../assets/images/mountainPeakSmall.jpg";
+import mtShasta from "../assets/images/mtShasta.jpg";
+import mtShastaSmall from "../assets/images/mtShastaSmall.jpg";
+import peak1 from "../assets/images/peak1.jpg"
+import peak1Small from "../assets/images/peak1Small.jpg"
+import peak2 from "../assets/images/peak2.jpg"
+import peak2Small from "../assets/images/peak2Small.jpg"
+import peak3 from "../assets/images/peak3.jpg"
+import peak3Small from "../assets/images/peak3Small.jpg"
+import utahRay01 from "../assets/images/utahRay01.jpg";
+import utahRay01Small from "../assets/images/utahRay01Small.jpg";
+import utahRay02 from "../assets/images/utahRay02.jpg";
+import utahRay02Small from "../assets/images/utahRay02Small.jpg";
+import utahRay03 from "../assets/images/utahRay03.jpg";
+import utahRay03Small from "../assets/images/utahRay03Small.jpg";
+import utahRay04 from "../assets/images/utahRay04.jpg";
+import utahRay04Small from "../assets/images/utahRay04Small.jpg";
 
 export default function Gallery() {
   return (
@@ -819,8 +825,9 @@ export default function Gallery() {
       <Row className="justify-content-center text-center pt-3">
         <Col className="d-flex justify-content-center">
           <p className="fogVillage">
-            "If you look out of the car window in Northern Arizona you never know what you will see.
-            The sun was beaming through the clouds, like nothing I have witnessed before."
+            "If you look out of the car window in Northern Arizona you never
+            know what you will see. The sun was beaming through the clouds, like
+            nothing I have witnessed before."
           </p>
         </Col>
       </Row>
@@ -855,6 +862,29 @@ export default function Gallery() {
             large={utahRay04}
             alt="Utah/Arizona desert Sun 04"
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3 leconteRow">
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={peak1Small}
+            large={peak1}
+            alt="A mountain peak near Mt. Rainier in Washington 01"
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={peak2Small}
+            large={peak2}
+            alt="A mountain peak near Mt. Rainier in Washington 02"
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={peak3Small}
+            large={peak3}
+            alt="A mountain peak near Mt. Rainier in Washington 03"
           />
         </Col>
       </Row>
