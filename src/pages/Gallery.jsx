@@ -147,12 +147,16 @@ import mountainPeak from "../assets/images/mountainPeak.jpg";
 import mountainPeakSmall from "../assets/images/mountainPeakSmall.jpg";
 import mtShasta from "../assets/images/mtShasta.jpg";
 import mtShastaSmall from "../assets/images/mtShastaSmall.jpg";
-import peak1 from "../assets/images/peak1.jpg"
-import peak1Small from "../assets/images/peak1Small.jpg"
-import peak2 from "../assets/images/peak2.jpg"
-import peak2Small from "../assets/images/peak2Small.jpg"
-import peak3 from "../assets/images/peak3.jpg"
-import peak3Small from "../assets/images/peak3Small.jpg"
+import nc01 from "../assets/images/nc01.jpg";
+import nc02 from "../assets/images/nc02.jpg";
+import nc03 from "../assets/images/nc03.jpg";
+import nc04 from "../assets/images/nc04.jpg";
+import peak1 from "../assets/images/peak1.jpg";
+import peak1Small from "../assets/images/peak1Small.jpg";
+import peak2 from "../assets/images/peak2.jpg";
+import peak2Small from "../assets/images/peak2Small.jpg";
+import peak3 from "../assets/images/peak3.jpg";
+import peak3Small from "../assets/images/peak3Small.jpg";
 import utahRay01 from "../assets/images/utahRay01.jpg";
 import utahRay01Small from "../assets/images/utahRay01Small.jpg";
 import utahRay02 from "../assets/images/utahRay02.jpg";
@@ -885,6 +889,40 @@ export default function Gallery() {
             small={peak3Small}
             large={peak3}
             alt="A mountain peak near Mt. Rainier in Washington 03"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nc01}
+            large={nc01}
+            alt="A sunset caught on Max patch on the TN/NC border"
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nc02}
+            large={nc02}
+            alt="A sunset caught on Max patch on the TN/NC border"
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nc03}
+            large={nc03}
+            alt="A sunset caught on Max patch on the TN/NC border"
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nc04}
+            large={nc04}
+            alt="A sunset caught on Max patch on the TN/NC border"
+            className="galleryImage"
           />
         </Col>
       </Row>
