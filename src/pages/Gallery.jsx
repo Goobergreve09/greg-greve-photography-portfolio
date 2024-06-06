@@ -139,8 +139,8 @@ import zenSmall from "../assets/images/zenSmall.jpg";
 
 import bwMountains from "../assets/images/bwMountains.jpg";
 import bwMountainsSmall from "../assets/images/bwMountains.jpg";
-import church from "../assets/images/church.jpg"
-import churchSmall from "../assets/images/churchSmall.jpg"
+import church from "../assets/images/church.jpg";
+import churchSmall from "../assets/images/churchSmall.jpg";
 import coldCow from "../assets/images/coldCow.jpg";
 import coldCowSmall from "../assets/images/coldCowSmall.jpg";
 import diamondLake from "../assets/images/diamondLake.jpg";
@@ -171,8 +171,8 @@ import utahRay03 from "../assets/images/utahRay03.jpg";
 import utahRay03Small from "../assets/images/utahRay03Small.jpg";
 import utahRay04 from "../assets/images/utahRay04.jpg";
 import utahRay04Small from "../assets/images/utahRay04Small.jpg";
-import zeus from "../assets/images/zeus.jpg"
-import zeusSmall from "../assets/images/zeusSmall.jpg"
+import zeus from "../assets/images/zeus.jpg";
+import zeusSmall from "../assets/images/zeusSmall.jpg";
 
 export default function Gallery() {
   return (

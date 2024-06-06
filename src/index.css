@@ -7,6 +7,11 @@ body {
   margin: 0;
 }
 
+.italic {
+  font-style: italic;
+  font-size: small;
+}
+
 /* FOOTER */
 
 .footer {
@@ -40,7 +45,6 @@ body {
 
 /* Home */
 
-
 .about {
   font-size: xx-large;
   font-family: "Bebas Neue", sans-serif;
@@ -59,9 +63,9 @@ body {
   letter-spacing: 2px;
 }
 
-.lightShine,
-.collage {
+.photoOfmonth {
   width: 99%;
+  box-shadow: 0 0 5px 0 rgb(255, 255, 255);
 }
 
 .italicLocation {
@@ -75,54 +79,67 @@ body {
   font-size: x-large;
 }
 
-
 .navbar-text {
-margin-left: auto;
-font-style: italic;
+  margin-left: auto;
+  font-style: italic;
 }
 
-.navbar-text img{
-  width:25px;
+.navbar-text img {
+  width: 15px;
   margin-right: 10px;
 }
 
-
-
-
 .monthlyTitle {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+.monthlyShowcase {
+  font-family: "Raleway", sans-serif;
+  color: whitesmoke;
+  font-size: x-large;
+}
+
+.monthlyShowcaseDescription {
+  font-family: "Raleway", sans-serif;
+  color: whitesmoke;
   text-align: center;
 }
 
-.titleContainer {
-  border-bottom: 10px double black;
+.monthlyContainer {
+  background-color: #D5DBDB;
+  border-top: 5px solid black;
+  font-family: "Raleway", sans-serif;
 }
 
+
 .monthlyIcon {
-  max-width: 200px;
+  max-width: 300px;
 }
 
 .dateAndRibbon {
-  padding-top:25px;
+  padding-top: 25px;
   font-size: 12px;
 }
 
+.titleContainer {
+  background-color: black;
+}
 
 /* Gallery */
 
 .galleryTitle {
   font-family: "Cinzel", serif;
-text-align: center;
-text-decoration: underline;
+  text-align: center;
+  text-decoration: underline;
   font-size: x-large;
- 
 }
-
 
 .tableOfcontents {
   font-family: "Cinzel", serif;
   text-align: center;
   font-size: xx-large;
-  border-bottom: 10px double black ;
+  border-bottom: 10px double black;
 }
 
 .tableOfcontents a {
@@ -144,18 +161,19 @@ text-decoration: underline;
 
 .galleryImage {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
-  max-width:325px !important;
-  transition: .2s ease-in
+  max-width: 325px !important;
+  transition: 0.2s ease-in;
 }
 
-.galleryImage:hover, .galleryImageLarge:hover {
+.galleryImage:hover,
+.galleryImageLarge:hover {
   box-shadow: 0 0 20px 2px rgba(0, 0, 0, 1);
 }
 
 .galleryImageLarge {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
   max-width: 80% !important;
-  transition: .3s ease-in
+  transition: 0.3s ease-in;
 }
 
 .fogVillage {
@@ -163,9 +181,8 @@ text-decoration: underline;
   font-size: x-large;
   max-width: 75%;
   border: 5px double black;
-  padding:5px;
+  padding: 5px;
   border-radius: 25px;
-  
 }
 
 .backToTopButton {
@@ -182,23 +199,20 @@ text-decoration: underline;
 }
 
 .backToTopButton:hover {
-background-color: grey;
-border: none;
+  background-color: grey;
+  border: none;
 }
-
 
 @media (max-width: 450px) {
   .galleryImageLarge {
-    max-width:100% !important;
-    min-width:325px !important;
+    max-width: 100% !important;
+    min-width: 325px !important;
   }
 }
 @media (max-width: 920px) {
-.navbar-text {
-  margin-left: 0;
-  justify-content: center;
-  display: flex;
-}
-
-
+  .navbar-text {
+    margin-left: 0;
+    justify-content: center;
+    display: flex;
+  }
 }
