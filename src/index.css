@@ -79,6 +79,20 @@ body {
   font-size: x-large;
 }
 
+.date {
+  font-family: "Cinzel", serif;
+}
+
+.navbar-text {
+margin-left: auto;
+}
+
+.monthlyTitle {
+  font-family: "Cinzel", serif;
+  text-align: center;
+}
+
+
 /* Gallery */
 
 .galleryTitle {
@@ -164,4 +178,13 @@ border: none;
     max-width:100% !important;
     min-width:325px !important;
   }
+}
+@media (max-width: 920px) {
+.navbar-text {
+  margin-left: 0;
+  justify-content: center;
+  display: flex;
+}
+
+
 }
