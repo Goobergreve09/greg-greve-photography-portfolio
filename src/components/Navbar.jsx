@@ -1,12 +1,13 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Navbar, Nav, Row, NavbarText } from 'react-bootstrap';
-import ggpLogo from '../assets/images/ggpLogo.png';
-import dayjs from 'dayjs';
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { Container, Navbar, Nav, NavbarText } from "react-bootstrap";
+import ggpLogo from "../assets/images/ggpLogo.png";
+import mensRibbon from "../assets/images/mensRibbon.png"
+import dayjs from "dayjs";
 
 export default function Navigation() {
   const [expanded, setExpanded] = useState(false);
-  const date = dayjs().format('dddd, MMMM D, YYYY');
+  const date = dayjs().format("dddd, MMMM D, YYYY");
 
   const handleNavbarToggle = () => {
     setExpanded(!expanded);
@@ -30,11 +31,10 @@ export default function Navigation() {
                 Gallery
               </Nav.Link>
             </Nav>
-            <NavbarText className="navbar-text p-0">{date}</NavbarText>
+            <NavbarText className="navbar-text p-0"><span className="dateAndRibbon"><img src={mensRibbon} className="mensRibbon"/>{date}</span></NavbarText>
           </Navbar.Collapse>
         </Container>
       </Navbar>
     </>
   );
 }
-

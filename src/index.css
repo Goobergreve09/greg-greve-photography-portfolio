@@ -40,10 +40,6 @@ body {
 
 /* Home */
 
-.titleContainer {
-  width:100vw;
-  height:100%;
-}
 
 .about {
   font-size: xx-large;
@@ -79,17 +75,35 @@ body {
   font-size: x-large;
 }
 
-.date {
-  font-family: "Cinzel", serif;
-}
 
 .navbar-text {
 margin-left: auto;
+font-style: italic;
 }
 
+.navbar-text img{
+  width:25px;
+  margin-right: 10px;
+}
+
+
+
+
 .monthlyTitle {
-  font-family: "Cinzel", serif;
   text-align: center;
+}
+
+.titleContainer {
+  border-bottom: 10px double black;
+}
+
+.monthlyIcon {
+  max-width: 200px;
+}
+
+.dateAndRibbon {
+  padding-top:25px;
+  font-size: 12px;
 }
 
 
