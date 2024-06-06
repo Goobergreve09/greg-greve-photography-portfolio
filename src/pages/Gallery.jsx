@@ -139,6 +139,10 @@ import zenSmall from "../assets/images/zenSmall.jpg";
 
 import bwMountains from "../assets/images/bwMountains.jpg";
 import bwMountainsSmall from "../assets/images/bwMountains.jpg";
+import church from "../assets/images/church.jpg"
+import churchSmall from "../assets/images/churchSmall.jpg"
+import coldCow from "../assets/images/coldCow.jpg";
+import coldCowSmall from "../assets/images/coldCowSmall.jpg";
 import diamondLake from "../assets/images/diamondLake.jpg";
 import diamondLakeSmall from "../assets/images/diamondLakeSmall.jpg";
 import gloryMountain from "../assets/images/gloryMountain.jpg";
@@ -151,6 +155,8 @@ import nc01 from "../assets/images/nc01.jpg";
 import nc02 from "../assets/images/nc02.jpg";
 import nc03 from "../assets/images/nc03.jpg";
 import nc04 from "../assets/images/nc04.jpg";
+import sedona from "../assets/images/sedona.jpg";
+import sedonaSmall from "../assets/images/sedonaSmall.jpg";
 import peak1 from "../assets/images/peak1.jpg";
 import peak1Small from "../assets/images/peak1Small.jpg";
 import peak2 from "../assets/images/peak2.jpg";
@@ -165,6 +171,8 @@ import utahRay03 from "../assets/images/utahRay03.jpg";
 import utahRay03Small from "../assets/images/utahRay03Small.jpg";
 import utahRay04 from "../assets/images/utahRay04.jpg";
 import utahRay04Small from "../assets/images/utahRay04Small.jpg";
+import zeus from "../assets/images/zeus.jpg"
+import zeusSmall from "../assets/images/zeusSmall.jpg"
 
 export default function Gallery() {
   return (
@@ -922,6 +930,40 @@ export default function Gallery() {
             small={nc04}
             large={nc04}
             alt="A sunset caught on Max patch on the TN/NC border"
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={sedonaSmall}
+            large={sedona}
+            alt="An image of Sedona, AZ."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={coldCowSmall}
+            large={coldCow}
+            alt="A cow in Montana amidst a winter storm."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={zeusSmall}
+            large={zeus}
+            alt="A mountain peak in northern Utah."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={churchSmall}
+            large={church}
+            alt="A church lay dormant in the Sierra Nevada mountains."
             className="galleryImage"
           />
         </Col>
