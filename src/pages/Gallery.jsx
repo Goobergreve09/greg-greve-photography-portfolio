@@ -147,6 +147,10 @@ import diamondLake from "../assets/images/diamondLake.jpg";
 import diamondLakeSmall from "../assets/images/diamondLakeSmall.jpg";
 import gloryMountain from "../assets/images/gloryMountain.jpg";
 import gloryMountainSmall from "../assets/images/gloryMountainSmall.jpg";
+import mars from "../assets/images/mars.jpg"
+import marsSmall from "../assets/images/marsSmall.jpg"
+import mexicanHat from "../assets/images/mexicanHat.jpg"
+import mexicanHatSmall from "../assets/images/mexicanHatSmall.jpg"
 import mountainPeak from "../assets/images/mountainPeak.jpg";
 import mountainPeakSmall from "../assets/images/mountainPeakSmall.jpg";
 import mtShasta from "../assets/images/mtShasta.jpg";
@@ -159,11 +163,14 @@ import nc05 from "../assets/images/nc05.jpg";
 import nc06 from "../assets/images/nc06.jpg";
 import nc07 from "../assets/images/nc07.jpg";
 import nc08 from "../assets/images/nc08.jpg";
-
 import sedona from "../assets/images/sedona.jpg";
 import sedonaSmall from "../assets/images/sedonaSmall.jpg";
+import sedonaGlory from "../assets/images/sedonaGlory.jpg";
+import sedonaGlorySmall from "../assets/images/sedonaGlorySmall.jpg";
 import sedonaMagic from "../assets/images/sedonaMagic.jpg";
 import sedonaMagicSmall from "../assets/images/sedonaMagicSmall.jpg";
+import sedonaTour from "../assets/images/sedonaTour.jpg";
+import sedonaTourSmall from "../assets/images/sedonaTourSmall.jpg";
 import swMagic from "../assets/images/swMagic.jpg";
 import swMagicSmall from "../assets/images/swMagicSmall.jpg";
 import peak1 from "../assets/images/peak1.jpg";
@@ -1025,6 +1032,40 @@ export default function Gallery() {
             small={nc08}
             large={nc08}
             alt="North Carolina Appalachian Mountains during sunset."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={sedonaTourSmall}
+            large={sedonaTour}
+            alt="Tourists and sunset lovers alike join to watch a Sedona,AZ sunset."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={marsSmall}
+            large={mars}
+            alt="An image of Arizona, or is it Mars?"
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={sedonaGlorySmall}
+            large={sedonaGlory}
+            alt="Sedona,AZ at golden hour."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={mexicanHatSmall}
+            large={mexicanHat}
+            alt="The infamous Mexican Hat structure in Utah."
             className="galleryImage"
           />
         </Col>
