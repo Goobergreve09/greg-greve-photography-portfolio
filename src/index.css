@@ -127,13 +127,7 @@ body {
 }
 
 .titleContainer {
-  background: linear-gradient(
-    to bottom,
-    black,
-    #424949,
-    #424949,
-    black
-  );
+  background: linear-gradient(to bottom, black, #424949, #424949, black);
 }
 
 /* Gallery */
@@ -162,22 +156,12 @@ body {
 }
 
 .tableButton {
-  background: linear-gradient(
-    to right,
-    black,
-    #424949,
-    black
-  );
-  transition: .3s ease;
+  background: linear-gradient(to right, black, #424949, black);
+  transition: 0.3s ease;
 }
 
 .tableButton:hover {
-  background: linear-gradient(
-    to right,
-    black,
-    green,
-    black
-  );
+  background: linear-gradient(to right, black, green, black);
 }
 
 .galleryImage {

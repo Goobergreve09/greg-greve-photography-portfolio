@@ -1008,7 +1008,7 @@ export default function Gallery() {
           <ModalImage
             small={nc06}
             large={nc06}
-               alt="North Carolina Appalachian Mountains during sunset."
+            alt="North Carolina Appalachian Mountains during sunset."
             className="galleryImage"
           />
         </Col>
@@ -1016,7 +1016,7 @@ export default function Gallery() {
           <ModalImage
             small={nc07}
             large={nc07}
-              alt="North Carolina Appalachian Mountains during sunset."
+            alt="North Carolina Appalachian Mountains during sunset."
             className="galleryImage"
           />
         </Col>
@@ -1024,7 +1024,7 @@ export default function Gallery() {
           <ModalImage
             small={nc08}
             large={nc08}
-               alt="North Carolina Appalachian Mountains during sunset."
+            alt="North Carolina Appalachian Mountains during sunset."
             className="galleryImage"
           />
         </Col>

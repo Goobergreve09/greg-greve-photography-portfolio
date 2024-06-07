@@ -5,6 +5,8 @@ import theGreatest from "../assets/images/theGreatest.jpg";
 import theGreatestSmall from "../assets/images/theGreatestSmall.jpg";
 import reachOut from "../assets/images/reachout.png";
 
+// ModalImage
+
 import ModalImage from "react-modal-image";
 
 export default function Home() {
