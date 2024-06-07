@@ -157,6 +157,10 @@ import nc03 from "../assets/images/nc03.jpg";
 import nc04 from "../assets/images/nc04.jpg";
 import sedona from "../assets/images/sedona.jpg";
 import sedonaSmall from "../assets/images/sedonaSmall.jpg";
+import sedonaMagic from "../assets/images/sedonaMagic.jpg"
+import sedonaMagicSmall from "../assets/images/sedonaMagicSmall.jpg"
+import swMagic from "../assets/images/swMagic.jpg"
+import swMagicSmall from "../assets/images/swMagicSmall.jpg"
 import peak1 from "../assets/images/peak1.jpg";
 import peak1Small from "../assets/images/peak1Small.jpg";
 import peak2 from "../assets/images/peak2.jpg";
@@ -965,6 +969,24 @@ export default function Gallery() {
             large={church}
             alt="A church lay dormant in the Sierra Nevada mountains."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={6} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={sedonaMagicSmall}
+            large={sedonaMagic}
+            alt="A shot taken of Sedona, AZ at sunset."
+            className="galleryImageLarge"
+          />
+        </Col>
+        <Col lg={6} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={swMagicSmall}
+            large={swMagic}
+            alt="A shot taken of Southwest, USA. Somewhere on the interstate."
+            className="galleryImageLarge"
           />
         </Col>
       </Row>
