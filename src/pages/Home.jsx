@@ -42,7 +42,7 @@ export default function Home() {
       Adam Degi is a stand-up comedian, and a Michigan native. This photo was captured of him before a set in Detroit, in the green room.
        Recently he has stated that he survived cancer
       for the third time. Melanoma is said to be one of the most aggressive forms of cancers. To learn more about melanoma,
-       <a target="_blank" rel="noopener noreferrer" href="https://www.cancer.org/cancer/types/melanoma-skin-cancer.html">click here to learn more</a>
+       <a target="_blank" rel="noopener noreferrer" href="https://www.cancer.org/cancer/types/melanoma-skin-cancer.html" className="pt-3 pb-2">click here to learn more</a>
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-2">
           <span className="italic"> Nikon D5600/18-35mm lens 3.4</span>

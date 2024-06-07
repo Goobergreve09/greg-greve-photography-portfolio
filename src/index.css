@@ -107,6 +107,11 @@ body {
   text-align: center;
 }
 
+.monthlyShowcaseDescription a {
+  color: black;
+  font-weight: bold;
+}
+
 .monthlyContainer {
   background-color: #D5DBDB;
   border-top: 5px solid black;
