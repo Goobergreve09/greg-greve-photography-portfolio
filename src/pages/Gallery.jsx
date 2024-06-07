@@ -155,6 +155,11 @@ import nc01 from "../assets/images/nc01.jpg";
 import nc02 from "../assets/images/nc02.jpg";
 import nc03 from "../assets/images/nc03.jpg";
 import nc04 from "../assets/images/nc04.jpg";
+import nc05 from "../assets/images/nc05.jpg";
+import nc06 from "../assets/images/nc06.jpg";
+import nc07 from "../assets/images/nc07.jpg";
+import nc08 from "../assets/images/nc08.jpg";
+
 import sedona from "../assets/images/sedona.jpg";
 import sedonaSmall from "../assets/images/sedonaSmall.jpg";
 import sedonaMagic from "../assets/images/sedonaMagic.jpg";
@@ -987,6 +992,40 @@ export default function Gallery() {
             large={swMagic}
             alt="A shot taken of Southwest, USA. Somewhere on the interstate."
             className="galleryImageLarge"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nc05}
+            large={nc05}
+            alt="North Carolina Appalachian Mountains during sunset."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nc06}
+            large={nc06}
+               alt="North Carolina Appalachian Mountains during sunset."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nc07}
+            large={nc07}
+              alt="North Carolina Appalachian Mountains during sunset."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={nc08}
+            large={nc08}
+               alt="North Carolina Appalachian Mountains during sunset."
+            className="galleryImage"
           />
         </Col>
       </Row>
