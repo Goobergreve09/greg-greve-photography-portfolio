@@ -157,10 +157,10 @@ import nc03 from "../assets/images/nc03.jpg";
 import nc04 from "../assets/images/nc04.jpg";
 import sedona from "../assets/images/sedona.jpg";
 import sedonaSmall from "../assets/images/sedonaSmall.jpg";
-import sedonaMagic from "../assets/images/sedonaMagic.jpg"
-import sedonaMagicSmall from "../assets/images/sedonaMagicSmall.jpg"
-import swMagic from "../assets/images/swMagic.jpg"
-import swMagicSmall from "../assets/images/swMagicSmall.jpg"
+import sedonaMagic from "../assets/images/sedonaMagic.jpg";
+import sedonaMagicSmall from "../assets/images/sedonaMagicSmall.jpg";
+import swMagic from "../assets/images/swMagic.jpg";
+import swMagicSmall from "../assets/images/swMagicSmall.jpg";
 import peak1 from "../assets/images/peak1.jpg";
 import peak1Small from "../assets/images/peak1Small.jpg";
 import peak2 from "../assets/images/peak2.jpg";

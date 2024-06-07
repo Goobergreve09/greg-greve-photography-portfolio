@@ -1,8 +1,8 @@
 import { Row, Col, Container } from "react-bootstrap";
-import photoOfMonth from "../assets/images/photoOfmonth.jpg"
+import photoOfMonth from "../assets/images/photoOfmonth.jpg";
 import photoOfMonthSmall from "../assets/images/photoOfmonthSmall.jpg";
-import theGreatest from "../assets/images/theGreatest.jpg"
-import theGreatestSmall from "../assets/images/theGreatestSmall.jpg"
+import theGreatest from "../assets/images/theGreatest.jpg";
+import theGreatestSmall from "../assets/images/theGreatestSmall.jpg";
 import reachOut from "../assets/images/reachout.png";
 
 import ModalImage from "react-modal-image";
@@ -11,25 +11,25 @@ export default function Home() {
   return (
     <>
       <Container fluid className="titleContainer">
-      <Row className="monthlyShowcase justify-content-center pt-5">
-        Monthly Photo Selection:
+        <Row className="monthlyShowcase justify-content-center pt-5">
+          Monthly Photo Selection:
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-3">
           1. An afternoon in Washington
-          </Row>
+        </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-3">
-        This photo was taken on the coast of the Pacific Ocean. I took a path down 
-         towards the water in Washington. It was a rainy and eerie afternoon.
-          Nothing really describes Washington better.
+          This photo was taken on the coast of the Pacific Ocean. I took a path
+          down towards the water in Washington. It was a rainy and eerie
+          afternoon. Nothing really describes Washington better.
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-2">
           <span className="italic"> Nikon D5600/18-35mm lens 3.4</span>
-          </Row>
+        </Row>
         <Row className="text-center align-items-center justify-content-center pt-5 pb-5">
           <Col lg={8} xs={12}>
             <ModalImage
               small={photoOfMonthSmall}
-              large = {photoOfMonth}
+              large={photoOfMonth}
               alt="The photo of the month selected by Greg Greve"
               className="photoOfmonth"
             />
@@ -37,16 +37,25 @@ export default function Home() {
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-3">
           2. The Greatest of All Time
-          </Row>
+        </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-3">
-      Adam Degi is a stand-up comedian, and a Michigan native. This photo was captured of him before a set in Detroit, in the green room.
-       Recently he has stated that he survived cancer
-      for the third time. Melanoma is said to be one of the most aggressive forms of cancers. To learn more about melanoma,
-       <a target="_blank" rel="noopener noreferrer" href="https://www.cancer.org/cancer/types/melanoma-skin-cancer.html" className="pt-3 pb-2">click here to learn more</a>
+          Adam Degi is a stand-up comedian, and a Michigan native. This photo
+          was captured of him before a set in Detroit, in the green room.
+          Recently he has stated that he survived cancer for the third time.
+          Melanoma is said to be one of the most aggressive forms of cancers. To
+          learn more about melanoma,
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.cancer.org/cancer/types/melanoma-skin-cancer.html"
+            className="pt-3 pb-2"
+          >
+            click here to learn more
+          </a>
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-2">
           <span className="italic"> Nikon D5600/18-35mm lens 3.4</span>
-          </Row>
+        </Row>
         <Row className="text-center align-items-center justify-content-center pt-5 pb-5">
           <Col lg={8} xs={12}>
             <ModalImage
@@ -85,15 +94,46 @@ export default function Home() {
             <Col>1-800-784-2433 - National Hopeline Network</Col>
             <Col>Text HOME to 741741 - Crisis Text Line</Col>
             <Col>1-800-950-6264 - National Alliance on Mental Illness</Col>
-            
           </Col>
           <Col lg={6} xs={12} className="pt-4 pb-5">
-  <h5>Online Resources:</h5>
-  <Col><a href="http://www.nami.org" target="_blank" rel="noopener noreferrer">www.nami.org</a></Col>
-  <Col><a href="http://www.mentalhealthamerica.net" target="_blank" rel="noopener noreferrer">www.mentalhealthamerica.net</a></Col>
-  <Col><a href="http://www.nmha.org/" target="_blank" rel="noopener noreferrer">http://www.nmha.org/</a></Col>
-  <Col><a href="https://selfinjury.com/" target="_blank" rel="noopener noreferrer">https://selfinjury.com/</a></Col>
-</Col>
+            <h5>Online Resources:</h5>
+            <Col>
+              <a
+                href="http://www.nami.org"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.nami.org
+              </a>
+            </Col>
+            <Col>
+              <a
+                href="http://www.mentalhealthamerica.net"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                www.mentalhealthamerica.net
+              </a>
+            </Col>
+            <Col>
+              <a
+                href="http://www.nmha.org/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                http://www.nmha.org/
+              </a>
+            </Col>
+            <Col>
+              <a
+                href="https://selfinjury.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                https://selfinjury.com/
+              </a>
+            </Col>
+          </Col>
         </Row>
       </Container>
     </>

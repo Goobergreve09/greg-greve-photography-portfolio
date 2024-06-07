@@ -5,8 +5,7 @@
 body {
   padding: 0;
   margin: 0;
-};
-
+}
 
 .italic {
   font-style: italic;
@@ -113,11 +112,10 @@ body {
 }
 
 .monthlyContainer {
-  background-color: #D5DBDB;
+  background-color: #d5dbdb;
   border-top: 5px solid black;
   font-family: "Raleway", sans-serif;
 }
-
 
 .monthlyIcon {
   max-width: 300px;
@@ -129,7 +127,14 @@ body {
 }
 
 .titleContainer {
-  background: linear-gradient(to bottom, black, #424949,#717D7E,#424949, black);
+  background: linear-gradient(
+    to bottom,
+    black,
+    #424949,
+    #717d7e,
+    #424949,
+    black
+  );
 }
 
 /* Gallery */
