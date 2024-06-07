@@ -131,7 +131,6 @@ body {
     to bottom,
     black,
     #424949,
-    #717d7e,
     #424949,
     black
   );
@@ -163,11 +162,22 @@ body {
 }
 
 .tableButton {
-  background-color: black;
+  background: linear-gradient(
+    to right,
+    black,
+    #424949,
+    black
+  );
+  transition: .3s ease;
 }
 
 .tableButton:hover {
-  background-color: grey;
+  background: linear-gradient(
+    to right,
+    black,
+    green,
+    black
+  );
 }
 
 .galleryImage {
