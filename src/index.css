@@ -5,7 +5,8 @@
 body {
   padding: 0;
   margin: 0;
-}
+};
+
 
 .italic {
   font-style: italic;
@@ -123,7 +124,7 @@ body {
 }
 
 .titleContainer {
-  background-color: black;
+  background: linear-gradient(to bottom, black, #424949,#717D7E,#424949, black);
 }
 
 /* Gallery */
