@@ -190,6 +190,17 @@ import utahRay04Small from "../assets/images/utahRay04Small.jpg";
 import zeus from "../assets/images/zeus.jpg";
 import zeusSmall from "../assets/images/zeusSmall.jpg";
 
+// Macro imports-----------------------------------------------------------------------------------
+
+import bwFlower from "../assets/images/bwFlower.jpg"
+import bwFlowerSmall from "../assets/images/bwFlowerSmall.jpg"
+import hdr from "../assets/images/hdr.jpg"
+import hdrSmall from "../assets/images/hdrSmall.jpg"
+import rose from "../assets/images/rose.jpg"
+import roseSmall from "../assets/images/roseSmall.jpg"
+import waterPedal from "../assets/images/waterPedal.jpg"
+import waterPedalSmall from "../assets/images/waterPedalSmall.jpg"
+
 export default function Gallery() {
   return (
     <Container fluid className="text-center">
@@ -228,6 +239,16 @@ export default function Gallery() {
               size="lg"
             >
               3. Mountains and Red Rocks
+            </Button>
+          </Col>
+          <Col className="pb-3">
+            <Button
+              className="tableButton"
+              variant="link"
+              href="#macro"
+              size="lg"
+            >
+              4. Macro
             </Button>
           </Col>
         </Row>
@@ -1066,6 +1087,45 @@ export default function Gallery() {
             small={mexicanHatSmall}
             large={mexicanHat}
             alt="The infamous Mexican Hat structure in Utah."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row id="macro" className="pt-5">
+        <Col>
+          <p className="galleryTitle">4. Macro</p>
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={hdrSmall}
+            large={hdr}
+            alt="a high clarity image of fungi growing on wood"
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={waterPedalSmall}
+            large={waterPedal}
+            alt="Water droplets closeup on a plant"
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={roseSmall}
+            large={rose}
+            alt="A closeup shot of a red flower after a sprinkle."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={bwFlowerSmall}
+            large={bwFlower}
+            alt="A black and white photo of a flower."
             className="galleryImage"
           />
         </Col>
