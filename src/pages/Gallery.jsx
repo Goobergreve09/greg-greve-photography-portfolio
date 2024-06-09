@@ -4,6 +4,8 @@ import ModalImage from "react-modal-image";
 
 // forest and greenery imports------------------------------------------------------------
 
+import twopaths from "../assets/images/2paths.jpg" 
+import twopathsSmall from "../assets/images/2pathsSmall.jpg" 
 import cliffLight from "../assets/images/cliffLight.jpg";
 import cliffLightSmall from "../assets/images/cliffLightSmall.jpg";
 import lightShine from "../assets/images/lightShine.jpg";
@@ -389,9 +391,9 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={humanTreeSmall}
-            large={humanTree}
-            alt="A woman leaning effortlessly against a tree."
+            small={twopathsSmall}
+            large={twopaths}
+            alt="Two paths go separate ways in a forest."
             className="galleryImage"
           />
         </Col>
