@@ -4,8 +4,8 @@ import ModalImage from "react-modal-image";
 
 // forest and greenery imports------------------------------------------------------------
 
-import twopaths from "../assets/images/2paths.jpg" 
-import twopathsSmall from "../assets/images/2pathsSmall.jpg" 
+import twopaths from "../assets/images/2paths.jpg";
+import twopathsSmall from "../assets/images/2pathsSmall.jpg";
 import cliffLight from "../assets/images/cliffLight.jpg";
 import cliffLightSmall from "../assets/images/cliffLightSmall.jpg";
 import lightShine from "../assets/images/lightShine.jpg";
@@ -149,10 +149,10 @@ import diamondLake from "../assets/images/diamondLake.jpg";
 import diamondLakeSmall from "../assets/images/diamondLakeSmall.jpg";
 import gloryMountain from "../assets/images/gloryMountain.jpg";
 import gloryMountainSmall from "../assets/images/gloryMountainSmall.jpg";
-import mars from "../assets/images/mars.jpg"
-import marsSmall from "../assets/images/marsSmall.jpg"
-import mexicanHat from "../assets/images/mexicanHat.jpg"
-import mexicanHatSmall from "../assets/images/mexicanHatSmall.jpg"
+import mars from "../assets/images/mars.jpg";
+import marsSmall from "../assets/images/marsSmall.jpg";
+import mexicanHat from "../assets/images/mexicanHat.jpg";
+import mexicanHatSmall from "../assets/images/mexicanHatSmall.jpg";
 import mountainPeak from "../assets/images/mountainPeak.jpg";
 import mountainPeakSmall from "../assets/images/mountainPeakSmall.jpg";
 import mtShasta from "../assets/images/mtShasta.jpg";
@@ -193,15 +193,21 @@ import zeus from "../assets/images/zeus.jpg";
 import zeusSmall from "../assets/images/zeusSmall.jpg";
 
 // Macro imports-----------------------------------------------------------------------------------
+import bee1 from "../assets/images/bee1.jpg"
+import bee1Small from "../assets/images/bee1Small.jpg"
+import bee2 from "../assets/images/bee2.jpg"
+import bee2Small from "../assets/images/bee2Small.jpg"
+import bee3 from "../assets/images/bee3.jpg"
+import bee3Small from "../assets/images/bee3Small.jpg"
+import bwFlower from "../assets/images/bwFlower.jpg";
+import bwFlowerSmall from "../assets/images/bwFlowerSmall.jpg";
+import hdr from "../assets/images/hdr.jpg";
+import hdrSmall from "../assets/images/hdrSmall.jpg";
+import rose from "../assets/images/rose.jpg";
+import roseSmall from "../assets/images/roseSmall.jpg";
+import waterPedal from "../assets/images/waterPedal.jpg";
+import waterPedalSmall from "../assets/images/waterPedalSmall.jpg";
 
-import bwFlower from "../assets/images/bwFlower.jpg"
-import bwFlowerSmall from "../assets/images/bwFlowerSmall.jpg"
-import hdr from "../assets/images/hdr.jpg"
-import hdrSmall from "../assets/images/hdrSmall.jpg"
-import rose from "../assets/images/rose.jpg"
-import roseSmall from "../assets/images/roseSmall.jpg"
-import waterPedal from "../assets/images/waterPedal.jpg"
-import waterPedalSmall from "../assets/images/waterPedalSmall.jpg"
 
 export default function Gallery() {
   return (
@@ -250,7 +256,7 @@ export default function Gallery() {
               href="#macro"
               size="lg"
             >
-              4. Macro
+              4. Macro Photography
             </Button>
           </Col>
         </Row>
@@ -1095,7 +1101,7 @@ export default function Gallery() {
       </Row>
       <Row id="macro" className="pt-5">
         <Col>
-          <p className="galleryTitle">4. Macro</p>
+          <p className="galleryTitle">4. Macro Photography</p>
         </Col>
       </Row>
       <Row className="align-items-center pt-3">
@@ -1129,6 +1135,29 @@ export default function Gallery() {
             large={bwFlower}
             alt="A black and white photo of a flower."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3 leconteRow">
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={bee2Small}
+            large={bee2}
+            alt="A closeup photo of a bee."
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={bee1Small}
+            large={bee1}
+            alt="A closeup photo of a bee."
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={bee3Small}
+            large={bee3}
+               alt="A closeup photo of a bee."
           />
         </Col>
       </Row>
