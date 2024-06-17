@@ -95,23 +95,20 @@ import crashWater from "../assets/images/crashWater.jpg";
 import crashWaterSmall from "../assets/images/crashWaterSmall.jpg";
 import creekFall from "../assets/images/creekFall.jpg";
 import creekFallSmall from "../assets/images/creekFallSmall.jpg";
-import dan from "../assets/images/dan.jpg";
-import danSmall from "../assets/images/danSmall.jpg";
+import fish from "../assets/images/fish.jpg"
+import fishSmall from "../assets/images/fishSmall.jpg"
 import handWater from "../assets/images/handWater.jpg";
 import handWaterSmall from "../assets/images/handWaterSmall.jpg";
 import lakePeace from "../assets/images/lakePeace.jpg";
 import lakePeaceSmall from "../assets/images/lakePeaceSmall.jpg";
-import lakeSunset from "../assets/images/lakeSunset.jpg";
-import lakeSunsetSmall from "../assets/images/lakeSunsetSmall.jpg";
 import loveBirds from "../assets/images/loveBirds.jpg";
 import loveBirdsSmall from "../assets/images/loveBirdsSmall.jpg";
-import nolanWalk from "../assets/images/nolanWalk.jpg";
-import nolanWalkSmall from "../assets/images/nolanWalkSmall.jpg";
 import nolanWonder from "../assets/images/nolanWonder.jpg";
 import nolanWonderSmall from "../assets/images/nolanWonderSmall.jpg";
 import morningHaze from "../assets/images/morningHaze.jpg";
 import morningHazeSmall from "../assets/images/morningHazeSmall.jpg";
-import paddleboard from "../assets/images/paddleBoard.jpg";
+import morningHaze2 from "../assets/images/morningHaze2.jpg";
+import morningHaze2Small from "../assets/images/morningHaze2Small.jpg";
 import peace from "../assets/images/peace.jpg";
 import peaceSmall from "../assets/images/peaceSmall.jpg";
 import riverRocks from "../assets/images/riverRocks.jpg";
@@ -132,12 +129,19 @@ import salinac3 from "../assets/images/salinac3.jpg"
 import salinac3Small from "../assets/images/salinac3Small.jpg"
 import salinac4 from "../assets/images/salinac4.jpg"
 import salinac4Small from "../assets/images/salinac4Small.jpg"
+import salinac5 from "../assets/images/salinac5.jpg"
+import salinac5Small from "../assets/images/salinac5Small.jpg"
+import salinac6 from "../assets/images/salinac6.jpg"
+import salinac6Small from "../assets/images/salinac6Small.jpg"
+import salinac7 from "../assets/images/salinac7.jpg"
+import salinac7Small from "../assets/images/salinac7Small.jpg"
 import tahoe from "../assets/images/tahoe.jpg";
 import tahoeSmall from "../assets/images/tahoeSmall.jpg";
-import theShot from "../assets/images/theShot.jpg";
-import theShotSmall from "../assets/images/theShotSmall.jpg";
 import venice from "../assets/images/venice.jpg";
 import veniceSmall from "../assets/images/veniceSmall.jpg";
+import venice2 from "../assets/images/venice2.jpg";
+import venice3Small from "../assets/images/venice3Small.jpg";
+import venice3 from "../assets/images/venice3.jpg";
 import waterLove from "../assets/images/waterLove.jpg";
 import waterLoveSmall from "../assets/images/waterLoveSmall.jpg";
 import yosemiteCreek from "../assets/images/yosemiteCreek.jpg";
@@ -632,25 +636,25 @@ export default function Gallery() {
       <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={theShotSmall}
-            large={theShot}
-            alt="An electric sunset on Lake Michigan."
+            small={venice2}
+            large={venice2}
+            alt="Venice Beach at Sunset."
             className="galleryImage"
           />
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={nolanWalkSmall}
-            large={nolanWalk}
-            alt="A man walking the shoreline on Lake Michigan."
+            small={salinac5Small}
+            large={salinac5}
+            alt="A Lake Huron sunrise on Port Salinac."
             className="galleryImage"
           />
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={lakeSunsetSmall}
-            large={lakeSunset}
-            alt="A sunset on Lake Michigan."
+            small={salinac6Small}
+            large={salinac6}
+            alt="A Lake Huron sunrise on Port Salinac."
             className="galleryImage"
           />
         </Col>
@@ -718,9 +722,9 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={nolanWonderSmall}
-            large={nolanWonder}
-            alt="A man wanders during a sunset on Lake Michigan."
+            small={morningHaze2Small}
+            large={morningHaze}
+           alt="A sunset on Lake michigan take during the forest fires in Canada."
             className="galleryImage"
           />
         </Col>
@@ -734,9 +738,9 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={danSmall}
-            large={dan}
-            alt="A man appreciates the beauty of Lake Michigan."
+            small={salinac7Small}
+            large={salinac7}
+           alt="A Lake Huron sunrise on Port Salinac."
             className="galleryImage"
           />
         </Col>
@@ -830,17 +834,17 @@ export default function Gallery() {
       <Row className="align-items-center pt-3">
         <Col lg={6} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={beachSunsetSmall}
-            large={beachSunset}
-            alt="A silhouette of a man with his back against the sunset."
+            small={venice3Small}
+            large={venice3}
+            alt="A venice beach sunset."
             className="galleryImageLarge"
           />
         </Col>
         <Col lg={6} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={paddleboard}
-            large={paddleboard}
-            alt="A man seen paddle-boarding on Lake Michigan."
+            small={fishSmall}
+            large={fish}
+            alt="A fish dead fish found on the beach"
             className="galleryImageLarge"
           />
         </Col>
