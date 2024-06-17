@@ -4,10 +4,14 @@ import { Container, Navbar, Nav, NavbarText } from "react-bootstrap";
 import ggpLogo from "../assets/images/ggpLogo.png";
 import dayjs from "dayjs";
 
-import RibbonJune from "../assets/images/mensRibbon.png"
-import RibbonJuly from "../assets/images/ribbonJuly.png"
-import RibbonAugust from "../assets/images/ribbonAugust.png"
-// import mensRibbonFebruary from "../assets/images/mensRibbonFebruary.png";
+// Ribbon image imports---------------------------------------------------------------
+
+import RibbonJune from "../assets/images/mensRibbon.png";
+import RibbonJuly from "../assets/images/ribbonJuly.png";
+import RibbonAugust from "../assets/images/ribbonAugust.png";
+import RibbonSeptember from "../assets/images/ribbonSeptember.png";
+import RibbonOctober from "../assets/images/ribbonOctober.png";
+
 
 export default function Navigation() {
   const [expanded, setExpanded] = useState(false);
@@ -25,8 +29,9 @@ export default function Navigation() {
   const monthToRibbonMap = {
     June: RibbonJune,
     July: RibbonJuly,
-    August: RibbonAugust
-   
+    August: RibbonAugust,
+    September: RibbonSeptember,
+    October: RibbonOctober
   };
 
   const ribbonImage = monthToRibbonMap[currentMonth];
@@ -45,7 +50,12 @@ export default function Navigation() {
                 Gallery
               </Nav.Link>
             </Nav>
-            <NavbarText className="navbar-text p-0"><span className="dateAndRibbon"><img src={ribbonImage} className="mensRibbon"/>{date}</span></NavbarText>
+            <NavbarText className="navbar-text p-0">
+              <span className="dateAndRibbon">
+                <img src={ribbonImage} className="mensRibbon" />
+                {date}
+              </span>
+            </NavbarText>
           </Navbar.Collapse>
         </Container>
       </Navbar>
