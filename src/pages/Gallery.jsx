@@ -87,8 +87,6 @@ import wowSmall from "../assets/images/wowSmall.jpg";
 
 // beaches and water imports ------------------------------------------------------------
 
-import beachSunset from "../assets/images/beachSunset.jpg";
-import beachSunsetSmall from "../assets/images/beachSunsetSmall.jpg";
 import crash from "../assets/images/crash.jpg";
 import crashSmall from "../assets/images/crashSmall.jpg";
 import crashWater from "../assets/images/crashWater.jpg";
@@ -103,8 +101,6 @@ import lakePeace from "../assets/images/lakePeace.jpg";
 import lakePeaceSmall from "../assets/images/lakePeaceSmall.jpg";
 import loveBirds from "../assets/images/loveBirds.jpg";
 import loveBirdsSmall from "../assets/images/loveBirdsSmall.jpg";
-import nolanWonder from "../assets/images/nolanWonder.jpg";
-import nolanWonderSmall from "../assets/images/nolanWonderSmall.jpg";
 import morningHaze from "../assets/images/morningHaze.jpg";
 import morningHazeSmall from "../assets/images/morningHazeSmall.jpg";
 import morningHaze2 from "../assets/images/morningHaze2.jpg";
@@ -243,6 +239,17 @@ import treeFungiSmall from "../assets/images/treeFungiSmall.jpg";
 import waterPedal from "../assets/images/waterPedal.jpg";
 import waterPedalSmall from "../assets/images/waterPedalSmall.jpg";
 
+// Portraiture image imports-------------------------------------------------------
+
+import adamBricks from "../assets/images/adamBricks.jpg";
+import adamBricksSmall from "../assets/images/adamBricksSmall.jpg";
+import lolaSit from "../assets/images/lolaSit.jpg";
+import lolaSitSmall from "../assets/images/lolaSitSmall.jpg";
+import lolaTree from "../assets/images/lolaTree.jpg";
+import lolaTreeSmall from "../assets/images/lolaTreeSmall.jpg";
+import lolaWoods from "../assets/images/lolaWoods.jpg";
+import lolaWoodsSmall from "../assets/images/lolaWoodsSmall.jpg";
+
 export default function Gallery() {
   return (
     <Container fluid className="text-center">
@@ -291,6 +298,16 @@ export default function Gallery() {
               size="lg"
             >
               4. Macro Photography
+            </Button>
+          </Col>
+          <Col className="pb-3">
+            <Button
+              className="tableButton"
+              variant="link"
+              href="#portraiture"
+              size="lg"
+            >
+              5. Portraiture Photography
             </Button>
           </Col>
         </Row>
@@ -1327,6 +1344,45 @@ export default function Gallery() {
             small={blossomSmall}
             large={blossom}
             alt="A closeup image of a plant."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row id="portraiture" className="pt-5">
+        <Col>
+          <p className="galleryTitle">5. Portraiture Photography</p>
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={adamBricksSmall}
+            large={adamBricks}
+            alt="A portrait of a man against a brick wall."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaSitSmall}
+            large={lolaSit}
+            alt="A portrait of a woman sitting down in nature."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaTreeSmall}
+            large={lolaTree}
+            alt="A portrait of a standing against a tree."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaWoodsSmall}
+            large={lolaWoods}
+            alt="A portrait of a woman in the woods."
             className="galleryImage"
           />
         </Col>

@@ -12,7 +12,6 @@ import RibbonAugust from "../assets/images/ribbonAugust.png";
 import RibbonSeptember from "../assets/images/ribbonSeptember.png";
 import RibbonOctober from "../assets/images/ribbonOctober.png";
 
-
 export default function Navigation() {
   const [expanded, setExpanded] = useState(false);
   const date = dayjs().format("dddd, MMMM D, YYYY");
@@ -31,7 +30,7 @@ export default function Navigation() {
     July: RibbonJuly,
     August: RibbonAugust,
     September: RibbonSeptember,
-    October: RibbonOctober
+    October: RibbonOctober,
   };
 
   const ribbonImage = monthToRibbonMap[currentMonth];

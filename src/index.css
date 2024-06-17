@@ -144,6 +144,7 @@ body {
   text-align: center;
   font-size: xx-large;
   border-bottom: 10px double black;
+  background-color: beige;
 }
 
 .tableOfcontents a {
@@ -152,17 +153,14 @@ body {
 }
 
 .tableOfcontents a:hover {
-  color: white;
+  color: #B2BABB;
 }
 
 .tableButton {
   background: linear-gradient(to right, black, #424949, black);
-  transition: 0.3s ease;
 }
 
-.tableButton:hover {
-  background: linear-gradient(to right, black, green, black);
-}
+
 
 .galleryImage {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);

@@ -56,7 +56,7 @@ export default function Home() {
           </a>
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-2">
-          <span className="italic"> Nikon D5600/18-35mm lens 3.4</span>
+          <span className="italic"> Nikon D850/40mm lens 2.8</span>
         </Row>
         <Row className="text-center align-items-center justify-content-center pt-5 pb-5">
           <Col lg={8} xs={12}>
