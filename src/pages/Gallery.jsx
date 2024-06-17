@@ -95,8 +95,8 @@ import crashWater from "../assets/images/crashWater.jpg";
 import crashWaterSmall from "../assets/images/crashWaterSmall.jpg";
 import creekFall from "../assets/images/creekFall.jpg";
 import creekFallSmall from "../assets/images/creekFallSmall.jpg";
-import fish from "../assets/images/fish.jpg"
-import fishSmall from "../assets/images/fishSmall.jpg"
+import fish from "../assets/images/fish.jpg";
+import fishSmall from "../assets/images/fishSmall.jpg";
 import handWater from "../assets/images/handWater.jpg";
 import handWaterSmall from "../assets/images/handWaterSmall.jpg";
 import lakePeace from "../assets/images/lakePeace.jpg";
@@ -121,20 +121,20 @@ import sandy1 from "../assets/images/sandy1.jpg";
 import sandy1Small from "../assets/images/sandy1Small.jpg";
 import sandy2 from "../assets/images/sandy2.jpg";
 import sandy2Small from "../assets/images/sandy2Small.jpg";
-import salinac1 from "../assets/images/salinac1.jpg"
-import salinac1Small from "../assets/images/salinac1Small.jpg"
-import salinac2 from "../assets/images/salinac2.jpg"
-import salinac2Small from "../assets/images/salinac2Small.jpg"
-import salinac3 from "../assets/images/salinac3.jpg"
-import salinac3Small from "../assets/images/salinac3Small.jpg"
-import salinac4 from "../assets/images/salinac4.jpg"
-import salinac4Small from "../assets/images/salinac4Small.jpg"
-import salinac5 from "../assets/images/salinac5.jpg"
-import salinac5Small from "../assets/images/salinac5Small.jpg"
-import salinac6 from "../assets/images/salinac6.jpg"
-import salinac6Small from "../assets/images/salinac6Small.jpg"
-import salinac7 from "../assets/images/salinac7.jpg"
-import salinac7Small from "../assets/images/salinac7Small.jpg"
+import salinac1 from "../assets/images/salinac1.jpg";
+import salinac1Small from "../assets/images/salinac1Small.jpg";
+import salinac2 from "../assets/images/salinac2.jpg";
+import salinac2Small from "../assets/images/salinac2Small.jpg";
+import salinac3 from "../assets/images/salinac3.jpg";
+import salinac3Small from "../assets/images/salinac3Small.jpg";
+import salinac4 from "../assets/images/salinac4.jpg";
+import salinac4Small from "../assets/images/salinac4Small.jpg";
+import salinac5 from "../assets/images/salinac5.jpg";
+import salinac5Small from "../assets/images/salinac5Small.jpg";
+import salinac6 from "../assets/images/salinac6.jpg";
+import salinac6Small from "../assets/images/salinac6Small.jpg";
+import salinac7 from "../assets/images/salinac7.jpg";
+import salinac7Small from "../assets/images/salinac7Small.jpg";
 import tahoe from "../assets/images/tahoe.jpg";
 import tahoeSmall from "../assets/images/tahoeSmall.jpg";
 import venice from "../assets/images/venice.jpg";
@@ -211,35 +211,35 @@ import bee2 from "../assets/images/bee2.jpg";
 import bee2Small from "../assets/images/bee2Small.jpg";
 import bee3 from "../assets/images/bee3.jpg";
 import bee3Small from "../assets/images/bee3Small.jpg";
-import blossom from "../assets/images/blossom.jpg"
-import blossomSmall from "../assets/images/blossomSmall.jpg"
+import blossom from "../assets/images/blossom.jpg";
+import blossomSmall from "../assets/images/blossomSmall.jpg";
 import bwFlower from "../assets/images/bwFlower.jpg";
 import bwFlowerSmall from "../assets/images/bwFlowerSmall.jpg";
-import caterpillar from "../assets/images/caterpillar.jpg"
-import caterpillarSmall from "../assets/images/caterpillarSmall.jpg"
-import eye from "../assets/images/eye.jpg"
+import caterpillar from "../assets/images/caterpillar.jpg";
+import caterpillarSmall from "../assets/images/caterpillarSmall.jpg";
+import eye from "../assets/images/eye.jpg";
 import funguy from "../assets/images/funguy.jpg";
 import funguySmall from "../assets/images/funguySmall.jpg";
-import grasshopper1 from "../assets/images/grasshopper1.jpg"
-import grasshopper1Small from "../assets/images/grasshopper1Small.jpg"
-import grasshopper2 from "../assets/images/grasshopper2.jpg"
-import grasshopper2Small from "../assets/images/grasshopper2Small.jpg"
+import grasshopper1 from "../assets/images/grasshopper1.jpg";
+import grasshopper1Small from "../assets/images/grasshopper1Small.jpg";
+import grasshopper2 from "../assets/images/grasshopper2.jpg";
+import grasshopper2Small from "../assets/images/grasshopper2Small.jpg";
 import hdr from "../assets/images/hdr.jpg";
 import hdrSmall from "../assets/images/hdrSmall.jpg";
 import moss1 from "../assets/images/moss1.jpg";
 import moss1Small from "../assets/images/moss1Small.jpg";
 import moss2 from "../assets/images/moss2.jpg";
 import moss2Small from "../assets/images/moss2Small.jpg";
-import rolliePolie from "../assets/images/rolliePolie.jpg"
-import rolliePolieSmall from "../assets/images/rolliePolieSmall.jpg"
+import rolliePolie from "../assets/images/rolliePolie.jpg";
+import rolliePolieSmall from "../assets/images/rolliePolieSmall.jpg";
 import rose from "../assets/images/rose.jpg";
 import roseSmall from "../assets/images/roseSmall.jpg";
-import spider from "../assets/images/spider.jpg"
-import spiderSmall from "../assets/images/spiderSmall.jpg"
+import spider from "../assets/images/spider.jpg";
+import spiderSmall from "../assets/images/spiderSmall.jpg";
 import treasure from "../assets/images/treasure.jpg";
 import treasureSmall from "../assets/images/treasureSmall.jpg";
-import treeFungi from "../assets/images/treeFungi.jpg"
-import treeFungiSmall from "../assets/images/treeFungiSmall.jpg"
+import treeFungi from "../assets/images/treeFungi.jpg";
+import treeFungiSmall from "../assets/images/treeFungiSmall.jpg";
 import waterPedal from "../assets/images/waterPedal.jpg";
 import waterPedalSmall from "../assets/images/waterPedalSmall.jpg";
 
@@ -739,7 +739,7 @@ export default function Gallery() {
           <ModalImage
             small={morningHaze2Small}
             large={morningHaze}
-           alt="A sunset on Lake michigan take during the forest fires in Canada."
+            alt="A sunset on Lake michigan take during the forest fires in Canada."
             className="galleryImage"
           />
         </Col>
@@ -755,7 +755,7 @@ export default function Gallery() {
           <ModalImage
             small={salinac7Small}
             large={salinac7}
-           alt="A Lake Huron sunrise on Port Salinac."
+            alt="A Lake Huron sunrise on Port Salinac."
             className="galleryImage"
           />
         </Col>
@@ -877,7 +877,7 @@ export default function Gallery() {
           <ModalImage
             small={salinac2Small}
             large={salinac2}
-         alt="A Lake Huron sunrise on Port Salinac."
+            alt="A Lake Huron sunrise on Port Salinac."
             className="galleryImage"
           />
         </Col>
@@ -885,7 +885,7 @@ export default function Gallery() {
           <ModalImage
             small={salinac1Small}
             large={salinac1}
-           alt="A Lake Huron sunrise on Port Salinac."
+            alt="A Lake Huron sunrise on Port Salinac."
             className="galleryImage"
           />
         </Col>
@@ -893,7 +893,7 @@ export default function Gallery() {
           <ModalImage
             small={salinac4Small}
             large={salinac4}
-          alt="A Lake Huron sunrise on Port Salinac."
+            alt="A Lake Huron sunrise on Port Salinac."
             className="galleryImage"
           />
         </Col>
@@ -1308,9 +1308,9 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-              small={grasshopper2Small}
-              large={grasshopper2}
-             alt="A closeup image of a grasshopper sitting on a flower."
+            small={grasshopper2Small}
+            large={grasshopper2}
+            alt="A closeup image of a grasshopper sitting on a flower."
             className="galleryImage"
           />
         </Col>

@@ -2,12 +2,17 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { Container, Navbar, Nav, NavbarText } from "react-bootstrap";
 import ggpLogo from "../assets/images/ggpLogo.png";
-import mensRibbon from "../assets/images/mensRibbon.png"
 import dayjs from "dayjs";
+
+import RibbonJune from "../assets/images/mensRibbon.png"
+import RibbonJuly from "../assets/images/ribbonJuly.png"
+import RibbonAugust from "../assets/images/ribbonAugust.png"
+// import mensRibbonFebruary from "../assets/images/mensRibbonFebruary.png";
 
 export default function Navigation() {
   const [expanded, setExpanded] = useState(false);
   const date = dayjs().format("dddd, MMMM D, YYYY");
+  const currentMonth = dayjs().format("MMMM");
 
   const handleNavbarToggle = () => {
     setExpanded(!expanded);
@@ -16,6 +21,15 @@ export default function Navigation() {
   const handleNavLinkClick = () => {
     setExpanded(false);
   };
+
+  const monthToRibbonMap = {
+    June: RibbonJune,
+    July: RibbonJuly,
+    August: RibbonAugust
+   
+  };
+
+  const ribbonImage = monthToRibbonMap[currentMonth];
 
   return (
     <>
@@ -31,7 +45,7 @@ export default function Navigation() {
                 Gallery
               </Nav.Link>
             </Nav>
-            <NavbarText className="navbar-text p-0"><span className="dateAndRibbon"><img src={mensRibbon} className="mensRibbon"/>{date}</span></NavbarText>
+            <NavbarText className="navbar-text p-0"><span className="dateAndRibbon"><img src={ribbonImage} className="mensRibbon"/>{date}</span></NavbarText>
           </Navbar.Collapse>
         </Container>
       </Navbar>
