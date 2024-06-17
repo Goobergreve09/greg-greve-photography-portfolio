@@ -213,6 +213,8 @@ import bee3 from "../assets/images/bee3.jpg";
 import bee3Small from "../assets/images/bee3Small.jpg";
 import bwFlower from "../assets/images/bwFlower.jpg";
 import bwFlowerSmall from "../assets/images/bwFlowerSmall.jpg";
+import caterpillar from "../assets/images/caterpillar.jpg"
+import caterpillarSmall from "../assets/images/caterpillarSmall.jpg"
 import funguy from "../assets/images/funguy.jpg";
 import funguySmall from "../assets/images/funguySmall.jpg";
 import hdr from "../assets/images/hdr.jpg";
@@ -221,10 +223,16 @@ import moss1 from "../assets/images/moss1.jpg";
 import moss1Small from "../assets/images/moss1Small.jpg";
 import moss2 from "../assets/images/moss2.jpg";
 import moss2Small from "../assets/images/moss2Small.jpg";
+import rolliePolie from "../assets/images/rolliePolie.jpg"
+import rolliePolieSmall from "../assets/images/rolliePolieSmall.jpg"
 import rose from "../assets/images/rose.jpg";
 import roseSmall from "../assets/images/roseSmall.jpg";
+import spider from "../assets/images/spider.jpg"
+import spiderSmall from "../assets/images/spiderSmall.jpg"
 import treasure from "../assets/images/treasure.jpg";
 import treasureSmall from "../assets/images/treasureSmall.jpg";
+import treeFungi from "../assets/images/treeFungi.jpg"
+import treeFungiSmall from "../assets/images/treeFungiSmall.jpg"
 import waterPedal from "../assets/images/waterPedal.jpg";
 import waterPedalSmall from "../assets/images/waterPedalSmall.jpg";
 
@@ -1244,6 +1252,40 @@ export default function Gallery() {
             small={moss1Small}
             large={moss1}
             alt="A closeup image of moss on a tree."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={spiderSmall}
+            large={spider}
+            alt="A closeup image of a spider on water."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={rolliePolieSmall}
+            large={rolliePolie}
+            alt="A macro image of a rollie-pollie with a baby."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={treeFungiSmall}
+            large={treeFungi}
+            alt="Fungi growing on a tree."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={caterpillarSmall}
+            large={caterpillar}
+            alt="A closeup image of a caterpillar on a log."
             className="galleryImage"
           />
         </Col>
