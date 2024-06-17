@@ -124,6 +124,14 @@ import sandy1 from "../assets/images/sandy1.jpg";
 import sandy1Small from "../assets/images/sandy1Small.jpg";
 import sandy2 from "../assets/images/sandy2.jpg";
 import sandy2Small from "../assets/images/sandy2Small.jpg";
+import salinac1 from "../assets/images/salinac1.jpg"
+import salinac1Small from "../assets/images/salinac1Small.jpg"
+import salinac2 from "../assets/images/salinac2.jpg"
+import salinac2Small from "../assets/images/salinac2Small.jpg"
+import salinac3 from "../assets/images/salinac3.jpg"
+import salinac3Small from "../assets/images/salinac3Small.jpg"
+import salinac4 from "../assets/images/salinac4.jpg"
+import salinac4Small from "../assets/images/salinac4Small.jpg"
 import tahoe from "../assets/images/tahoe.jpg";
 import tahoeSmall from "../assets/images/tahoeSmall.jpg";
 import theShot from "../assets/images/theShot.jpg";
@@ -193,29 +201,28 @@ import zeus from "../assets/images/zeus.jpg";
 import zeusSmall from "../assets/images/zeusSmall.jpg";
 
 // Macro imports-----------------------------------------------------------------------------------
-import bee1 from "../assets/images/bee1.jpg"
-import bee1Small from "../assets/images/bee1Small.jpg"
-import bee2 from "../assets/images/bee2.jpg"
-import bee2Small from "../assets/images/bee2Small.jpg"
-import bee3 from "../assets/images/bee3.jpg"
-import bee3Small from "../assets/images/bee3Small.jpg"
+import bee1 from "../assets/images/bee1.jpg";
+import bee1Small from "../assets/images/bee1Small.jpg";
+import bee2 from "../assets/images/bee2.jpg";
+import bee2Small from "../assets/images/bee2Small.jpg";
+import bee3 from "../assets/images/bee3.jpg";
+import bee3Small from "../assets/images/bee3Small.jpg";
 import bwFlower from "../assets/images/bwFlower.jpg";
 import bwFlowerSmall from "../assets/images/bwFlowerSmall.jpg";
-import funguy from "../assets/images/funguy.jpg"
-import funguySmall from "../assets/images/funguySmall.jpg"
+import funguy from "../assets/images/funguy.jpg";
+import funguySmall from "../assets/images/funguySmall.jpg";
 import hdr from "../assets/images/hdr.jpg";
 import hdrSmall from "../assets/images/hdrSmall.jpg";
-import moss1 from "../assets/images/moss1.jpg"
-import moss1Small from "../assets/images/moss1Small.jpg"
-import moss2 from "../assets/images/moss2.jpg"
-import moss2Small from "../assets/images/moss2Small.jpg"
+import moss1 from "../assets/images/moss1.jpg";
+import moss1Small from "../assets/images/moss1Small.jpg";
+import moss2 from "../assets/images/moss2.jpg";
+import moss2Small from "../assets/images/moss2Small.jpg";
 import rose from "../assets/images/rose.jpg";
 import roseSmall from "../assets/images/roseSmall.jpg";
-import treasure from "../assets/images/treasure.jpg"
-import treasureSmall from "../assets/images/treasureSmall.jpg"
+import treasure from "../assets/images/treasure.jpg";
+import treasureSmall from "../assets/images/treasureSmall.jpg";
 import waterPedal from "../assets/images/waterPedal.jpg";
 import waterPedalSmall from "../assets/images/waterPedalSmall.jpg";
-
 
 export default function Gallery() {
   return (
@@ -838,6 +845,40 @@ export default function Gallery() {
           />
         </Col>
       </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={salinac3Small}
+            large={salinac3}
+            alt="A Lake Huron sunrise on Port Salinac."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={salinac2Small}
+            large={salinac2}
+         alt="A Lake Huron sunrise on Port Salinac."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={salinac1Small}
+            large={salinac1}
+           alt="A Lake Huron sunrise on Port Salinac."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={salinac4Small}
+            large={salinac4}
+          alt="A Lake Huron sunrise on Port Salinac."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
       <Row id="mountains">
         <Col>
           <p className="galleryTitle pt-3">3. Mountains and Red Rocks</p>
@@ -1165,7 +1206,7 @@ export default function Gallery() {
           <ModalImage
             small={bee3Small}
             large={bee3}
-               alt="A closeup photo of a bee."
+            alt="A closeup photo of a bee."
           />
         </Col>
       </Row>
