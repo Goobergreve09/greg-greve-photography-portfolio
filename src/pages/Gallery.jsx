@@ -211,12 +211,19 @@ import bee2 from "../assets/images/bee2.jpg";
 import bee2Small from "../assets/images/bee2Small.jpg";
 import bee3 from "../assets/images/bee3.jpg";
 import bee3Small from "../assets/images/bee3Small.jpg";
+import blossom from "../assets/images/blossom.jpg"
+import blossomSmall from "../assets/images/blossomSmall.jpg"
 import bwFlower from "../assets/images/bwFlower.jpg";
 import bwFlowerSmall from "../assets/images/bwFlowerSmall.jpg";
 import caterpillar from "../assets/images/caterpillar.jpg"
 import caterpillarSmall from "../assets/images/caterpillarSmall.jpg"
+import eye from "../assets/images/eye.jpg"
 import funguy from "../assets/images/funguy.jpg";
 import funguySmall from "../assets/images/funguySmall.jpg";
+import grasshopper1 from "../assets/images/grasshopper1.jpg"
+import grasshopper1Small from "../assets/images/grasshopper1Small.jpg"
+import grasshopper2 from "../assets/images/grasshopper2.jpg"
+import grasshopper2Small from "../assets/images/grasshopper2Small.jpg"
 import hdr from "../assets/images/hdr.jpg";
 import hdrSmall from "../assets/images/hdrSmall.jpg";
 import moss1 from "../assets/images/moss1.jpg";
@@ -1286,6 +1293,40 @@ export default function Gallery() {
             small={caterpillarSmall}
             large={caterpillar}
             alt="A closeup image of a caterpillar on a log."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={grasshopper1Small}
+            large={grasshopper1}
+            alt="A closeup image of a grasshopper sitting on a flower."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+              small={grasshopper2Small}
+              large={grasshopper2}
+             alt="A closeup image of a grasshopper sitting on a flower."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={eye}
+            large={eye}
+            alt="An image of an eye in the sunlight."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={blossomSmall}
+            large={blossom}
+            alt="A closeup image of a plant."
             className="galleryImage"
           />
         </Col>
