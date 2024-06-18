@@ -243,6 +243,12 @@ import abdi from "../assets/images/abdi.jpg";
 import abdiSmall from "../assets/images/abdiSmall.jpg";
 import adamBricks from "../assets/images/adamBricks.jpg";
 import adamBricksSmall from "../assets/images/adamBricksSmall.jpg";
+import adamFam1 from "../assets/images/adamFam1.jpg";
+import adamFam1Small from "../assets/images/adamFam1Small.jpg";
+import adamFam2 from "../assets/images/adamFam2.jpg";
+import adamFam2mall from "../assets/images/adamFam2Small.jpg";
+import adamFam3 from "../assets/images/adamFam3.jpg";
+import adamFam3Small from "../assets/images/adamFam3Small.jpg";
 import adamGreen from "../assets/images/adamGreen.jpg";
 import adamGreenSmall from "../assets/images/adamGreenSmall.jpg";
 import lolabw from "../assets/images/lolabw.jpg";
@@ -1524,6 +1530,29 @@ export default function Gallery() {
             large={lolabw2}
            alt="A portrait of a woman by a lake."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3 leconteRow">
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={adamFam1Small}
+            large={adamFam1}
+            alt="A family poses on a beach."
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={adamFam2mall}
+            large={adamFam2}
+            alt="A child wanders near a lake."
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={adamFam3Small}
+            large={adamFam3}
+            alt="A father and child walking on a beach."
           />
         </Col>
       </Row>
