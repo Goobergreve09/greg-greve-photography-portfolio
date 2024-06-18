@@ -239,18 +239,26 @@ import waterPedalSmall from "../assets/images/waterPedalSmall.jpg";
 
 // Portraiture image imports-------------------------------------------------------
 
+import abdi from "../assets/images/abdi.jpg";
+import abdiSmall from "../assets/images/abdiSmall.jpg";
 import adamBricks from "../assets/images/adamBricks.jpg";
 import adamBricksSmall from "../assets/images/adamBricksSmall.jpg";
 import adamGreen from "../assets/images/adamGreen.jpg";
 import adamGreenSmall from "../assets/images/adamGreenSmall.jpg";
 import lolabw from "../assets/images/lolabw.jpg";
 import lolabwSmall from "../assets/images/lolabwSmall.jpg";
+import lolabw2 from "../assets/images/lolabw2.jpg";
+import lolabw2Small from "../assets/images/lolabw2Small.jpg";
 import lolaFence1 from "../assets/images/lolaFence1.jpg";
 import lolaFence1Small from "../assets/images/lolaFence1Small.jpg";
 import lolaFence2 from "../assets/images/lolaFence2.jpg";
 import lolaFence2Small from "../assets/images/lolaFence2Small.jpg";
 import lolaFence3 from "../assets/images/lolaFence3.jpg";
 import lolaFence3Small from "../assets/images/lolaFence3Small.jpg";
+import lolaLake from "../assets/images/lolaLake.jpg";
+import lolaLakeSmall from "../assets/images/lolaLakeSmall.jpg";
+import lolaLake2 from "../assets/images/lolaLake2.jpg";
+import lolaLake2Small from "../assets/images/lolaLake2Small.jpg";
 import lolaLight from "../assets/images/lolaLight.jpg";
 import lolaLightSmall from "../assets/images/lolaLightSmall.jpg";
 import lolaSit from "../assets/images/lolaSit.jpg";
@@ -1482,6 +1490,40 @@ export default function Gallery() {
             small={tonyYellow3Small}
             large={tonyYellow3}
             alt="A man standing in front of rocks."
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaLakeSmall}
+            large={lolaLake}
+            alt="A portrait of a woman by a lake."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={abdiSmall}
+            large={abdi}
+            alt="A portrait of a man in a tunnel."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaLake2Small}
+            large={lolaLake2}
+            alt="A portrait of a woman by a lake."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolabw2Small}
+            large={lolabw2}
+           alt="A portrait of a woman by a lake."
+            className="galleryImage"
           />
         </Col>
       </Row>
