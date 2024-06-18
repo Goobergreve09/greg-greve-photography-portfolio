@@ -36,8 +36,6 @@ import gatlinburg1Small from "../assets/images/gatlinburg1Small.jpg";
 import gatlinburg2Small from "../assets/images/gatlinburg2Small.jpg";
 import grinch from "../assets/images/grinch.jpg";
 import grinchSmall from "../assets/images/grinchSmall.jpg";
-import humanTree from "../assets/images/humanTree.jpg";
-import humanTreeSmall from "../assets/images/humanTreeSmall.jpg";
 import jungleAdventure from "../assets/images/jungleAdventure.jpg";
 import jungleAdventureSmall from "../assets/images/jungleAdventure.jpg";
 import land from "../assets/images/land.jpg";
@@ -243,6 +241,12 @@ import waterPedalSmall from "../assets/images/waterPedalSmall.jpg";
 
 import adamBricks from "../assets/images/adamBricks.jpg";
 import adamBricksSmall from "../assets/images/adamBricksSmall.jpg";
+import lolaFence1 from "../assets/images/lolaFence1.jpg";
+import lolaFence1Small from "../assets/images/lolaFence1Small.jpg";
+import lolaFence2 from "../assets/images/lolaFence2.jpg";
+import lolaFence2Small from "../assets/images/lolaFence2Small.jpg";
+import lolaFence3 from "../assets/images/lolaFence3.jpg";
+import lolaFence3Small from "../assets/images/lolaFence3Small.jpg";
 import lolaSit from "../assets/images/lolaSit.jpg";
 import lolaSitSmall from "../assets/images/lolaSitSmall.jpg";
 import lolaTree from "../assets/images/lolaTree.jpg";
@@ -1384,6 +1388,29 @@ export default function Gallery() {
             large={lolaWoods}
             alt="A portrait of a woman in the woods."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3 leconteRow">
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaFence1Small}
+            large={lolaFence1}
+            alt="A woman standing by a fence."
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaFence2Small}
+            large={lolaFence2}
+            alt="A woman standing by a fence."
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaFence3Small}
+            large={lolaFence3}
+             alt="A woman standing by a fence."
           />
         </Col>
       </Row>
