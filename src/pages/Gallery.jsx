@@ -261,6 +261,12 @@ import lolaWoods from "../assets/images/lolaWoods.jpg";
 import lolaWoodsSmall from "../assets/images/lolaWoodsSmall.jpg";
 import tonyCook from "../assets/images/tonyCook.jpg";
 import tonyCookSmall from "../assets/images/tonyCookSmall.jpg";
+import tonyYellow1 from "../assets/images/tonyYellow1.jpg";
+import tonyYellow1Small from "../assets/images/tonyYellow1Small.jpg";
+import tonyYellow2 from "../assets/images/tonyYellow2.jpg";
+import tonyYellow2Small from "../assets/images/tonyYellow2Small.jpg";
+import tonyYellow3 from "../assets/images/tonyYellow3.jpg";
+import tonyYellow3Small from "../assets/images/tonyYellow3Small.jpg";
 
 export default function Gallery() {
   return (
@@ -1453,6 +1459,29 @@ export default function Gallery() {
             large={tonyCook}
             alt="A portrait of a man grilling near the mountains."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3 leconteRow">
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={tonyYellow2Small}
+            large={tonyYellow2}
+            alt="A man standing in front of rocks."
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={tonyYellow1Small}
+            large={tonyYellow1}
+            alt="A man standing in front of rocks."
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={tonyYellow3Small}
+            large={tonyYellow3}
+            alt="A man standing in front of rocks."
           />
         </Col>
       </Row>
