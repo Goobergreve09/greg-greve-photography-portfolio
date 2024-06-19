@@ -239,18 +239,16 @@ import waterPedalSmall from "../assets/images/waterPedalSmall.jpg";
 
 // Portraiture image imports-------------------------------------------------------
 
-import abdi from "../assets/images/abdi.jpg";
-import abdiSmall from "../assets/images/abdiSmall.jpg";
 import adamBricks from "../assets/images/adamBricks.jpg";
 import adamBricksSmall from "../assets/images/adamBricksSmall.jpg";
+import adamBricks2 from "../assets/images/adamBricks2.jpg";
+import adamBricks2Small from "../assets/images/adamBricks2Small.jpg";
 import adamFam1 from "../assets/images/adamFam1.jpg";
 import adamFam1Small from "../assets/images/adamFam1Small.jpg";
 import adamFam2 from "../assets/images/adamFam2.jpg";
 import adamFam2mall from "../assets/images/adamFam2Small.jpg";
 import adamFam3 from "../assets/images/adamFam3.jpg";
 import adamFam3Small from "../assets/images/adamFam3Small.jpg";
-import adamGreen from "../assets/images/adamGreen.jpg";
-import adamGreenSmall from "../assets/images/adamGreenSmall.jpg";
 import lolabw from "../assets/images/lolabw.jpg";
 import lolabwSmall from "../assets/images/lolabwSmall.jpg";
 import lolabw2 from "../assets/images/lolabw2.jpg";
@@ -267,10 +265,14 @@ import lolaLake2 from "../assets/images/lolaLake2.jpg";
 import lolaLake2Small from "../assets/images/lolaLake2Small.jpg";
 import lolaLight from "../assets/images/lolaLight.jpg";
 import lolaLightSmall from "../assets/images/lolaLightSmall.jpg";
+import lolaNight from "../assets/images/lolaNight.jpg";
+import lolaNightSmall from "../assets/images/lolaNightSmall.jpg";
 import lolaSit from "../assets/images/lolaSit.jpg";
 import lolaSitSmall from "../assets/images/lolaSitSmall.jpg";
 import lolaTree from "../assets/images/lolaTree.jpg";
 import lolaTreeSmall from "../assets/images/lolaTreeSmall.jpg";
+import lolaTree2 from "../assets/images/lolaTree2.jpg";
+import lolaTree2Small from "../assets/images/lolaTree2Small.jpg";
 import lolaWoods from "../assets/images/lolaWoods.jpg";
 import lolaWoodsSmall from "../assets/images/lolaWoodsSmall.jpg";
 import tonyCook from "../assets/images/tonyCook.jpg";
@@ -1445,9 +1447,9 @@ export default function Gallery() {
       <Row className="align-items-center pt-3">
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={adamGreenSmall}
-            large={adamGreen}
-            alt="A portrait of a man in front of trees."
+            small={adamBricks2Small}
+            large={adamBricks2}
+            alt="A portrait of a man in front of bricks."
             className="galleryImage"
           />
         </Col>
@@ -1469,9 +1471,9 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={tonyCookSmall}
-            large={tonyCook}
-            alt="A portrait of a man grilling near the mountains."
+            small={lolaTree2Small}
+            large={lolaTree2}
+            alt="A portrait of a woman standing behind a tree."
             className="galleryImage"
           />
         </Col>
@@ -1510,9 +1512,9 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={abdiSmall}
-            large={abdi}
-            alt="A portrait of a man in a tunnel."
+            small={lolaNightSmall}
+            large={lolaNight}
+            alt="A portrait of a woman in front on a night cityscape."
             className="galleryImage"
           />
         </Col>
