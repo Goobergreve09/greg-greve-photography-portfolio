@@ -23,6 +23,7 @@ body {
   padding-top: 50px;
   text-align: center;
   font-size: 32px;
+
 }
 
 .footer a {
@@ -65,7 +66,8 @@ body {
 
 .photoOfmonth {
   width: 99%;
-  box-shadow: 0 0 5px 0 rgb(255, 255, 255);
+  box-shadow: 0 0 10px 0 rgb(10, 2, 2);
+
 }
 
 .italicLocation {
@@ -95,15 +97,18 @@ body {
 }
 
 .monthlyShowcase {
-  font-family: "Raleway", sans-serif;
-  color: whitesmoke;
+  font-family: "Playwrite NZ", cursive;
+  color: black;
   font-size: x-large;
 }
 
 .monthlyShowcaseDescription {
   font-family: "Raleway", sans-serif;
-  color: whitesmoke;
+  color: black;
   text-align: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .monthlyShowcaseDescription a {
@@ -112,10 +117,11 @@ body {
 }
 
 .monthlyContainer {
-  background-color: #d5dbdb;
-  border-top: 5px solid black;
+  background-image:url(https://images.designtrends.com/wp-content/uploads/2016/03/29115235/Abstract-Plain-White-Wallpaper-.jpg);
   font-family: "Raleway", sans-serif;
+  position: relative;
 }
+
 
 .monthlyIcon {
   max-width: 300px;
@@ -127,8 +133,28 @@ body {
 }
 
 .titleContainer {
-  background: linear-gradient(to bottom, black, #424949, #424949, black);
+  background-image: url(https://wallpapercave.com/wp/wp7133983.jpg);
+  position: relative;
 }
+
+
+
+.galleryButton {
+  font-family: "Playwrite NZ", cursive;
+  background-image: url(https://c1.wallpaperflare.com/preview/534/441/288/camera-digital-equipment-black.jpg);
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position: center;
+  border: none;
+  font-size: x-large;
+  box-shadow: 0 0 10px 0 rgb(10, 2, 2);
+}
+
+.galleryButton:hover {
+  box-shadow: 0 0 20px 0 rgb(10, 2, 2);
+}
+
+
 
 /* Gallery */
 
@@ -210,6 +236,34 @@ body {
   .galleryImageLarge {
     max-width: 100% !important;
     min-width: 325px !important;
+  }
+
+  .monthlyShowcase {
+padding-top: 170px !important;
+  }
+
+  .titleContainer::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: 0;
+    right: 0;
+    height: 145px; /* Adjust the height of the border */
+    background-image: url(https://www.seekpng.com/png/full/50-507128_mountain-outline-png.png); /* Add your image here */
+    background-size: cover; /* Adjust as needed */
+    justify-content: center;
+    display: flex;
+  }
+
+  .monthlyContainer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px; /* Adjust the height of the border */
+    background-image: url(https://www.pngmart.com/files/3/Horizontal-Line-Transparent-PNG.png); /* Add your image here */
+    background-size: cover; /* Adjust as needed */
   }
 }
 @media (max-width: 920px) {

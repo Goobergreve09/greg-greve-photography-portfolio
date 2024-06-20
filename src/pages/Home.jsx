@@ -1,9 +1,12 @@
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col, Container,Button } from "react-bootstrap";
 import photoOfMonth from "../assets/images/photoOfmonth.jpg";
 import photoOfMonthSmall from "../assets/images/photoOfmonthSmall.jpg";
 import theGreatest from "../assets/images/theGreatest.jpg";
 import theGreatestSmall from "../assets/images/theGreatestSmall.jpg";
 import reachOut from "../assets/images/reachout.png";
+import Footer from "../components/Footer"
+
+import { FaCamera } from "react-icons/fa"; 
 
 // ModalImage
 
@@ -16,7 +19,7 @@ export default function Home() {
         <Row className="monthlyShowcase justify-content-center pt-5">
           Monthly Photo Selection:
         </Row>
-        <Row className="monthlyShowcaseDescription justify-content-center  pt-3">
+        <Row className="monthlyShowcaseDescription justify-content-center   pt-3">
           1. An afternoon in Washington
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-3">
@@ -68,6 +71,9 @@ export default function Home() {
             />
           </Col>
         </Row>
+        <Row className="text-center align-items-center justify-content-center pt-5 pb-5">
+         <Button className="w-50 galleryButton" href="/gallery">View Gallery <FaCamera className=""/></Button>
+          </Row>
       </Container>
 
       <Container fluid className="monthlyContainer">
@@ -126,7 +132,7 @@ export default function Home() {
                 http://www.nmha.org/
               </a>
             </Col>
-            <Col>
+            <Col className="pb-5">
               <a
                 href="https://selfinjury.com/"
                 target="_blank"
@@ -138,6 +144,7 @@ export default function Home() {
           </Col>
         </Row>
       </Container>
+      <Footer />
     </>
   );
 }
