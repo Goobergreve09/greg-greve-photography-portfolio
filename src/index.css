@@ -5,6 +5,7 @@
 body {
   padding: 0;
   margin: 0;
+  /* Prevent horizontal scrollbars */
 }
 
 .italic {
@@ -23,7 +24,6 @@ body {
   padding-top: 50px;
   text-align: center;
   font-size: 32px;
-
 }
 
 .footer a {
@@ -67,7 +67,6 @@ body {
 .photoOfmonth {
   width: 99%;
   box-shadow: 0 0 10px 0 rgb(10, 2, 2);
-
 }
 
 .italicLocation {
@@ -117,11 +116,10 @@ body {
 }
 
 .monthlyContainer {
-  background-image:url(https://images.designtrends.com/wp-content/uploads/2016/03/29115235/Abstract-Plain-White-Wallpaper-.jpg);
+  background-image: url(https://images.designtrends.com/wp-content/uploads/2016/03/29115235/Abstract-Plain-White-Wallpaper-.jpg);
   font-family: "Raleway", sans-serif;
   position: relative;
 }
-
 
 .monthlyIcon {
   max-width: 300px;
@@ -137,13 +135,11 @@ body {
   position: relative;
 }
 
-
-
 .galleryButton {
   font-family: "Playwrite NZ", cursive;
   background-image: url(https://c1.wallpaperflare.com/preview/534/441/288/camera-digital-equipment-black.jpg);
   background-size: cover;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-position: center;
   border: none;
   font-size: x-large;
@@ -153,8 +149,6 @@ body {
 .galleryButton:hover {
   box-shadow: 0 0 20px 0 rgb(10, 2, 2);
 }
-
-
 
 /* Gallery */
 
@@ -169,7 +163,9 @@ body {
   font-family: "Cinzel", serif;
   text-align: center;
   font-size: xx-large;
-  border-bottom: 10px double black;
+  background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODEtYWRqLTAzMC5qcGc.jpg?s=QDtKgZEspKr93toAZBdoFkYSA4T_j4AKUhfYgUGAXKU);
+  background-size: cover;
+  position: relative;
 }
 
 .tableOfcontents a {
@@ -178,20 +174,24 @@ body {
 }
 
 .tableOfcontents a:hover {
-  color: #B2BABB;
+  color: #b2babb;
 }
 
 .tableButton {
   background: linear-gradient(to right, black, #424949, black);
 }
 
-
+.galleryBackground {
+  background-image: url(https://i.pinimg.com/originals/ec/db/5a/ecdb5a644815400fcb388673c4c317b8.jpg);
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scrollbars */
+}
 
 .galleryImage {
   box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
   max-width: 325px !important;
   transition: 0.2s ease-in;
-  max-height:300px !important;
+  max-height: 300px !important;
 }
 
 .galleryImage:hover,
@@ -239,11 +239,11 @@ body {
   }
 
   .monthlyShowcase {
-padding-top: 170px !important;
+    padding-top: 170px !important;
   }
 
   .titleContainer::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 5px;
     left: 0;
@@ -256,13 +256,24 @@ padding-top: 170px !important;
   }
 
   .monthlyContainer::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 50px; /* Adjust the height of the border */
     background-image: url(https://www.pngmart.com/files/3/Horizontal-Line-Transparent-PNG.png); /* Add your image here */
+    background-size: cover; /* Adjust as needed */
+  }
+
+  .tableOfcontents::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 0;
+    right: 0;
+    height: 75px; /* Adjust the height of the border */
+    background-image: url(https://1.bp.blogspot.com/-9vlioQ-pWu4/XCCEu_eJ1NI/AAAAAAAAJLY/2ILK4Uvi5QgxM6aW11ZmYNiTylJcYa12wCLcBGAs/s1600/png.png2.png); /* Add your image here */
     background-size: cover; /* Adjust as needed */
   }
 }

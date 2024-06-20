@@ -275,8 +275,6 @@ import lolaTree2 from "../assets/images/lolaTree2.jpg";
 import lolaTree2Small from "../assets/images/lolaTree2Small.jpg";
 import lolaWoods from "../assets/images/lolaWoods.jpg";
 import lolaWoodsSmall from "../assets/images/lolaWoodsSmall.jpg";
-import tonyCook from "../assets/images/tonyCook.jpg";
-import tonyCookSmall from "../assets/images/tonyCookSmall.jpg";
 import tonyYellow1 from "../assets/images/tonyYellow1.jpg";
 import tonyYellow1Small from "../assets/images/tonyYellow1Small.jpg";
 import tonyYellow2 from "../assets/images/tonyYellow2.jpg";
@@ -286,14 +284,14 @@ import tonyYellow3Small from "../assets/images/tonyYellow3Small.jpg";
 
 export default function Gallery() {
   return (
-    <Container fluid className="text-center">
+    <Container fluid className="text-center galleryBackground">
       <Container fluid className="tableOfcontents">
         <Row>
           <Col>
             <p>Table of Contents</p>
           </Col>
         </Row>
-        <Row>
+        <Row className="pt-5">
           <Col className="pb-3">
             <Button
               className="tableButton"
@@ -420,7 +418,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3">
-        <Col lg={12} sm={12} xs={12}>
+        <Col lg={12} sm={12} xs={12} className="p-4">
           <ModalImage
             small={ramboSmall}
             large={rambo}
@@ -541,22 +539,22 @@ export default function Gallery() {
           </p>
         </Col>
       </Row>
-      <Row className="align-items-center pt-3 leconteRow">
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+      <Row className="align-items-center pt-3 leconteRow ">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={leconte1Small}
             large={leconte1}
             alt="An image in Leconte Village up deep in the mountains."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={leconte22Small}
             large={leconte22}
             alt="An image in Leconte Village up deep in the mountains."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={leconte2Small}
             large={leconte2}
@@ -633,7 +631,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3">
-        <Col lg={6} sm={12} xs={12} className="pt-2">
+        <Col lg={6} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={gatlinburg2Small}
             large={gatlinburg2}
@@ -641,7 +639,7 @@ export default function Gallery() {
             className="galleryImageLarge"
           />
         </Col>
-        <Col lg={6} sm={12} xs={12} className="pt-2">
+        <Col lg={6} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={gatlinburg1Small}
             large={gatlinburg1}
@@ -684,7 +682,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center pt-3">
+      <Row className="align-items-center pt-3 p-4">
         <Col lg={12} sm={12} xs={12}>
           <ModalImage
             small={sunStairsSmall}
@@ -767,7 +765,7 @@ export default function Gallery() {
           />
         </Col>
       </Row>
-      <Row className="align-items-center pt-3">
+      <Row className="align-items-center pt-3 p-4">
         <Col lg={12} sm={12} xs={12}>
           <ModalImage
             small={tahoeSmall}
@@ -812,7 +810,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3">
-        <Col lg={6} sm={12} xs={12} className="pt-2">
+        <Col lg={6} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={sandy2Small}
             large={sandy2}
@@ -820,7 +818,7 @@ export default function Gallery() {
             className="galleryImageLarge"
           />
         </Col>
-        <Col lg={6} sm={12} xs={12} className="pt-2">
+        <Col lg={6} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={sandy1Small}
             large={sandy1}
@@ -898,7 +896,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3">
-        <Col lg={6} sm={12} xs={12} className="pt-2">
+        <Col lg={6} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={venice3Small}
             large={venice3}
@@ -906,7 +904,7 @@ export default function Gallery() {
             className="galleryImageLarge"
           />
         </Col>
-        <Col lg={6} sm={12} xs={12} className="pt-2">
+        <Col lg={6} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={fishSmall}
             large={fish}
@@ -955,7 +953,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3">
-        <Col lg={12} sm={12} xs={12}>
+        <Col lg={12} sm={12} xs={12} className="p-4">
           <ModalImage
             small={bwMountainsSmall}
             large={bwMountains}
@@ -1042,21 +1040,21 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3 leconteRow">
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={peak1Small}
             large={peak1}
             alt="A mountain peak near Mt. Rainier in Washington 01"
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={peak2Small}
             large={peak2}
             alt="A mountain peak near Mt. Rainier in Washington 02"
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={peak3Small}
             large={peak3}
@@ -1133,7 +1131,7 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3">
-        <Col lg={6} sm={12} xs={12} className="pt-2">
+        <Col lg={6} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={sedonaMagicSmall}
             large={sedonaMagic}
@@ -1141,7 +1139,7 @@ export default function Gallery() {
             className="galleryImageLarge"
           />
         </Col>
-        <Col lg={6} sm={12} xs={12} className="pt-2">
+        <Col lg={6} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={swMagicSmall}
             large={swMagic}
@@ -1258,21 +1256,21 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3 leconteRow">
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={bee2Small}
             large={bee2}
             alt="A closeup photo of a bee."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={bee1Small}
             large={bee1}
             alt="A closeup photo of a bee."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={bee3Small}
             large={bee3}
@@ -1422,21 +1420,21 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3 leconteRow">
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={lolaFence1Small}
             large={lolaFence1}
             alt="A woman standing by a fence."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={lolaFence2Small}
             large={lolaFence2}
             alt="A woman standing by a fence."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={lolaFence3Small}
             large={lolaFence3}
@@ -1479,21 +1477,21 @@ export default function Gallery() {
         </Col>
       </Row>
       <Row className="align-items-center pt-3 leconteRow">
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={tonyYellow2Small}
             large={tonyYellow2}
             alt="A man standing in front of rocks."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={tonyYellow1Small}
             large={tonyYellow1}
             alt="A man standing in front of rocks."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={tonyYellow3Small}
             large={tonyYellow3}
@@ -1530,27 +1528,27 @@ export default function Gallery() {
           <ModalImage
             small={lolabw2Small}
             large={lolabw2}
-           alt="A portrait of a woman by a lake."
+            alt="A portrait of a woman by a lake."
             className="galleryImage"
           />
         </Col>
       </Row>
       <Row className="align-items-center pt-3 leconteRow">
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={adamFam1Small}
             large={adamFam1}
             alt="A family poses on a beach."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={adamFam2mall}
             large={adamFam2}
             alt="A child wanders near a lake."
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
           <ModalImage
             small={adamFam3Small}
             large={adamFam3}
