@@ -163,9 +163,8 @@ body {
   font-family: "Cinzel", serif;
   text-align: center;
   font-size: xx-large;
-  background-image: url(https://images.rawpixel.com/image_800/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvcm0yODEtYWRqLTAzMC5qcGc.jpg?s=QDtKgZEspKr93toAZBdoFkYSA4T_j4AKUhfYgUGAXKU);
-  background-size: cover;
   position: relative;
+
 }
 
 .tableOfcontents a {
@@ -182,13 +181,14 @@ body {
 }
 
 .galleryBackground {
-  background-image: url(https://i.pinimg.com/originals/ec/db/5a/ecdb5a644815400fcb388673c4c317b8.jpg);
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrollbars */
+  background-image: url(https://wallpapercave.com/wp/wp8461038.jpg);
+  position: relative;
 }
 
 .galleryImage {
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 1);
+  box-shadow: 0 0 5px 0 rgb(19, 18, 18);
   max-width: 325px !important;
   transition: 0.2s ease-in;
   max-height: 300px !important;
@@ -241,6 +241,7 @@ body {
   .monthlyShowcase {
     padding-top: 170px !important;
   }
+  
 
   .titleContainer::before {
     content: "";
@@ -274,6 +275,16 @@ body {
     right: 0;
     height: 75px; /* Adjust the height of the border */
     background-image: url(https://1.bp.blogspot.com/-9vlioQ-pWu4/XCCEu_eJ1NI/AAAAAAAAJLY/2ILK4Uvi5QgxM6aW11ZmYNiTylJcYa12wCLcBGAs/s1600/png.png2.png); /* Add your image here */
+    background-size: cover; /* Adjust as needed */
+  }
+  .galleryBackground::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top:140px;
+    height: 300px; /* Adjust the height of the border */
+    background-image: url(https://www.freeiconspng.com/uploads/black-swirl-designs-png-6.png); /* Add your image here */
     background-size: cover; /* Adjust as needed */
   }
 }
