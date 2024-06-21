@@ -213,7 +213,7 @@ body {
   padding: 5px;
   border-radius: 25px;
 }
-
+/* ... */
 .backToTopButton {
   font-family: "Cinzel", serif;
   background-color: black;
@@ -277,17 +277,7 @@ body {
     background-image: url(https://1.bp.blogspot.com/-9vlioQ-pWu4/XCCEu_eJ1NI/AAAAAAAAJLY/2ILK4Uvi5QgxM6aW11ZmYNiTylJcYa12wCLcBGAs/s1600/png.png2.png); /* Add your image here */
     background-size: cover; /* Adjust as needed */
   }
-  .galleryBackground::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top:375px;
-    height: 150px; /* Adjust the height of the border */
-    background-image: url(https://3.bp.blogspot.com/-ktuA57uhTbk/XH4j7iFkvzI/AAAAAAAAJss/kC8xlppxkloOeRLbaxd0lxHX7Q_mPoZrACEwYBhgL/w1200-h630-p-k-no-nu/7.png); /* Add your image here */
-    background-size: cover; /* Adjust as needed */
-    
-  }
+
 }
 @media (max-width: 920px) {
   .navbar-text {
@@ -297,57 +287,9 @@ body {
   }
 }
 
-@media (max-width: 360px) and (min-width: 358px) {
-  .galleryBackground::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 375px; /* Adjust this value to position the pseudo-element as needed */
-    height: 150px; /* Adjust the height of the border */
-    background-image: url(https://3.bp.blogspot.com/-ktuA57uhTbk/XH4j7iFkvzI/AAAAAAAAJss/kC8xlppxkloOeRLbaxd0lxHX7Q_mPoZrACEwYBhgL/w1200-h630-p-k-no-nu/7.png); /* Add your image here */
-    background-size: cover; /* Adjust as needed */
-  }
-}
 
-@media (max-width: 402px) and (min-width: 400px) {
-  .galleryBackground::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 350px; /* Adjust this value to position the pseudo-element as needed */
-    height: 150px; /* Adjust the height of the border */
-    background-image: url(https://3.bp.blogspot.com/-ktuA57uhTbk/XH4j7iFkvzI/AAAAAAAAJss/kC8xlppxkloOeRLbaxd0lxHX7Q_mPoZrACEwYBhgL/w1200-h630-p-k-no-nu/7.png); /* Add your image here */
-    background-size: cover; /* Adjust as needed */
-  }
-}
 
-@media (max-width: 429px) and (min-width: 403px) {
-  .galleryBackground::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 315px; /* Adjust this value to position the pseudo-element as needed */
-    height: 150px; /* Adjust the height of the border */
-    background-image: url(https://3.bp.blogspot.com/-ktuA57uhTbk/XH4j7iFkvzI/AAAAAAAAJss/kC8xlppxkloOeRLbaxd0lxHX7Q_mPoZrACEwYBhgL/w1200-h630-p-k-no-nu/7.png); /* Add your image here */
-    background-size: cover; /* Adjust as needed */
-  }
-}
 
-@media (max-width: 450px) and (min-width: 430px) {
-  .galleryBackground::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 275px; /* Adjust this value to position the pseudo-element as needed */
-    height: 150px; /* Adjust the height of the border */
-    background-image: url(https://3.bp.blogspot.com/-ktuA57uhTbk/XH4j7iFkvzI/AAAAAAAAJss/kC8xlppxkloOeRLbaxd0lxHX7Q_mPoZrACEwYBhgL/w1200-h630-p-k-no-nu/7.png); /* Add your image here */
-    background-size: cover; /* Adjust as needed */
-  }
-}
 
 
 
