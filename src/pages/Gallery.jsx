@@ -267,6 +267,12 @@ import lolaLight from "../assets/images/lolaLight.jpg";
 import lolaLightSmall from "../assets/images/lolaLightSmall.jpg";
 import lolaNight from "../assets/images/lolaNight.jpg";
 import lolaNightSmall from "../assets/images/lolaNightSmall.jpg";
+import lolaSequoia from "../assets/images/lolaSequoia.jpg"
+import lolaSequoiaSmall from "../assets/images/lolaSequoiaSmall.jpg"
+import lolaSedona from "../assets/images/lolaSedona.jpg"
+import lolaSedonaSmall from "../assets/images/lolaSedonaSmall.jpg"
+import lolaSedona2 from "../assets/images/lolaSedona2.jpg"
+import lolaSedona2Small from "../assets/images/lolaSedona2Small.jpg"
 import lolaSit from "../assets/images/lolaSit.jpg";
 import lolaSitSmall from "../assets/images/lolaSitSmall.jpg";
 import lolaTree from "../assets/images/lolaTree.jpg";
@@ -275,6 +281,8 @@ import lolaTree2 from "../assets/images/lolaTree2.jpg";
 import lolaTree2Small from "../assets/images/lolaTree2Small.jpg";
 import lolaWoods from "../assets/images/lolaWoods.jpg";
 import lolaWoodsSmall from "../assets/images/lolaWoodsSmall.jpg";
+import theo from "../assets/images/theo.jpg"
+import theoSmall from "../assets/images/theoSmall.jpg"
 import tonyYellow1 from "../assets/images/tonyYellow1.jpg";
 import tonyYellow1Small from "../assets/images/tonyYellow1Small.jpg";
 import tonyYellow2 from "../assets/images/tonyYellow2.jpg";
@@ -545,6 +553,7 @@ export default function Gallery() {
             small={leconte1Small}
             large={leconte1}
             alt="An image in Leconte Village up deep in the mountains."
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -552,6 +561,7 @@ export default function Gallery() {
             small={leconte22Small}
             large={leconte22}
             alt="An image in Leconte Village up deep in the mountains."
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -559,6 +569,7 @@ export default function Gallery() {
             small={leconte2Small}
             large={leconte2}
             alt="An image in Leconte Village up deep in the mountains."
+            className="ThreeinRow"
           />
         </Col>
       </Row>
@@ -1045,6 +1056,7 @@ export default function Gallery() {
             small={peak1Small}
             large={peak1}
             alt="A mountain peak near Mt. Rainier in Washington 01"
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -1052,6 +1064,7 @@ export default function Gallery() {
             small={peak2Small}
             large={peak2}
             alt="A mountain peak near Mt. Rainier in Washington 02"
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -1059,6 +1072,7 @@ export default function Gallery() {
             small={peak3Small}
             large={peak3}
             alt="A mountain peak near Mt. Rainier in Washington 03"
+            className="ThreeinRow"
           />
         </Col>
       </Row>
@@ -1261,6 +1275,7 @@ export default function Gallery() {
             small={bee2Small}
             large={bee2}
             alt="A closeup photo of a bee."
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -1268,6 +1283,7 @@ export default function Gallery() {
             small={bee1Small}
             large={bee1}
             alt="A closeup photo of a bee."
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -1275,6 +1291,7 @@ export default function Gallery() {
             small={bee3Small}
             large={bee3}
             alt="A closeup photo of a bee."
+            className="ThreeinRow"
           />
         </Col>
       </Row>
@@ -1425,6 +1442,7 @@ export default function Gallery() {
             small={lolaFence1Small}
             large={lolaFence1}
             alt="A woman standing by a fence."
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -1432,6 +1450,7 @@ export default function Gallery() {
             small={lolaFence2Small}
             large={lolaFence2}
             alt="A woman standing by a fence."
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -1439,6 +1458,7 @@ export default function Gallery() {
             small={lolaFence3Small}
             large={lolaFence3}
             alt="A woman standing by a fence."
+            className="ThreeinRow"
           />
         </Col>
       </Row>
@@ -1482,6 +1502,7 @@ export default function Gallery() {
             small={tonyYellow2Small}
             large={tonyYellow2}
             alt="A man standing in front of rocks."
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -1489,6 +1510,7 @@ export default function Gallery() {
             small={tonyYellow1Small}
             large={tonyYellow1}
             alt="A man standing in front of rocks."
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -1496,6 +1518,7 @@ export default function Gallery() {
             small={tonyYellow3Small}
             large={tonyYellow3}
             alt="A man standing in front of rocks."
+            className="ThreeinRow"
           />
         </Col>
       </Row>
@@ -1539,6 +1562,7 @@ export default function Gallery() {
             small={adamFam1Small}
             large={adamFam1}
             alt="A family poses on a beach."
+            className="ThreeinRow"
           />
         </Col>
         <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
@@ -1546,13 +1570,49 @@ export default function Gallery() {
             small={adamFam2mall}
             large={adamFam2}
             alt="A child wanders near a lake."
+            className="ThreeinRow"
           />
         </Col>
-        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4 ">
           <ModalImage
             small={adamFam3Small}
             large={adamFam3}
             alt="A father and child walking on a beach."
+            className="ThreeinRow"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaSequoiaSmall}
+            large={lolaSequoia}
+            alt="A portrait of a woman sitting on a rock."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaSedonaSmall}
+            large={lolaSedona}
+             alt="A portrait of a woman in Sedona, AZ."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={theoSmall}
+            large={theo}
+            alt="A portrait of a child playing in bubbles."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={lolaSedona2Small}
+            large={lolaSedona2}
+            alt="A portrait of a woman in Sedona, AZ."
+            className="galleryImage"
           />
         </Col>
       </Row>
