@@ -36,8 +36,6 @@ import gatlinburg1Small from "../assets/images/gatlinburg1Small.jpg";
 import gatlinburg2Small from "../assets/images/gatlinburg2Small.jpg";
 import grinch from "../assets/images/grinch.jpg";
 import grinchSmall from "../assets/images/grinchSmall.jpg";
-import jungleAdventure from "../assets/images/jungleAdventure.jpg";
-import jungleAdventureSmall from "../assets/images/jungleAdventure.jpg";
 import land from "../assets/images/land.jpg";
 import landSmall from "../assets/images/landSmall.jpg";
 import leconte1 from "../assets/images/leconte3.jpg";
@@ -46,6 +44,14 @@ import leconte2 from "../assets/images/leconte2.jpg";
 import leconte2Small from "../assets/images/leconte2Small.jpg";
 import leconte22 from "../assets/images/leconte22.jpg";
 import leconte22Small from "../assets/images/leconte22Small.jpg";
+import luton1 from "../assets/images/luton1.jpg"
+import luton1Small from "../assets/images/luton1Small.jpg"
+import luton2 from "../assets/images/luton2.jpg"
+import luton2Small from "../assets/images/luton2Small.jpg"
+import luton3 from "../assets/images/luton3.jpg"
+import luton3Small from "../assets/images/luton3Small.jpg"
+import luton4 from "../assets/images/luton4.jpg"
+import luton4Small from "../assets/images/luton4Small.jpg"
 import magicHike from "../assets/images/magicHike.jpg";
 import magicHikeSmall from "../assets/images/magicHikeSmall.jpg";
 import omniousForest from "../assets/images/omniousForest.jpg";
@@ -64,6 +70,8 @@ import redPuddle from "../assets/images/redPuddle.jpg";
 import redPuddleSmall from "../assets/images/redPuddleSmall.jpg";
 import smokeyMountain from "../assets/images/smokeyMountain.jpg";
 import smokeyMountainSmall from "../assets/images/smokeyMountain.jpg";
+import spiderLight from "../assets/images/spiderLight.jpg"
+import spiderLightSmall from "../assets/images/spiderLightSmall.jpg"
 import sunStairs from "../assets/images/sunStairs.jpg";
 import sunStairsSmall from "../assets/images/sunStairsSmall.jpg";
 import sunStream from "../assets/images/sunStream.jpg";
@@ -267,12 +275,12 @@ import lolaLight from "../assets/images/lolaLight.jpg";
 import lolaLightSmall from "../assets/images/lolaLightSmall.jpg";
 import lolaNight from "../assets/images/lolaNight.jpg";
 import lolaNightSmall from "../assets/images/lolaNightSmall.jpg";
-import lolaSequoia from "../assets/images/lolaSequoia.jpg"
-import lolaSequoiaSmall from "../assets/images/lolaSequoiaSmall.jpg"
-import lolaSedona from "../assets/images/lolaSedona.jpg"
-import lolaSedonaSmall from "../assets/images/lolaSedonaSmall.jpg"
-import lolaSedona2 from "../assets/images/lolaSedona2.jpg"
-import lolaSedona2Small from "../assets/images/lolaSedona2Small.jpg"
+import lolaSequoia from "../assets/images/lolaSequoia.jpg";
+import lolaSequoiaSmall from "../assets/images/lolaSequoiaSmall.jpg";
+import lolaSedona from "../assets/images/lolaSedona.jpg";
+import lolaSedonaSmall from "../assets/images/lolaSedonaSmall.jpg";
+import lolaSedona2 from "../assets/images/lolaSedona2.jpg";
+import lolaSedona2Small from "../assets/images/lolaSedona2Small.jpg";
 import lolaSit from "../assets/images/lolaSit.jpg";
 import lolaSitSmall from "../assets/images/lolaSitSmall.jpg";
 import lolaTree from "../assets/images/lolaTree.jpg";
@@ -281,8 +289,8 @@ import lolaTree2 from "../assets/images/lolaTree2.jpg";
 import lolaTree2Small from "../assets/images/lolaTree2Small.jpg";
 import lolaWoods from "../assets/images/lolaWoods.jpg";
 import lolaWoodsSmall from "../assets/images/lolaWoodsSmall.jpg";
-import theo from "../assets/images/theo.jpg"
-import theoSmall from "../assets/images/theoSmall.jpg"
+import theo from "../assets/images/theo.jpg";
+import theoSmall from "../assets/images/theoSmall.jpg";
 import tonyYellow1 from "../assets/images/tonyYellow1.jpg";
 import tonyYellow1Small from "../assets/images/tonyYellow1Small.jpg";
 import tonyYellow2 from "../assets/images/tonyYellow2.jpg";
@@ -594,15 +602,15 @@ export default function Gallery() {
           <ModalImage
             small={forestVibesSmall}
             large={forestVibes}
-            alt="A colorful forest path in the Appalachians."
+            alt="A rocky forest path during golden hour."
             className="galleryImage"
           />
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-            small={jungleAdventureSmall}
-            large={jungleAdventure}
-            alt="A man hiking through the jungle-like Appalachians."
+            small={spiderLightSmall}
+            large={spiderLight}
+            alt="The light shining through the forest brush."
             className="galleryImage"
           />
         </Col>
@@ -700,6 +708,40 @@ export default function Gallery() {
             large={sunStairs}
             alt="The sun light beams heavily onto a secluded set of stairs."
             className="galleryImageLarge"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={luton1Small}
+            large={luton1}
+            alt="Luton Park during golden hour."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+        small={luton2Small}
+        large={luton2}
+             alt="Luton Park during golden hour."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+           small={luton3Small}
+           large={luton3}
+             alt="Luton Park during golden hour."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={luton4Small}
+            large={luton4}
+              alt="Luton Park during golden hour."
+            className="galleryImage"
           />
         </Col>
       </Row>
@@ -1595,7 +1637,7 @@ export default function Gallery() {
           <ModalImage
             small={lolaSedonaSmall}
             large={lolaSedona}
-             alt="A portrait of a woman in Sedona, AZ."
+            alt="A portrait of a woman in Sedona, AZ."
             className="galleryImage"
           />
         </Col>
