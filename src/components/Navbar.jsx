@@ -48,6 +48,9 @@ export default function Navigation() {
               <Nav.Link as={Link} to="/Gallery" onClick={handleNavLinkClick}>
                 Gallery
               </Nav.Link>
+              <Nav.Link as={Link} to="/About" onClick={handleNavLinkClick}>
+                About 
+              </Nav.Link>
             </Nav>
             <NavbarText className="navbar-text p-0">
               <span className="dateAndRibbon">

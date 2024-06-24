@@ -240,6 +240,35 @@ body {
   border: none;
 }
 
+/* About Me --------------------------------------------------------------*/
+
+.aboutBackground {
+  background-image: url();
+}
+
+.aboutTitle {
+  font-family: "Cinzel", serif;
+}
+
+.profilePhoto {
+  max-width: 500px !important;
+  border-radius: 25px;
+  box-shadow: 0 0 15px 0 rgb(255, 255, 255);
+  transition: 0.2s ease-in;
+}
+
+.profilePhoto:hover {
+  box-shadow: 0 0 25px 0 rgb(255, 255, 255);
+}
+
+.profileDescription {
+  max-width: 600px;
+  font-family: "Cinzel", serif;
+  font-size: x-large;
+  background-color: rgb(0, 0, 0, 0.8);
+  border-radius: 25px;
+}
+
 @media (max-width: 450px) {
   .galleryImageLarge {
     max-width: 100% !important;

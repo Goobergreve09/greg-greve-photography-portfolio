@@ -13,6 +13,7 @@ import Error from "./pages/Error";
 
 import Home from "./pages/Home";
 import Gallery from "./pages/Gallery"
+import About from "./pages/About"
 
 
 const router = createBrowserRouter([
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
       path:"/Gallery",
       element: <Gallery />,
+      },
+      {
+      path:"/About",
+      element: <About />,
       }
     ],
   },

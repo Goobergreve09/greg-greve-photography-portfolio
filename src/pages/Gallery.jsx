@@ -44,14 +44,14 @@ import leconte2 from "../assets/images/leconte2.jpg";
 import leconte2Small from "../assets/images/leconte2Small.jpg";
 import leconte22 from "../assets/images/leconte22.jpg";
 import leconte22Small from "../assets/images/leconte22Small.jpg";
-import luton1 from "../assets/images/luton1.jpg"
-import luton1Small from "../assets/images/luton1Small.jpg"
-import luton2 from "../assets/images/luton2.jpg"
-import luton2Small from "../assets/images/luton2Small.jpg"
-import luton3 from "../assets/images/luton3.jpg"
-import luton3Small from "../assets/images/luton3Small.jpg"
-import luton4 from "../assets/images/luton4.jpg"
-import luton4Small from "../assets/images/luton4Small.jpg"
+import luton1 from "../assets/images/luton1.jpg";
+import luton1Small from "../assets/images/luton1Small.jpg";
+import luton2 from "../assets/images/luton2.jpg";
+import luton2Small from "../assets/images/luton2Small.jpg";
+import luton3 from "../assets/images/luton3.jpg";
+import luton3Small from "../assets/images/luton3Small.jpg";
+import luton4 from "../assets/images/luton4.jpg";
+import luton4Small from "../assets/images/luton4Small.jpg";
 import magicHike from "../assets/images/magicHike.jpg";
 import magicHikeSmall from "../assets/images/magicHikeSmall.jpg";
 import omniousForest from "../assets/images/omniousForest.jpg";
@@ -70,8 +70,8 @@ import redPuddle from "../assets/images/redPuddle.jpg";
 import redPuddleSmall from "../assets/images/redPuddleSmall.jpg";
 import smokeyMountain from "../assets/images/smokeyMountain.jpg";
 import smokeyMountainSmall from "../assets/images/smokeyMountain.jpg";
-import spiderLight from "../assets/images/spiderLight.jpg"
-import spiderLightSmall from "../assets/images/spiderLightSmall.jpg"
+import spiderLight from "../assets/images/spiderLight.jpg";
+import spiderLightSmall from "../assets/images/spiderLightSmall.jpg";
 import sunStairs from "../assets/images/sunStairs.jpg";
 import sunStairsSmall from "../assets/images/sunStairsSmall.jpg";
 import sunStream from "../assets/images/sunStream.jpg";
@@ -722,17 +722,17 @@ export default function Gallery() {
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-        small={luton2Small}
-        large={luton2}
-             alt="Luton Park during golden hour."
+            small={luton2Small}
+            large={luton2}
+            alt="Luton Park during golden hour."
             className="galleryImage"
           />
         </Col>
         <Col lg={3} sm={12} xs={12} className="pt-2">
           <ModalImage
-           small={luton3Small}
-           large={luton3}
-             alt="Luton Park during golden hour."
+            small={luton3Small}
+            large={luton3}
+            alt="Luton Park during golden hour."
             className="galleryImage"
           />
         </Col>
@@ -740,7 +740,7 @@ export default function Gallery() {
           <ModalImage
             small={luton4Small}
             large={luton4}
-              alt="Luton Park during golden hour."
+            alt="Luton Park during golden hour."
             className="galleryImage"
           />
         </Col>
