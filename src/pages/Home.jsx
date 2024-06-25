@@ -79,7 +79,7 @@ export default function Home() {
           </Button>
         </Row>
       </Container>
-      <Container fluid className=" instagramBackground">
+      {/* <Container fluid className=" instagramBackground">
         <Row className="justify-content-center align-items-center text-center">
           <Col>
           You can follow our socials here
@@ -89,11 +89,11 @@ export default function Home() {
         <Col xs={12} sm={12} md={12} lg={4}>
         <Instagram />
         </Col>
-        <Col xs={12} sm={12} md={12} lg={4} className="text-center">
+        {/* <Col xs={12} sm={12} md={12} lg={4} className="text-center">
         <Facebook />
-        </Col>
-        </Row>
-      </Container>
+        </Col> */}
+        {/* </Row>
+      </Container> */} 
 
       <Container fluid className="monthlyContainer">
         <Row className="monthlyTitle justify-content-center pt-5">
