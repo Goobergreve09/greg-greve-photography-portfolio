@@ -53,7 +53,7 @@ body {
 }
 
 .instagramBackground {
-  background: url(https://images2.alphacoders.com/101/1017005.jpg);
+  background: url(https://wallpaperaccess.com/full/2153948.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -330,6 +330,10 @@ color: #5DADE2;
     padding-top: 170px !important;
   }
 
+  .fb-page {
+    width:400px !important;
+  }
+
   .titleContainer::before {
     content: "";
     position: absolute;
@@ -371,4 +375,11 @@ color: #5DADE2;
     justify-content: center;
     display: flex;
   }
+}
+
+@media (max-width: 410px) {
+  .fb-page {
+    width:350px !important;
+  }
+
 }
