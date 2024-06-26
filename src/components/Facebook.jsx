@@ -1,19 +1,23 @@
+import  { useEffect } from 'react';
+
 const Facebook = () => {
-    return (
-      <div className="fb-page" 
-           data-href="https://www.facebook.com/GregGrevePhotography/" 
-           data-tabs="timeline" 
-           data-width="800" 
-           data-height="" 
-           data-small-header="false" 
-           data-adapt-container-width="true" 
-           data-hide-cover="false" 
-           data-show-facepile="false">
-        <blockquote cite="https://www.facebook.com/GregGrevePhotography/" className="fb-xfbml-parse-ignore">
-          <a href="https://www.facebook.com/GregGrevePhotography/">Greg Greve Photography</a>
-        </blockquote>
-      </div>
-    );
-  };
-  
-  export default Facebook;
+  useEffect(() => {
+    // Load Tagembed script dynamically
+    const script = document.createElement('script');
+    script.src = '//widget.tagembed.com/embed.min.js';
+    script.type = 'text/javascript';
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      // Clean up function to remove the script when component unmounts
+      document.body.removeChild(script);
+    };
+  }, []);
+
+  return (
+    <div className="tagembed-widget" style={{ width: '100%', height: '50%' }} data-widget-id="154163" data-view-url="https://widget.tagembed.com/154163"></div>
+  );
+};
+
+export default Facebook;

@@ -330,6 +330,11 @@ color: #5DADE2;
     padding-top: 170px !important;
   }
 
+  .lightwidget-widget {
+    width:100% !important;
+    height:300px !important;
+  }
+
   .fb-page {
     width:400px !important;
   }
@@ -374,6 +379,12 @@ color: #5DADE2;
     margin-left: 0;
     justify-content: center;
     display: flex;
+  }
+
+  
+  .lightwidget-widget {
+    width:100% !important;
+    height:300px !important;
   }
 }
 
