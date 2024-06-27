@@ -24,7 +24,7 @@ body {
   padding-top: 50px;
   text-align: center;
   font-size: 32px;
-  z-index: 100;
+  z-index: 1;
 }
 
 .footer a {
@@ -241,22 +241,29 @@ body {
   border-radius: 25px;
 }
 /* ... */
-.backToTopButton {
+.back-to-top {
   font-family: "Cinzel", serif;
-  background-color: black;
+  background: linear-gradient(to bottom, black, grey) !important; 
   border: none;
-  .backToTopButton {
+  z-index:1000;
     position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000; /* Ensure the button appears on top of other content */
-  }
+    left: 95%;
+    bottom:15px !important;
+    transition: .5s ease-in;
+
+
+ /* Ensure the button appears on top of other content */
+  
 }
 
-.backToTopButton:hover {
-  background-color: grey;
+.back-to-top:hover {
   border: none;
+  box-shadow: 0 0 20px 0 rgb(255, 255, 255);
+  background: linear-gradient(to bottom, black, #A9DFBF) !important; 
+}
+
+.upGif {
+  width:50px;
 }
 
 /* About Me --------------------------------------------------------------*/

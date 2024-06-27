@@ -4,7 +4,7 @@ import Favicon from "react-favicon";
 
 import { useEffect, useState } from "react";
 import "./app.css";
-import arrowUpGif from "./assets/images/upArrow.png"; 
+import arrowUpGif from "./assets/images/upArrow.gif"; 
 import ggpLogoWhite from "./assets/images/ggpLogoWhite.png"
 
 function App() {
