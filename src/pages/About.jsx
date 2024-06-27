@@ -53,7 +53,7 @@ export default function About() {
                 Facebook
               </a>
               , <a href="https://www.instagram.com/karatecakeman/">Instagram</a>
-              , or through my contact page. Additionally, if you are interested
+              , or through my <a href ="/Contact">contact page</a>. Additionally, if you are interested
               in purchasing my photographs you find in the{" "}
               <a href="/Gallery">Gallery</a> as posters, tapestries, canvases,
               or other formats, feel free to reach out. I'm excited to make your
