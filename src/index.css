@@ -201,27 +201,16 @@ body {
 
 .tableOfcontents a {
   text-decoration: none;
-  color: white;
+color:black;
+font-family: "Cinzel", serif;
+font-size: x-large;
 }
 
 .tableOfcontents a:hover {
-  color: white;
+text-decoration:underline;
 }
 
-.tableButton {
-  background: linear-gradient(132deg, rgb(65, 80, 95) 0%, rgb(36, 37, 38) 100%);
-  border: none;
-  transition: 0.3s ease-out;
-}
 
-.tableButton:hover {
-  background: linear-gradient(
-    132deg,
-    rgb(3, 148, 108) 0%,
-    rgb(33, 35, 34) 100%
-  );
-  border: none;
-}
 .galleryBackground {
   padding: 0;
   overflow-x: hidden; /* Prevent horizontal scrollbars */

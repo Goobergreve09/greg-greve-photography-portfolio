@@ -308,55 +308,23 @@ export default function Gallery() {
           </Col>
         </Row>
         <Row className="pt-5">
-          <Col className="pb-3">
-            <Button
-              className="tableButton"
-              variant="link"
-              href="#forests"
-              size="lg"
-            >
-              1. Forests and Greenery
-            </Button>
+        <Col small={12} xs={12} md={4} className="pb-3">
+           
+
+              <a href="#forests">1. Forests and Greenery</a>
+           
           </Col>
-          <Col className="pb-3">
-            <Button
-              className="tableButton"
-              variant="link"
-              href="#beaches"
-              size="lg"
-            >
-              2. Beaches and Water
-            </Button>
+          <Col small={12} xs={12} md={4} className="pb-3">
+          <a href="#beaches">2. Beaches and Water</a>
           </Col>
-          <Col className="pb-3">
-            <Button
-              className="tableButton"
-              variant="link"
-              href="#mountains"
-              size="lg"
-            >
-              3. Mountains and Red Rocks
-            </Button>
+          <Col small={12} xs={12} md={4} className="pb-3">
+          <a href="#mountains">3. Mountains and Red Rocks</a>
           </Col>
-          <Col className="pb-3">
-            <Button
-              className="tableButton"
-              variant="link"
-              href="#macro"
-              size="lg"
-            >
-              4. Macro Photography
-            </Button>
+          <Col small={12} xs={12} md={6} className="pb-3">
+          <a href="#macro">4. Close-up</a>
           </Col>
-          <Col className="pb-3">
-            <Button
-              className="tableButton"
-              variant="link"
-              href="#portraiture"
-              size="lg"
-            >
-              5. Portraiture Photography
-            </Button>
+          <Col small={12} xs={12} md={6} className="pb-3">
+          <a href="#portraiture">5. Portraiture</a>
           </Col>
         </Row>
       </Container>
