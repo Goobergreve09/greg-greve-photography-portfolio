@@ -1,5 +1,7 @@
 import { useEffect } from 'react';
 
+// https://instaplug.app/
+
 const Instagram = () => {
     useEffect(() => {
         const script = document.createElement('script');

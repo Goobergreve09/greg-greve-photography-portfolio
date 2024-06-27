@@ -1,12 +1,14 @@
-import  { useEffect } from 'react';
+import { useEffect } from 'react';
+
+// https://dash.elfsight.com/widget/30b6ed57-be38-442a-8318-84b322caf39a
 
 const Facebook = () => {
   useEffect(() => {
-    // Load Tagembed script dynamically
+    // Load ElfSight script dynamically
     const script = document.createElement('script');
-    script.src = '//widget.tagembed.com/embed.min.js';
-    script.type = 'text/javascript';
-    script.async = true;
+    script.src = 'https://static.elfsight.com/platform/platform.js';
+    script.setAttribute('data-use-service-core', '');
+    script.defer = true;
     document.body.appendChild(script);
 
     return () => {
@@ -16,8 +18,9 @@ const Facebook = () => {
   }, []);
 
   return (
-    <div className="tagembed-widget" style={{ width: '100%', height: '50%' }} data-widget-id="154163" data-view-url="https://widget.tagembed.com/154163"></div>
+    <div className="elfsight-app-30b6ed57-be38-442a-8318-84b322caf39a" data-elfsight-app-lazy></div>
   );
 };
 
 export default Facebook;
+
