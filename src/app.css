@@ -4,11 +4,7 @@
   right: 5%;
   width: 50px;
   height: 50px;
-  background: linear-gradient(
-    132deg,
-    rgb(221, 221, 221) 0%,
-    rgb(110, 136, 161) 100%
-  );
+  background: linear-gradient(132deg, rgb(221, 221, 221) 0.00%, rgb(110, 136, 161) 100.00%);
   text-align: center;
   cursor: pointer;
   border-radius: 50%; /* Make it a circle */
@@ -23,6 +19,7 @@
 
 .back-to-top:hover {
   box-shadow: 0 0 20px 0 rgb(255, 255, 255);
+  background: linear-gradient(132deg, rgb(113, 143, 175) 0.00%, rgb(69, 92, 114) 100.00%);
 }
 
 .back-to-top.show {
