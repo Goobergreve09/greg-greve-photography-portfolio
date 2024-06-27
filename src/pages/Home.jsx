@@ -6,7 +6,7 @@ import theGreatestSmall from "../assets/images/theGreatestSmall.jpg";
 import reachOut from "../assets/images/reachout.png";
 import Footer from "../components/Footer";
 import Instagram from "../components/Instagram";
-import Facebook from "../components/Facebook"
+import Facebook from "../components/Facebook";
 
 import { FaCamera } from "react-icons/fa";
 
@@ -81,19 +81,17 @@ export default function Home() {
       </Container>
       <Container fluid className=" instagramBackground">
         <Row className="justify-content-center align-items-center text-center">
-          <Col>
-          You can follow my socials here
-          </Col>
+          <Col>You can follow my socials here</Col>
         </Row>
         <Row className="justify-content-center align-items-center pt-3 pb-3">
-        <Col xs={12} sm={12} md={12} lg={4}>
-        <Instagram className='Instagram' />
-        </Col>
-         <Col xs={12} sm={12} md={12} lg={4} className="text-center">
+          <Col xs={12} sm={12} md={12} lg={4}>
+            <Instagram className="Instagram" />
+          </Col>
+          {/* <Col xs={12} sm={12} md={12} lg={4} className="text-center">
         <Facebook />
-        </Col> 
-         </Row>
-      </Container> 
+        </Col>  */}
+        </Row>
+      </Container>
 
       <Container fluid className="monthlyContainer">
         <Row className="monthlyTitle justify-content-center pt-5">

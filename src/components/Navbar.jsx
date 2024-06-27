@@ -4,6 +4,8 @@ import { Container, Navbar, Nav, NavbarText } from "react-bootstrap";
 import ggpLogo from "../assets/images/ggpLogo.png";
 import dayjs from "dayjs";
 
+import { FaHome } from "react-icons/fa";
+
 // Ribbon image imports---------------------------------------------------------------
 
 import RibbonJune from "../assets/images/mensRibbon.png";
@@ -45,11 +47,17 @@ export default function Navigation() {
           <Navbar.Toggle onClick={handleNavbarToggle} />
           <Navbar.Collapse>
             <Nav className="mr-auto navbar">
+              <Nav.Link as={Link} to="/" onClick={handleNavLinkClick}>
+                <FaHome className="homeIcon" />
+              </Nav.Link>
               <Nav.Link as={Link} to="/Gallery" onClick={handleNavLinkClick}>
                 Gallery
               </Nav.Link>
               <Nav.Link as={Link} to="/About" onClick={handleNavLinkClick}>
-                About 
+                About
+              </Nav.Link>
+              <Nav.Link as={Link} to="/Contact" onClick={handleNavLinkClick}>
+                Contact
               </Nav.Link>
             </Nav>
             <NavbarText className="navbar-text p-0">

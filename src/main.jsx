@@ -6,15 +6,14 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "./index.css";
 
-
 // Importing pages
 import App from "./App";
 import Error from "./pages/Error";
 
 import Home from "./pages/Home";
-import Gallery from "./pages/Gallery"
-import About from "./pages/About"
-
+import Gallery from "./pages/Gallery";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
   {
@@ -23,18 +22,22 @@ const router = createBrowserRouter([
     errorElement: <Error />,
     children: [
       {
-        index:true,
+        index: true,
         path: "/",
-        element: <Home />, 
+        element: <Home />,
       },
       {
-      path:"/Gallery",
-      element: <Gallery />,
+        path: "/Gallery",
+        element: <Gallery />,
       },
       {
-      path:"/About",
-      element: <About />,
-      }
+        path: "/About",
+        element: <About />,
+      },
+      {
+        path: "/Contact",
+        element: <Contact />,
+      },
     ],
   },
 ]);

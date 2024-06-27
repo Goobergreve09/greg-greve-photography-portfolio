@@ -1,32 +1,31 @@
-.container {
-    width: 500px;
-    margin: auto;
-    text-align: center;
-    align-items: center;
-  }
-  
-  .back-to-top {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    width: 60px; /* Added width to ensure the button is circular */
-    height: 60px; /* Added height to ensure the button is circular */
-    font-size: 48px; /* Adjust font size as needed */
-    line-height: 60px; /* Centering text vertically */
-    background: black;
-    color: white;
-    text-align: center; /* Centering text horizontally */
-    cursor: pointer;
-    border-radius: 50%; /* Make it a circle */
-    border: none;
-    box-shadow: 0 5px 10px #ccc;
-    align-items: center;
-    display: flex;
-    transition: .3s ease;
-  }
-  
-  .back-to-top:hover {
-    background: grey;
-  }
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 5%;
+  width: 50px; /* Added width to ensure the button is circular */
+  height: 50px; /* Added height to ensure the button is circular */
+  line-height: 60px;
+  background: linear-gradient(
+    132deg,
+    rgb(221, 221, 221) 0%,
+    rgb(110, 136, 161) 100%
+  );
+  text-align: center;
+  cursor: pointer;
+  border-radius: 50%; /* Make it a circle */
+  border: none;
+  box-shadow: 0 0px 10px 0 #ccc;
+  align-items: center;
+  display: flex;
+  transition: 0.3s ease;
+  z-index: 2;
+}
 
+.back-to-top:hover {
+  border: none;
+  box-shadow: 0 0 20px 0 rgb(255, 255, 255);
+}
 
+.upGif {
+  width: 40px;
+}
