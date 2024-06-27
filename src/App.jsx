@@ -23,19 +23,21 @@ function App() {
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: "smooth", // for smoothly scrolling
+      behavior: "smooth",
     });
   };
+
   return (
     <>
       <Favicon url={ggpLogoWhite} />
       <Nav />
       <Outlet />
-      {showButton && (
-        <button onClick={scrollToTop} className="back-to-top">
-          <img src={arrowUpGif} className="upGif" alt="Scroll to top" />
-        </button>
-      )}
+      <button
+        onClick={scrollToTop}
+        className={`back-to-top ${showButton ? 'show' : ''}`}
+      >
+        <img src={arrowUpGif} className="upGif" alt="Scroll to top" />
+      </button>
     </>
   );
 }
