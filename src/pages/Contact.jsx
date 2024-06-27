@@ -2,6 +2,8 @@ import { useState } from "react";
 import { send } from "emailjs-com";
 
 import { Container, Row, Col } from "react-bootstrap";
+import cameraClipart from "../assets/images/cameraClipart.png"
+import { FaMailBulk } from "react-icons/fa";
 
 import Footer from "../components/Footer";
 
@@ -88,19 +90,22 @@ export default function Contact() {
   return (
     <Container
       fluid
-      className="m-0 p-0 justify-content-center text-center contactBackground"
+      className=" p-0 justify-content-center text-center contactBackground align-items-center"
     >
+      <Row className="justify-content-center">
+        <Col lg={4} xs={12} className="contactHalf text-center justify-content-center pb-3 mt-5">
       <Row className="titleDiv">
-        <h2 className="m-0">Contact Me</h2>
+        <h2 className="m-0 mb-3 pt-3">Message Us!  <FaMailBulk className="mailIcon"/></h2>
       </Row>
       <Row>
-        <h4 className="text-center mb-5 m-0">
+        <h4 className="text-center m-auto contactDescription pb-2">
           If you'd like to contact me about a shoot, collaborations, or other
           services, use the form below.
         </h4>
       </Row>
+ 
 
-      <form onSubmit={handleSubmit} className="text-left">
+      <form onSubmit={handleSubmit} className="text-left pt-3">
         <Row className="mb-3 justify-content-center">
           <Col md={4}>
             <label htmlFor="firstName" className="form-label">
@@ -185,7 +190,7 @@ export default function Contact() {
         </Row>
         <Row className="justify-content-center">
           <Col md={4} className="text-center">
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="sendMessage p-3">
               Send Message
             </button>
           </Col>
@@ -194,6 +199,13 @@ export default function Contact() {
           <div className="alert alert-success mt-3">{successMessage}</div>
         )}
       </form>
+      </Col>
+      <Col lg={6} xs={12} className="pt-5 pb-5">
+      <img src={cameraClipart}
+      alt="transparent clipart photo of photgrapher" 
+      className="contactImg"/>
+      </Col>
+      </Row>
       <Footer />
     </Container>
   );

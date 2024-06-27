@@ -421,9 +421,48 @@ position: relative;
 
 .contactBackground {
   overflow-x: hidden;
-  background: url(https://static.vecteezy.com/system/resources/previews/000/544/694/original/white-abstract-background-vector-gray-abstract-modern-design-background-for-report-and-project-presentation-template-vector-illustration-graphic-futuristic-and-circular-curve-shape.jpg);
+  background: url(https://files.123freevectors.com/wp-content/original/119241-blue-and-white-abstract-background-vector.jpg);
   background-size: cover;
   height: 90vh;
+}
+
+.contactHalf {
+  background: linear-gradient(132deg, rgb(113, 143, 175) 0.00%, rgb(79, 167, 250) 100.00%);;
+  border-radius: 25px;
+  box-shadow: 0 0 10px 0 rgb(14, 12, 12);
+  color:white;
+  max-width: 75%;
+}
+
+.contactImg {
+  width:50%;
+  padding-bottom: 75px;
+}
+
+.contactDescription {
+  max-width: 500px;
+  font-family: "Cinzel", serif;
+  border-bottom: 5px white double;
+}
+
+.titleDiv {
+  font-family: "Playwrite NZ", cursive;
+}
+
+.sendMessage {
+  font-family: "Playwrite NZ", cursive;
+  background: linear-gradient(132deg, rgb(0, 48, 143) 0.00%, rgb(0, 255, 255) 100.00%);
+  border:none;
+  border-radius: 5px;
+  color:white;
+}
+
+.sendMessage:hover {
+  box-shadow: 0 0 15px 0 rgb(255, 255, 255);
+}
+
+.mailIcon {
+  font-size: xx-large;
 }
 
 @media (max-width: 450px) {
@@ -477,6 +516,7 @@ position: relative;
     justify-content: center;
     display: flex;
   }
+
 }
 
 @media (max-width: 410px) {
@@ -484,3 +524,11 @@ position: relative;
     width: 350px !important;
   }
 }
+
+@media (min-width: 920px) {
+.contactHalf {
+height:fit-content;
+}
+
+}
+
