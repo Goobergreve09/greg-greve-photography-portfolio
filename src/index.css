@@ -54,11 +54,11 @@ body {
 }
 
 .Instagram {
-  color:white !important;
+  color: white !important;
 }
 
 #dc0bcf09-af3c-426e-8cd0-00490963badc {
-  color:white !important;
+  color: white !important;
 }
 
 .instagramBackground {
@@ -68,7 +68,7 @@ body {
   background-position: center;
   font-family: "Cinzel", serif;
   font-size: xx-large;
-  color:white;
+  color: white;
 }
 
 .portfolio {
@@ -243,27 +243,26 @@ body {
 /* ... */
 .back-to-top {
   font-family: "Cinzel", serif;
-  background: linear-gradient(to bottom, black, grey) !important; 
+  background: linear-gradient(to bottom, black, grey) !important;
   border: none;
-  z-index:1000;
-    position: fixed;
-    left: 95%;
-    bottom:15px !important;
-    transition: .5s ease-in;
+  z-index: 1000;
+  position: fixed;
+  left: 95%;
+  bottom: 15px !important;
+  transition: 0.5s ease-in;
+  margin: 0 !important;
 
-
- /* Ensure the button appears on top of other content */
-  
+  /* Ensure the button appears on top of other content */
 }
 
 .back-to-top:hover {
   border: none;
   box-shadow: 0 0 20px 0 rgb(255, 255, 255);
-  background: linear-gradient(to bottom, black, #A9DFBF) !important; 
+  background: linear-gradient(to bottom, black, #a9dfbf) !important;
 }
 
 .upGif {
-  width:50px;
+  width: 50px;
 }
 
 /* About Me --------------------------------------------------------------*/
@@ -301,11 +300,11 @@ body {
 
 .profileDescription a {
   color: #7dcea0;
-  transition: .3s ease;
+  transition: 0.3s ease;
 }
 
 .profileDescription a:hover {
-  color: #27AE60;
+  color: #27ae60;
 }
 
 .cameraBag {
@@ -318,18 +317,18 @@ body {
 }
 
 .cameraBag a {
-color:white;
-text-decoration: none;
-transition: .3s ease;
+  color: white;
+  text-decoration: none;
+  transition: 0.3s ease;
 }
 
 .cameraBag a:hover {
-text-decoration: underline;
-color: #5DADE2;
+  text-decoration: underline;
+  color: #5dade2;
 }
 
 .nikonLogo {
-  width:250px;
+  width: 250px;
 }
 
 .lastRow {
@@ -347,12 +346,12 @@ color: #5DADE2;
   }
 
   .lightwidget-widget {
-    width:100% !important;
-    height:300px !important;
+    width: 100% !important;
+    height: 300px !important;
   }
 
   .fb-page {
-    width:400px !important;
+    width: 400px !important;
   }
 
   .titleContainer::before {
@@ -389,6 +388,11 @@ color: #5DADE2;
     background-image: url(https://1.bp.blogspot.com/-9vlioQ-pWu4/XCCEu_eJ1NI/AAAAAAAAJLY/2ILK4Uvi5QgxM6aW11ZmYNiTylJcYa12wCLcBGAs/s1600/png.png2.png); /* Add your image here */
     background-size: cover; /* Adjust as needed */
   }
+
+  .back-to-top {
+    left: 67% !important;
+    bottom: 15px !important;
+  }
 }
 @media (max-width: 920px) {
   .navbar-text {
@@ -396,13 +400,10 @@ color: #5DADE2;
     justify-content: center;
     display: flex;
   }
-
-
 }
 
 @media (max-width: 410px) {
   .fb-page {
-    width:350px !important;
+    width: 350px !important;
   }
-
 }
