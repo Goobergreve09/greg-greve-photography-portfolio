@@ -52,6 +52,14 @@ body {
   letter-spacing: 2px;
 }
 
+.Instagram {
+  color:white !important;
+}
+
+#dc0bcf09-af3c-426e-8cd0-00490963badc {
+  color:white !important;
+}
+
 .instagramBackground {
   background: url(https://wallpaperaccess.com/full/2153948.png);
   background-size: cover;
@@ -381,11 +389,7 @@ color: #5DADE2;
     display: flex;
   }
 
-  
-  .lightwidget-widget {
-    width:100% !important;
-    height:300px !important;
-  }
+
 }
 
 @media (max-width: 410px) {

@@ -1,23 +1,38 @@
-
+import { useEffect } from 'react';
 
 const Instagram = () => {
+    useEffect(() => {
+        const script = document.createElement('script');
+        script.src = 'https://app.instaplug.app/platform/instaplug.js';
+        script.async = true;
+        script.onload = () => {
+            window.renderApp({
+                containerId: 'dc0bcf09-af3c-426e-8cd0-00490963badc',
+                domain: 'https://app.instaplug.app/',
+                widgetClass: '',
+                fontFamily: '',
+                fontColor: 'white',
+                color: '#5DADE2',
+                colorLink: 'white',
+                colorLinkActive: 'white',
+                colorLinkHover: ''
+            });
+        };
+
+        document.body.appendChild(script);
+
+        return () => {
+            // Cleanup: remove the script from the DOM when the component unmounts
+            document.body.removeChild(script);
+        };
+    }, []); // empty dependency array ensures this effect runs only once
+
     return (
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <div>
-          {/* LightWidget WIDGET @ https://lightwidget.com/*/}
-          <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-          <iframe
-            src="//lightwidget.com/widgets/29c399587c52584db30cd4f13cbf0e2a.html"
-          scrolling="no"
-            allowTransparency="true"
-            className="lightwidget-widget"
-            style={{ width: '600px', height:"400px", border: 0}}
-          ></iframe>
-        </div>
-      </div>
+        <div id="dc0bcf09-af3c-426e-8cd0-00490963badc"></div>
     );
-  };
-  
-  export default Instagram;
+};
+
+export default Instagram;
+
 
 
