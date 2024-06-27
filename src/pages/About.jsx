@@ -36,7 +36,7 @@ export default function About() {
               Lumix. Shortly thereafter, I received a Nikon D5600 for Christmas,
               which further ignited my passion. Today, I primarily shoot with a{" "}
               <a href="https://imaging.nikon.com/imaging/lineup/dslr/d850/https://imaging.nikon.com/imaging/lineup/dslr/d850/">
-                professional DSLR Nikon D850.
+                Nikon D850.
               </a>
             </p>
             <p>

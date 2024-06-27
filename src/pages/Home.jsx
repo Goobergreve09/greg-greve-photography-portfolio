@@ -55,7 +55,8 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
             href="https://www.cancer.org/cancer/types/melanoma-skin-cancer.html"
-            className="pt-3 pb-2"
+            className="pt-3 pb-2 custom-link"
+             data-replace="click here to learn more"
           >
             click here to learn more
           </a>

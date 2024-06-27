@@ -143,10 +143,6 @@ body {
   margin-right: auto;
 }
 
-.monthlyShowcaseDescription a {
-  color: black;
-  font-weight: bold;
-}
 
 .monthlyContainer {
   background-image: url(https://images.designtrends.com/wp-content/uploads/2016/03/29115235/Abstract-Plain-White-Wallpaper-.jpg);
@@ -183,6 +179,39 @@ body {
   box-shadow: 0 0 20px 0 rgb(10, 2, 2);
 }
 
+.custom-link {
+  position: relative;
+  color: blue;
+  text-decoration: none;
+  max-width: fit-content;
+}
+
+.custom-link:hover {
+  font-weight: bold;
+}
+
+.custom-link::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: blue;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+
+}
+
+.custom-link:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+  color:red;
+
+}
+
 /* Gallery */
 
 .galleryTitle {
@@ -204,11 +233,33 @@ body {
 color:black;
 font-family: "Cinzel", serif;
 font-size: x-large;
+position: relative;
 }
 
 .tableOfcontents a:hover {
-text-decoration:underline;
+  font-weight:500;
+ color:#3498DB;
 }
+
+.tableOfcontents a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #3498DB;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.tableOfcontents a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
 
 
 .galleryBackground {
@@ -288,12 +339,32 @@ text-decoration:underline;
 }
 
 .profileDescription a {
-  color: #7dcea0;
-  transition: 0.3s ease;
+  position: relative;
+  text-decoration: none;
+  color:#3498DB ;
 }
 
 .profileDescription a:hover {
-  color: #27ae60;
+  color: #5dade2;
+}
+
+.profileDescription a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #5dade2;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
+}
+
+.profileDescription a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
 }
 
 .cameraBag {
@@ -308,12 +379,30 @@ text-decoration:underline;
 .cameraBag a {
   color: white;
   text-decoration: none;
-  transition: 0.3s ease;
+  position: relative;
 }
 
 .cameraBag a:hover {
-  text-decoration: underline;
   color: #5dade2;
+}
+
+.cameraBag a:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.cameraBag a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #5dade2;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .3s ease-in-out;
 }
 
 .nikonLogo {
