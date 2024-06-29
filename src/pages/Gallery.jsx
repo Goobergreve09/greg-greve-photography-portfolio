@@ -60,6 +60,14 @@ import pathFog from "../assets/images/pathFog.jpg";
 import pathFogSmall from "../assets/images/pathFog.jpg";
 import peaceCreek from "../assets/images/peaceCreek.jpg";
 import peaceCreekSmall from "../assets/images/peaceCreekSmall.jpg";
+import pickler1 from "../assets/images/pickler1.jpg"
+import pickler1Small from "../assets/images/pickler1Small.jpg"
+import pickler2 from "../assets/images/pickler2.jpg"
+import pickler2Small from "../assets/images/pickler2Small.jpg"
+import pickler3 from "../assets/images/pickler3.jpg"
+import pickler3Small from "../assets/images/pickler3Small.jpg"
+import pickler4 from "../assets/images/pickler4.jpg"
+import pickler4Small from "../assets/images/pickler4Small.jpg"
 import rambo from "../assets/images/rambo.jpg";
 import ramboSmall from "../assets/images/ramboSmall.jpg";
 import ranchero from "../assets/images/ranchero.jpg";
@@ -297,6 +305,7 @@ import tonyYellow2 from "../assets/images/tonyYellow2.jpg";
 import tonyYellow2Small from "../assets/images/tonyYellow2Small.jpg";
 import tonyYellow3 from "../assets/images/tonyYellow3.jpg";
 import tonyYellow3Small from "../assets/images/tonyYellow3Small.jpg";
+import { PiCake } from "react-icons/pi";
 
 export default function Gallery() {
   return (
@@ -709,6 +718,40 @@ export default function Gallery() {
             small={luton4Small}
             large={luton4}
             alt="Luton Park during golden hour."
+            className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3">
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={pickler1Small}
+            large={pickler1}
+            alt="A man hikes down a path in the Smokey Mountains."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={pickler2Small}
+            large={pickler2}
+            alt="A beautiful images of a gentle and peaceful creek."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={pickler3Small}
+            large={pickler3}
+            alt="A man climbing a small set of stairs between two stairs."
+            className="galleryImage"
+          />
+        </Col>
+        <Col lg={3} sm={12} xs={12} className="pt-2">
+          <ModalImage
+            small={pickler4Small}
+            large={pickler4}
+            alt="A man crosses a bridge as his reflection passes through a puddle."
             className="galleryImage"
           />
         </Col>
