@@ -145,6 +145,12 @@ import salinac6 from "../assets/images/salinac6.jpg";
 import salinac6Small from "../assets/images/salinac6Small.jpg";
 import salinac7 from "../assets/images/salinac7.jpg";
 import salinac7Small from "../assets/images/salinac7Small.jpg";
+import swan1 from "../assets/images/swan1.jpg"
+import swan1Small from "../assets/images/swan1Small.jpg"
+import swan2 from "../assets/images/swan2.jpg"
+import swan2Small from "../assets/images/swan2Small.jpg"
+import swan3 from "../assets/images/swan3.jpg"
+import swan3Small from "../assets/images/swan3Small.jpg"
 import tahoe from "../assets/images/tahoe.jpg";
 import tahoeSmall from "../assets/images/tahoeSmall.jpg";
 import venice from "../assets/images/venice.jpg";
@@ -1008,6 +1014,32 @@ export default function Gallery() {
             large={salinac4}
             alt="A Lake Huron sunrise on Port Salinac."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3 leconteRow">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
+          <ModalImage
+            small={swan3Small}
+            large={swan3}
+            alt="An image of swans on a lake."
+            className="ThreeinRow"
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
+          <ModalImage
+            small={swan2Small}
+            large={swan2}
+            alt="An image of swans on a lake."
+            className="ThreeinRow"
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
+          <ModalImage
+            small={swan1Small}
+            large={swan1}
+            alt="An image of swans on a lake."
+            className="ThreeinRow"
           />
         </Col>
       </Row>
