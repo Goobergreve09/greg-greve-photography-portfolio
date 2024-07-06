@@ -1,12 +1,12 @@
 import { Row, Col, Container, Button } from "react-bootstrap";
-import photoOfMonth from "../assets/images/photoOfmonth.jpg";
-import photoOfMonthSmall from "../assets/images/photoOfmonthSmall.jpg";
-import theGreatest from "../assets/images/theGreatest.jpg";
-import theGreatestSmall from "../assets/images/theGreatestSmall.jpg";
+import photoOfMonth from "../assets/images/salinac6.jpg";
+import photoOfMonthSmall from "../assets/images/salinac6Small.jpg";
+import photoOfMonth2 from "../assets/images/pickler2.jpg";
+import photoOfMonth2Small from "../assets/images/pickler2Small.jpg";
 import reachOut from "../assets/images/reachout.png";
 import Footer from "../components/Footer";
 import Instagram from "../components/Instagram";
-import Facebook from "../components/Facebook";
+// import Facebook from "../components/Facebook";
 
 import { FaCamera } from "react-icons/fa";
 
@@ -22,12 +22,11 @@ export default function Home() {
           Monthly Photo Selection:
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center   pt-3">
-          1. An afternoon in Washington
+          1. Lake Huron Sunrise
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-3">
-          This photo was taken on the coast of the Pacific Ocean. I took a path
-          down towards the water in Washington. It was a rainy and eerie
-          afternoon. Nothing really describes Washington better.
+          This photo was taken on Port Salinac in Michigan. It's an image of a seagull at about 5:30 in the
+          morning in late June. The sunrise of Lake Huron makes for an amazing backdrop. 
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-2">
           <span className="italic"> Nikon D5600/18-35mm lens 3.4</span>
@@ -43,23 +42,12 @@ export default function Home() {
           </Col>
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-3">
-          2. The Greatest of All Time
+          2. Resilient Forest
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-3">
-          Adam Degi is a stand-up comedian, and a Michigan native. This photo
-          was captured of him before a set in Detroit, in the green room.
-          Recently he has stated that he survived cancer for the third time.
-          Melanoma is said to be one of the most aggressive forms of cancers. To
-          learn more about melanoma,
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://www.cancer.org/cancer/types/melanoma-skin-cancer.html"
-            className="pt-3 pb-2 custom-link"
-             data-replace="click here to learn more"
-          >
-            click here to learn more
-          </a>
+        This is an image of a tree taken at Pickler Lake Park - Fred Meijer Nature Reserve. The forests
+        here are vast and diverse with plants and wildlife. Only days after a thunderstorm this photo was captured, 
+        of a tree that appears to be broken, but holding on resliently.
         </Row>
         <Row className="monthlyShowcaseDescription justify-content-center  pt-2">
           <span className="italic"> Nikon D850/40mm lens 2.8</span>
@@ -67,8 +55,8 @@ export default function Home() {
         <Row className="text-center align-items-center justify-content-center pt-5 pb-5">
           <Col lg={8} xs={12}>
             <ModalImage
-              small={theGreatestSmall}
-              large={theGreatest}
+              small={photoOfMonth2Small}
+              large={photoOfMonth2}
               alt="Adam Degi - The Greatest of All-Time."
               className="photoOfmonth"
             />
