@@ -3,7 +3,7 @@ import photoOfMonth from "../assets/images/salinac6.jpg";
 import photoOfMonthSmall from "../assets/images/salinac6Small.jpg";
 import photoOfMonth2 from "../assets/images/pickler2.jpg";
 import photoOfMonth2Small from "../assets/images/pickler2Small.jpg";
-import reachOut from "../assets/images/reachout.png";
+import monthlyLogo from "../assets/images/monthlyLogo.jpg";
 import Footer from "../components/Footer";
 import Instagram from "../components/Instagram";
 // import Facebook from "../components/Facebook";
@@ -85,13 +85,13 @@ export default function Home() {
       <Container fluid className="monthlyContainer">
         <Row className="monthlyTitle justify-content-center pt-5">
           <Col>
-            <h1> June is Men's Mental Health Awareness month.</h1>
+            <h1> July is National Minority Mental Health Awareness month.</h1>
           </Col>
         </Row>
         <Row className="monthlyTitle justify-content-center">
           <Col>
             <img
-              src={reachOut}
+              src={monthlyLogo}
               alt="mental health reach out icon"
               className="monthlyIcon"
             />
