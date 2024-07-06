@@ -303,6 +303,12 @@ import lolaTree2 from "../assets/images/lolaTree2.jpg";
 import lolaTree2Small from "../assets/images/lolaTree2Small.jpg";
 import lolaWoods from "../assets/images/lolaWoods.jpg";
 import lolaWoodsSmall from "../assets/images/lolaWoodsSmall.jpg";
+import poppy1 from "../assets/images/poppy1.jpg"
+import poppy1Small from "../assets/images/poppy1Small.jpg"
+import poppy2 from "../assets/images/poppy2.jpg"
+import poppy2Small from "../assets/images/poppy2Small.jpg"
+import poppy3 from "../assets/images/poppy3.jpg"
+import poppy3Small from "../assets/images/poppy3Small.jpg"
 import theo from "../assets/images/theo.jpg";
 import theoSmall from "../assets/images/theoSmall.jpg";
 import tonyYellow1 from "../assets/images/tonyYellow1.jpg";
@@ -311,7 +317,7 @@ import tonyYellow2 from "../assets/images/tonyYellow2.jpg";
 import tonyYellow2Small from "../assets/images/tonyYellow2Small.jpg";
 import tonyYellow3 from "../assets/images/tonyYellow3.jpg";
 import tonyYellow3Small from "../assets/images/tonyYellow3Small.jpg";
-import { PiCake } from "react-icons/pi";
+
 
 export default function Gallery() {
   return (
@@ -1698,6 +1704,32 @@ export default function Gallery() {
             large={lolaSedona2}
             alt="A portrait of a woman in Sedona, AZ."
             className="galleryImage"
+          />
+        </Col>
+      </Row>
+      <Row className="align-items-center pt-3 leconteRow">
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
+          <ModalImage
+            small={poppy1Small}
+            large={poppy1}
+            alt="A portrait of a white and orange cat."
+            className="ThreeinRow"
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
+          <ModalImage
+            small={poppy2Small}
+            large={poppy2}
+            alt="A portrait of a white and orange cat."
+            className="ThreeinRow"
+          />
+        </Col>
+        <Col lg={4} sm={12} xs={12} className="pt-2 p-4">
+          <ModalImage
+            small={poppy3Small}
+            large={poppy3}
+            alt="A black and white portrait of a white and orange cat."
+            className="ThreeinRow"
           />
         </Col>
       </Row>
